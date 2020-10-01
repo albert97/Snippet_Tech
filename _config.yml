@@ -6,7 +6,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Bay is a minimal Jekyll Theme.
 baseurl: "ga_blog" # the subpath of the site
 url: "https://albert97.github.io" # the base hostname & protocol for the site
-og_image: /assets/img/profile-pic.jpg
+og_image: /assets/img/IMG_9133.JPG
 google_analytics: "UA-121636368-3"
 
 header:
@@ -20,19 +20,19 @@ footer:
   show_powered_by: true
   contact:
     - name: Email
-      value: yourmail@domain.com
+      value:albertzhang378@gmailcom
       link: mailto:yourmail@domain.com
     - name: WeChat
       value: YourWeChatUsername
       link: "#"
   follow:
     - name: Twitter
-      link: http://twitter.com/YourTwitterUsername
+      link: https://twitter.com
       username: "@YourTwitterUsername"
     - name: Facebook
-      link: http://facebook.com/YourFacebookUsername
+      link: https://www.facebook.com
     - name: LinkedIn
-      link: http://linkedin.com/in/YourLinkedInUsername
+      link: https://www.linkedin.com/in/albert-ziqi-zhang-a1626341
     - name: GitHub
       link: http://github.com/YourGitHubUsername
     - name: Weibo
