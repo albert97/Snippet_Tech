@@ -20,7 +20,7 @@ footer:
   show_powered_by: true
   contact:
     - name: Email
-      value:albertzhang378@gmailcom
+      value: albertzhang378@gmailcom
       link: mailto:yourmail@domain.com
     - name: WeChat
       value: YourWeChatUsername
