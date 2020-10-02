@@ -3,16 +3,16 @@ layout: work
 title: Work
 slug: /work
 items:
-  - title: My Interest 1
+  - title: END-PERMIAN MASS EXTINCTION
     image:
       src: /assets/img/work/water.png
       alt: water
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  - title: My Interest 2
+    description: As the deadliest mass extinction in Earth history, it eliminated 90% creatures on Earth. The primary cause is the eruption of Siberian Trap. Here we will take a look at the chain reaction from it.
+  - title: SEISMIC COUPLING IN NEW ZEALAND
     image:
       src: /assets/img/work/sand.png
       alt: sand
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    description: New Zealand sits on the boundary between three plates. This unique configuration creates many breathtaking landscape and geophysics features.
 ---
 
 This is an example of a "Work" page, displaying your work, your interests, your projects.
