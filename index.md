@@ -1,14 +1,14 @@
 ---
 layout: home
 profile_picture:
-  src: /assets/img/profile-pic.jpg
+  src: /assets/img/PF.png
   alt: website picture
 ---
 
 <p>
-  Welcome! This site serves as an example for the Bay Jekyll theme. Bay is a very simple and minimal theme, directly inspired by Dan Grover's <a href="http://dangrover.com">website</a>.
+  Welcome! My name is Albert, I am currently a physics graduate student in University of Cambridge. Here I built The Exciting World to document the cutting edge technology I have been developing, the late night thoughts and most importantly paintings and photography.
 </p>
 
 <p>
-  You can find the source code and the instructions on <a href="https://github.com/eliottvincent/bay">GitHub</a>.
+  There are two major sections, work documents the scientifc projects while blog are some thoughts regarding to economics and sociology 
 </p>
