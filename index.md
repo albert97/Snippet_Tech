@@ -6,9 +6,10 @@ profile_picture:
 ---
 <p>
   
+</p>
+  
 <p>
-<p>
-  Welcome! My name is Albert, I am currently a physics graduate student in University of Cambridge. Here I built Snioer Tech to document the cutting edge technology I have been developing, the late night thoughts and most importantly paintings and photography.
+  Welcome! My name is Albert, I am currently a physics graduate student in University of Cambridge. Here I built Sniper Tech to document the cutting edge technology I have been developing, the late night thoughts and most importantly paintings and photography.
 </p>
 
 <p>
