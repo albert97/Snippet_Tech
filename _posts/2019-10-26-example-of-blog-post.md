@@ -1,10 +1,11 @@
 ---
-layout: "post"
+layout: post
 title:  "Post Eample"
 blurb: "A look at an example post using Bay Jekyll theme."
 og_image: /assets/img/content/post-example/Banner.jpg
 ---
 
+<br />
 This is an example of blog post.
 Picture by [Bethany Legg](https://unsplash.com/@bkotynski).
 
