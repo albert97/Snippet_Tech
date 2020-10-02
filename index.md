@@ -1,7 +1,7 @@
 ---
 layout: home
 profile_picture:
-  src: /assets/img/Danxia.png=10x2
+  src: /assets/img/Danxia.png
   alt: website picture
 ---
 
