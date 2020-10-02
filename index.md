@@ -1,7 +1,7 @@
 ---
 layout: home
 profile_picture:
-  src: /assets/img/PF.png
+  src: /assets/img/Danxia.png
   alt: website picture
 ---
 
