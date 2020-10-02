@@ -4,9 +4,9 @@ title: Work
 slug: /work
 items:
 
-  - title: Electromagnetic drilling 
+  - title: ELECTROMAGNETIC DRILLING 
     image:
-      src: /assets/img/work/sand.png
+      src: /assets/img/work/Bolivia.png
       alt: sand
     description: For Master thesis, I looked into Electromagnetic Wave Drilling which has potential to drastically increase the number of geothermal sites, and accelerate progress toward a net zero energy sector.
     
@@ -14,7 +14,7 @@ items:
     image:
       src: /assets/img/work/sand.png
       alt: sand
-    description: New Zealand sits on the boundary between three plates. This unique configuration creates many breathtaking landscape and geophysics features.
+    description: New Zealand sits on the boundary between three plates. This unique configuration creates many breathtaking landscape and geophysics features. Seismic coupling is dependent on local lithology, and is crucial for determining local earthquake risks.  
 
   - title: END-PERMIAN MASS EXTINCTION
     image:
