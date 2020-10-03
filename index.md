@@ -6,9 +6,9 @@ profile_picture:
 ---
   
 <p>
-  Welcome! My name is Albert, I am currently a physics graduate student in University of Cambridge. Here I built Sniper Tech to document the cutting edge technology I have been developing, the late night thoughts and most importantly paintings and photography.
+  Welcome! This is Sniper Tech where I documented the serie of work I have done, covering climate, geophysics, scientific computing, economics and sociology. For the list of work, pleaser refer to Work section, Blog documents a serie of late night thoughts, Code has a series of computational fluid dynamics codes and may be more.... 
 </p>
 
 <p>
-  There are three major sections, documenting the scientifc projects, some thoughts regarding to economics and sociology and MOST important Part -- Codes.
+Note: this site is not completed yet and I will continue building it. Please feel free to leave comments on anything (coding, ideas or tips for life... ).
 </p>
