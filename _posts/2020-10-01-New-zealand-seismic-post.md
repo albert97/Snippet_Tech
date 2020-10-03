@@ -2,6 +2,7 @@
 layout: post
 title:  "Seismic coupling zone properties and variation from Kermadec trench to Puysegur trench"
 date:   2020-10-01 10:00:40
+author: Albert
 og_image: /assets/img/content/post-example/newzealandmao.png
 ---
 <img src="{{ "/assets/img/content/post-example/newzealandmao.png" | absolute_url }}" alt="bay" class="post-pic"/>
