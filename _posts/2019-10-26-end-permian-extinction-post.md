@@ -26,7 +26,6 @@ In late Permian, the biospheres were dominated by marine species, especially Pal
 By the early Permian, the formation of the supercontinent “Pangea” was largely complete. The Caledonian orogeny involved in the formation of Pangea and the supercontinent itself had a great impact on eustatic sea level and the global climate. The sea level dropped (Fig. 3) and warm shallow marine was reduced significantly (Erwin, 1993). In terms of climate, the global temperature began to increase in the early Permian. An approximation showed that prior to end-Permian mass extinction, tropical sea surface temperature ranged from ~22 to 25 °C (Cui & Kump, 2015).
 
 <br />
-<br />
 
 ## Introduction
 <br />
@@ -42,8 +41,7 @@ ashes and mass extinction (He et al., 2014). This study also demonstrated the vo
 
 ### Siberian Traps
 
-The Siberian Traps is one of the largest known igneous provinces. It has a size of ~7106 km2 andavolumeof~4106km3 (Ivanov, 2007). The eruption occurred at 250Ma and lasted no more than 2 Ma. The evidence presented by Pringle et al. (2009) indicated the volcanism continued into Triassic. The 40Ar/39Ar ages showed the main stage of volcanism partially predates and is synchronous with the end-Permian mass extinction (Pringle et al., 2009). The eruption occurred where the host rocks are rich in carbonates, sulphates, salts, and organic compounds. Therefore, as well as causing a voluminous emission of CO2, methane and sulphur aerosols, many
-volatiles including S, Cl and F were also injected. By measuring the chloride, fluoride and sulphur concentration in the melt inclusion from Siberian Traps, Black et al., (2012) estimated the eruption released 6300–7800 Gt S, 3400–8700 Gt Cl, and 7100–13,600 Gt F. These gases, dust and volatiles contributed to the perturbation of global environment during the end- Permian.
+The Siberian Traps is one of the largest known igneous provinces. It has a size of ~7,000,000 km2 andavolumeof~4,000,000km3 (Ivanov, 2007). The eruption occurred at 250Ma and lasted no more than 2 Ma. The evidence presented by Pringle et al. (2009) indicated the volcanism continued into Triassic. The 40Ar/39Ar ages showed the main stage of volcanism partially predates and is synchronous with the end-Permian mass extinction (Pringle et al., 2009). The eruption occurred where the host rocks are rich in carbonates, sulphates, salts, and organic compounds. Therefore, as well as causing a voluminous emission of CO2, methane and sulphur aerosols, many volatiles including S, Cl and F were also injected. By measuring the chloride, fluoride and sulphur concentration in the melt inclusion from Siberian Traps, Black et al., (2012) estimated the eruption released 6300–7800 Gt S, 3400–8700 Gt Cl, and 7100–13,600 Gt F. These gases, dust and volatiles contributed to the perturbation of global environment during the end- Permian.
 <br />
 
 ## The Extinction Mechanism
