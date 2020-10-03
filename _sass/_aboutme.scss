@@ -4,6 +4,15 @@
   padding-bottom: 3em;
 }
 
+
+ @include media-query($on-mobile) {
+    float: none;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+}
+
+
 .aboutme-bubble {
   float: left;
   padding-right: 20px;
