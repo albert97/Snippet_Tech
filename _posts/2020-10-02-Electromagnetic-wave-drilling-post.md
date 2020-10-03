@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Electromagnetic wave drilling
-date:       2020-09-30 15:40
+date:       2020-10-02 15:40
 author:     "Albert"
 og_image: /assets/img/content/post-example/AlbertZhang_MPhil_Poster.pdf
 ---
