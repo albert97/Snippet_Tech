@@ -1,7 +1,7 @@
 ---
-layout: about-me
-title: About-me
-slug: /about-me
+layout: aboutme
+title: About me
+slug: /aboutme
 ---
 
 <br />
