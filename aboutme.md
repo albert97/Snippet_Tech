@@ -1,6 +1,6 @@
 ---
 layout: aboutme
-title: About me
+title: Aboutme
 slug: /aboutme
 ---
 <p>
