@@ -1,9 +1,10 @@
 ---
 layout: aboutme
 title: About me
-src: /assets/img/Bolivia.png
 slug: /aboutme
 ---
+ image:
+      src: /assets/img/work/Bolivia.png
 <p>
 Welcome! My name is Albert. I am currently a physics graduate student at the University of Cambridge. My projects focus on developing cheap and reliable renewable energy, notably geothermal and wind. I have a strong interest in carbon capture and storage, I believe a combination of chemical and physical methods will allow us to achieve climate engineering and tackle climate change from its route. 
 </p>
