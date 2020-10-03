@@ -2,7 +2,7 @@
 layout: aboutme
 title: About me
 image: 
-    src: /assets/img/work/Bolivia.png
+    src: /assets/img/Bolivia.png
 slug: /aboutme
 ---
      
