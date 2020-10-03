@@ -1,6 +1,7 @@
 ---
 layout: aboutme
 title: Aboutme
+src: /assets/img/Bolivia.png
 slug: /aboutme
 ---
 <p>
