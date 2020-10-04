@@ -22,11 +22,11 @@ footer:
   show_powered_by: true
   contact:
     - name: Email
-      value: albertzhang378@gmailcom
+      value: albertzhang378@gmail.com
       link: mailto:yourmail@domain.com
-    - name: WeChat
-      value: YourWeChatUsername
-      link: "#"
+   # - name: WeChat
+   #   value: YourWeChatUsername
+   #   link: "#"
   follow:
     - name: Twitter
       link: https://twitter.com
@@ -36,11 +36,11 @@ footer:
     - name: LinkedIn
       link: https://www.linkedin.com/in/albert-ziqi-zhang-a1626341
     - name: GitHub
-      link: http://github.com/YourGitHubUsername
-    - name: Weibo
-      link: http://weibo.com/u/YourWeiboUsername
-    - name: RSS
-      link: /feed.xml
+      link: https://github.com/albert97
+    - name: Instragram
+      link: https://www.instagram.com/alberzhang
+  #  - name: RSS
+  #    link: /feed.xml
 
 # Build settings
 markdown: kramdown
