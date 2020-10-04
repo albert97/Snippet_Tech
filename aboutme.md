@@ -1,9 +1,10 @@
 ---
-layout: aboutme
+layout: about me
 title: About me
-image: 
+profile_picture:
     src: /assets/img/Bolivia.png
-slug: /aboutme
+alt: website picture
+slug: /about me
 ---
      
 <p>
