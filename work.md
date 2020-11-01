@@ -7,13 +7,13 @@ items:
 
   - title: COMPUTATIONAL FLUID DYNAMICS
     image:
-      src: /assets/img/work/Bolivia.png
+      src: /assets/img/work/Cancun.JPG
       alt: sand
     description: 
     
   - title: SCIENTIFIC COMPUTING
     image:
-      src: /assets/img/work/Bolivia.png
+      src: /assets/img/work/Germany.JPG
       alt: sand
     description: I am interested in numerial methods for hyperbolic PDEs. I investigated the techniques of Riemann ghost fluid method in solving the compressible multimaterial unsteady Euler equations. I used MUSCL-Hancock with Super-bee slop limiter and HLLC as the approximate Riemann problem solver. I am also interested in robust methods for material interface modelling such as level set methods. 
 
