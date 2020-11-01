@@ -9,7 +9,7 @@ items:
     image:
       src: /assets/img/work/Cancun.JPG
       alt: sand
-    description:  I am interested in numerial methods for hyperbolic PDEs. I investigated the techniques of Riemann ghost fluid method in solving the compressible multimaterial unsteady Euler equations. I used MUSCL-Hancock with Super-bee slop limiter and HLLC as the approximate Riemann problem solver. I am also interested in robust methods for material interface modelling such as level set methods. 
+    description:  I am interested in numerial methods for PDEs. I have developed numerical schemes to improve accruary and robustness of existing finite volume methods such as HLLC with MUSCL-Hancock and Flux Limited Centered (FLIC) TVD Schemes. I am also interested in material interface modelling using level-set methods. 
     
   - title: SCIENTIFIC COMPUTING
     image:
