@@ -36,6 +36,6 @@ items:
     description: As the deadliest mass extinction in Earth history, it eliminated 90% creatures on Earth. The primary cause is the eruption of Siberian Trap. Here we will take a look at the chain reaction from it.
 ---
 
-Here is a list of projects I have worked on, covering a wide range of topic. I intend to add link to more detailed work.
+Here is a list of projects I have worked on, covering applied mathemticas and physcis, scientific computing and geophysics. My current projects invovles numerical simulation for geothermal energy exploration and statiscal methods for stochastics PDEs and its implications to climate modelling and geoscience
 <br />
 <br />
