@@ -3,11 +3,7 @@ layout: post
 title:  "Multi-material Simulation using the Ghost Fluid method"
 date:   2020-03-21 10:00:40
 author: Albert
-og_image: /assets/img/content/post-example/SiberianTrap.
-tags: 		  [Sharp Interface Method, Hyperbolic PDEs]
-category:   math
 ---
-<img src="{{ "/assets/img/content/post-example/SiberianTrap.png" | absolute_url }}" alt="bay" class="post-pic"/>
 <br />
 <br />
 
