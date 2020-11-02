@@ -11,13 +11,13 @@
           <h1 class="page-heading">{{ page.title }}</h1>
           {{ content }}
 
-          <p class="code-post-list">
-            {% for post in site.codes %}
+          <p class="code-code-list">
+            {% for code in site.codes %}
 
-              {% if post.draft != true %}
-                <span class="code-post-date">{{ post.date | date: "%-m/%-d/%y" }}</span>
-                <a href="{{ post.url | replace:".html","" | prepend: site.baseurl }}" class="blog-post-title">
-                  {{ post.title }}
+              {% if code.draft != true %}
+                <span class="code-code-date">{{ code.date | date: "%-m/%-d/%y" }}</span>
+                <a href="{{ code.url | replace:".html","" | prepend: site.baseurl }}" class="code-code-title">
+                  {{ code.title }}
                 </a>
                 <br />
 
