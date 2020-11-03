@@ -12,6 +12,8 @@
           {{ content }}
 
           <p class="blog-post-list">
+            {% assign posts = site.posts | where: 'category', 'science' %}
+
             {% for post in site.posts %}
 
               {% if post.draft != true %}
