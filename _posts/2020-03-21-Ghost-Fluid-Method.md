@@ -5,7 +5,7 @@ subtitle:   "HLLC Solver uses Godunov flux to resolve shock wave emerged from hy
 date:       2020-03-21 06:52:00
 author:     "Albert"
 category:   techblog
-header-img
+header-img:
   src: /assets/img/content/post-example/HLLC_three_wave_representation.png
 tags:       [Scientific computing, Maths]
 ---
