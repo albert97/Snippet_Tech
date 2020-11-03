@@ -4,7 +4,8 @@ title:      "Multi-material simulation using the ghost fluid method serie 1 - HL
 subtitle:   "HLLC Solver uses Godunov flux to resolve shock wave emerged from hyperbolic PDEs. This finiste volume method ensure the conservative nature. "
 date:       2020-03-21 06:52:00
 author:     "Albert"
-header-img: "/assets/img/content/post-example/Structure_of_the_exact_Riemann_problem.png" 
+header-img:
+  src: /assets/img/content/post-example/Structure_of_the_exact_Riemann_problem.png
 category:   techblog
 tags:       [Scientific computing, Maths]
 ---
