@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Multi-material simulation using the ghost fluid method"
-subtitle:   "Ghost fluid method is my personal favorite when it comes to multimaterial method. The shear beauty is it maintain a shapr material interface while simulating material interactions"
+title:      "Multi-material simulation using the ghost fluid method serie 1 - HLLC Solver"
+subtitle:   "HLLC Solver uses Godunov flux to resolve shock wave emerged from hyperbolic PDEs. This finiste volume method ensure the conservative nature. "
 date:       2020-03-21 06:52:00
 author:     "Albert"
 header-img: "/assets/img/content/post-example/Structure_of_the_exact_Riemann_problem.png" 
