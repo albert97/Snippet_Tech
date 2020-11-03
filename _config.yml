@@ -16,7 +16,7 @@ header:
     - name: Work
     - name: Blog
     - name: Technology
-    - name: About me
+    - name: About
 
 footer:
   show_powered_by: true
