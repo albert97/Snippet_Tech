@@ -34,24 +34,10 @@ In this study, I consider the time-dependent Euler Equations. These are systems 
 The five governing conservation laws are: 
 
 
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>MathJax example</title>
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-  </script>
-</head>
-<body>
-<p>
-  When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
-  \\rho_t + ( \rho u )_x + (\rho v)_y + (\rho w)_z = 0.\]
-</p>
-</body>
-</html>
-
+$$
+  \rho
+  \rho_{t} + ( \rho u )_{x} + (\rho v)_{y} + (\rho w)_{z} = 0.
+$$
 
 
 <h2 class="section-heading">References</h2>
