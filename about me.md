@@ -1,5 +1,5 @@
 ---
-layout: aboutme
+layout: about me
 title: About me
 profile_picture:
     src: /assets/img/Bolivia.png
