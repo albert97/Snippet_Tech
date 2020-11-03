@@ -77,8 +77,10 @@ $$
 </html>
 <h2 class="section-heading">Thermodynamic consideration and equation of states </h2>
 
+
+
 The state governing equation (i.e. Euler's equation) for the dynamics of a compressible material are insufficient to completely describe the physical processes involved. There are more unknowns than equations, therefore a closure condition is required. Such closing condition can be described by an equation of state.
-A system in thermodynamic equilibrium can be completely described by the basic thermodynamic variables pressure $p$ and specific volume $v$. As two materials involved in the simulation are thermally ideal gases therefore the relationship between thermodynamic variables $ p, v, T$ take the simple expression:
+A system in thermodynamic equilibrium can be completely described by the basic thermodynamic variables pressure $p$ and specific volume v. As two materials involved in the simulation are thermally ideal gases therefore the relationship between thermodynamic variables  p, v, T take the simple expression:
 
 $$
     T = \frac{pv}{R}
@@ -91,11 +93,23 @@ is a constant depending on the particular gas under consideration. The first law
 $$
     \Delta e  = \Delta W + \Delta Q
 $$
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>MathJax example</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+</head>
+<body>
+  
+  where \( \Delta W \)is the work done on the system and  \( \Delta Q \) is the heat transmitted to the system. Taking the work done as 
 
-where \( \Delta W \)
-is the work done on the system and  \( \Delta Q \)
-
-is the heat transmitted to the system. Taking the work done as 
+  
+</body>
+</html>
 
 $$
     dW = -pdv
@@ -107,7 +121,7 @@ $$
     dQ = de + pdv
 $$
 
-For a calorically ideal gas the internal energy $e$ can be related to $p$ and $v$ via a caloric equation of state which has the simple expression:
+For a calorically ideal gas the internal energy $e$ can be related to p and v via a caloric equation of state which has the simple expression:
 
 $$
     e = \frac{pv}{\gamma -1} = \frac{P}{\rho(\gamma -1)}
@@ -122,8 +136,13 @@ is needed, in which case a thermal EOS needs to be given explicitly .
 Hyperbolic Partial Differential Equations (PDEs) are time-dependent problems without dissipation. For such problems, discontinuity may form from smooth initial conditions. Therefore we often need to obtain solutions from a Riemann problem. A Riemann problem is defined as a specific initial value problem composed of a conservation law together with piece wise constant initial data which has a single discontinuity. For the propose of solving compressible Euler equation, HLLC approximate Riemann Solvers was used.
 
 <h3 class="section-heading">The HLLC Riemann Solve</h3>
+<html>
+  <body>
+    The approximate Riemann solver proposed by Harten Lax and Van leer (HLL) were later modified by Toro to form what is known as the HLLC (C stands for Contact) . HLLC adopts a three-waves model for the structure of the exact solution. Simulation resolution is improved via an incorporation of an intermediate wave. Figure below shows the three waves representation of a Riemann problem where four regions of solutions were separated by three waves with velocity \(S_{L}\), \(S_\ash\) and \(S_R\). They correspond to velocity for the left, intermediate and right waves.
 
-The approximate Riemann solver proposed by Harten Lax and Van leer (HLL) were later modified by Toro to form what is known as the HLLC (C stands for Contact) . HLLC adopts a three-waves model for the structure of the exact solution. Simulation resolution is improved via an incorporation of an intermediate wave. Figure \ref{fig:HLLC_solver_graph} shows the three waves representation of a Riemann problem where four regions of solutions were separated by three waves with velocity \(S_{L}\), \(S_\ash\) and \(S_R\). They correspond to velocity for the left, intermediate and right waves.
+<img src="{{ "/assets/img/content/post-example/HLLC_three_wave_representation.png" | absolute_url }}" alt="bay" class="post-pic"/>
 
+    </body>
+</html>
 
 <h2 class="section-heading">References</h2>
