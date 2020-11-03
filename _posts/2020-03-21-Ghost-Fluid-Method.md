@@ -32,6 +32,22 @@ $$
 $$
 $$
 E_t + [u(E+p)_x + [v(E+p)]_y + [w(E + p)]_z = 0.
+
 $$
+
+ 
+<h2 class="section-heading">Manifolds</h2>
+
+We are interested in generalizing the notion of Euclidean space into arbitrary smooth curved space, called smooth manifold. Intuitively speaking, a **_topological $n$-manifold_** $\M$ is a topological space that locally resembles $\R^n$. A **_smooth $n$-manifold_** is a topological $n$-manifold equipped with locally smooth map $\phi_p: \M \to \R^n$ around each point $p \in \M$, called the **_local coordinate chart_**.
+
+**Example 1 (Euclidean spaces).** For each $n \in \mathbb{N}$, the Euclidean space $\R^n$ is a smooth $n$-manifold with a single chart $\phi := \text{Id}\_{\R^n}$, the identity map, for all $p \in \M$. Thus, $\phi$ is a _global coordinate chart_.
+
+//
+{:.right}
+
+**Example 2 (Spaces of matrices).** Let $\text{M}(m \times n, \R)$ denote the set of $m \times n$ matrices with real entries. We can identify it with $\R^{mn}$ and as before, this is a smooth $mn$-dimensional manifold. Some of its subsets, e.g. the general linear group $\text{GL}(n, \R)$ and the space of full rank matrices, are smooth manifolds.
+
+//
+{:.right}
 
 <h2 class="section-heading">References</h2>
