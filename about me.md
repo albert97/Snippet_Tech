@@ -3,7 +3,7 @@ layout: about me
 title: About me
 profile_picture:
     src: /assets/img/Bolivia.png
-slug: /aboutme
+slug: /about me
 ---
      
 <p>
