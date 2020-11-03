@@ -14,7 +14,7 @@
           <p class="blog-post-list">
             {% assign posts = site.posts | where: 'category', 'science' %}
 
-            {% for post in site.posts %}
+            {% for post in posts %}
 
               {% if post.draft != true %}
                 <span class="blog-post-date">{{ post.date | date: "%-m/%-d/%y" }}</span>
