@@ -69,11 +69,66 @@ $$
   
    I used primitive variables to describes the flow under consideration, namely, \( \rho(x, y, z,t) = \) density or mass density, \( p(x,y,z,t) = \) pressure, \( u(x,y,z,t) = \) x-component of velocity, \( v(x,y,z,t) = \) y-component of velocity, \( w(x,y,z,t) = \) z-component of velocity and E is the total energy per unit volume.
    
-     \[E = \rho (1 \over 2 \textbf(V)^2 + e).\]
+     \[E = \rho (frac{1}{2 \textbf(V)^2 + e).\]
      
    where \(\frac{1}{2}\textbf(V)^2 = \frac{1}{2}\textbf(V) \cdot \textbf(V) = \frac{1}{2}(u^2 + v^2 + w^2)\) is the specific kinetic energy and e is the specific internal energy. 
 </p>
 </body>
 </html>
+<h2 class="section-heading">Thermodynamic consideration and equation of states </h2>
+
+The state governing equation (i.e. Euler's equation) for the dynamics of a compressible material are insufficient to completely describe the physical processes involved. There are more unknowns than equations, therefore a closure condition is required. Such closing condition can be described by an equation of state.
+A system in thermodynamic equilibrium can be completely described by the basic thermodynamic variables pressure $p$ and specific volume $v$. As two materials involved in the simulation are thermally ideal gases therefore the relationship between thermodynamic variables $ p, v, T$ take the simple expression:
+
+$$
+    T = \frac{pv}{R}
+$$
+
+where
+
+$R$
+
+is a constant depending on the particular gas under consideration. The first law of thermodynamics states that for a non-adiabatic system the change in internal energy in a process will be given by 
+
+$$
+    \Delta e  = \Delta W + \Delta Q
+$$
+
+where
+$ \Delta W $ 
+is the work done on the system and  
+
+$ \Delta Q $
+
+is the heat transmitted to the system. Taking the work done as 
+
+$$
+    dW = -pdv
+$$
+
+The first law of thermodynamics can be written as :
+
+$$
+    dQ = de + pdv
+$$
+
+For a calorically ideal gas the internal energy $e$ can be related to $p$ and $v$ via a caloric equation of state which has the simple expression:
+
+$$
+    e = \frac{pv}{\gamma -1} = \frac{P}{\rho(\gamma -1)}
+$$
+
+The caloric equation state is sufficient to close the system for the Euler equations, unless temperature 
+$T$
+is needed, in which case a thermal EOS needs to be given explicitly . 
+
+<h2 class="section-heading">Numerical Solutions for Hyperbolic Equations</h2>
+
+Hyperbolic Partial Differential Equations (PDEs) are time-dependent problems without dissipation. For such problems, discontinuity may form from smooth initial conditions. Therefore we often need to obtain solutions from a Riemann problem. A Riemann problem is defined as a specific initial value problem composed of a conservation law together with piece wise constant initial data which has a single discontinuity. For the propose of solving compressible Euler equation, HLLC approximate Riemann Solvers was used.
+
+<h3 class="section-heading">The HLLC Riemann Solve</h2>
+
+The approximate Riemann solver proposed by Harten Lax and Van leer (HLL) were later modified by Toro to form what is known as the HLLC (C stands for Contact) . HLLC adopts a three-waves model for the structure of the exact solution. Simulation resolution is improved via an incorporation of an intermediate wave. Figure \ref{fig:HLLC_solver_graph} shows the three waves representation of a Riemann problem where four regions of solutions were separated by three waves with velocity \(S_{L}\), \(S_\ash\) and \(S_R\). They correspond to velocity for the left, intermediate and right waves.
+
 
 <h2 class="section-heading">References</h2>
