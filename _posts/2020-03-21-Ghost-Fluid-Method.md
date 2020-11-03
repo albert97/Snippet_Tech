@@ -27,7 +27,8 @@ tags:       [Scientific computing, Maths]
 
 In this study, I investigated the techniques of Riemann ghost fluid method in solving the compressible multimaterial unsteady Euler equations. The study used MUSCL-Hancock with Super-bee slop limiter and HLLC as the approximate Riemann problem solver. Simulations are completed for single material shock tube test with a contact discontinuity, multimaterial shock tube test with a single and two interfaces. The later is also extended into two dimension with interface aligned with x and y axis, as well as having an angled with x axis. In addition, I have also investigated the effect of level set function reinitialisation using Mach 10 shock. The study confirmed the effectiveness of Riemann ghost fluid method in resolving the sharp interface and capturing the fine behaviour close to the interface. In addition, The use of second order numerical method that is also total variation diminishing ensuring high resolution and no presence of spurious oscillation. To be able to ensure an accurate representation of material interface, reinitialisation of the level set function is necessary. It also reduced dissipation cause by steepening, therefore reducing numerical error at the interface. 
 
-<h2 class="section-heading">Euler's Equations </h2>
+<h2 class="section-heading">The Equations of Fluid Dynamics </h2>
+<h3 class="section-heading">Euler's Equations </h3>
 
 In this study, I consider the time-dependent Euler Equations. These are systems of non-linear hyperbolic equations obeying conservation law, describing the dynamics of compressible material. In comparison with original Navies-Stoke equations, the effect of gravity, viscosity and body forces are neglected 
 The five governing conservation laws are: 
@@ -75,7 +76,7 @@ $$
 </p>
 </body>
 </html>
-<h2 class="section-heading">Thermodynamic consideration and equation of states </h2>
+<h3 class="section-heading">Thermodynamic consideration and equation of states </h3>
 
 
 
