@@ -20,9 +20,8 @@
              <div class="post-preview">
                <a href="{{ post.url | prepend: site.baseurl }}">
                 <div class="row">
-                <div class="col-sm-4">
-                    src="{{ post.header-img.src | absolute_url }}"
-                    <img style="max-height: 200px" src="{{ post.header-img.src}}">
+                <div class="col-sm-4">         
+                    <img style="max-height: 200px" src="{{ post.header-img.src} | absolute_url }">
                 </div>
                 <div class="col-sm-8">
                     <h2 class="post-title">
