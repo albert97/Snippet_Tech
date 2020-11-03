@@ -69,7 +69,7 @@ $$
   
    I used primitive variables to describes the flow under consideration, namely, \( \rho(x, y, z,t) = \) density or mass density, \( p(x,y,z,t) = \) pressure, \( u(x,y,z,t) = \) x-component of velocity, \( v(x,y,z,t) = \) y-component of velocity, \( w(x,y,z,t) = \) z-component of velocity and E is the total energy per unit volume.
    
-     \[E = \rho (frac{1}{2 \textbf(V)^2 + e).\]
+     \[E = \rho (\frac{1}{2 \textbf(V)^2 + e).\]
      
    where \(\frac{1}{2}\textbf(V)^2 = \frac{1}{2}\textbf(V) \cdot \textbf(V) = \frac{1}{2}(u^2 + v^2 + w^2)\) is the specific kinetic energy and e is the specific internal energy. 
 </p>
@@ -84,9 +84,7 @@ $$
     T = \frac{pv}{R}
 $$
 
-where
-
-$R$
+where \(R\)
 
 is a constant depending on the particular gas under consideration. The first law of thermodynamics states that for a non-adiabatic system the change in internal energy in a process will be given by 
 
@@ -94,11 +92,8 @@ $$
     \Delta e  = \Delta W + \Delta Q
 $$
 
-where
-$ \Delta W $ 
-is the work done on the system and  
-
-$ \Delta Q $
+where \( \Delta W \)
+is the work done on the system and  \( \Delta Q \)
 
 is the heat transmitted to the system. Taking the work done as 
 
@@ -126,7 +121,7 @@ is needed, in which case a thermal EOS needs to be given explicitly .
 
 Hyperbolic Partial Differential Equations (PDEs) are time-dependent problems without dissipation. For such problems, discontinuity may form from smooth initial conditions. Therefore we often need to obtain solutions from a Riemann problem. A Riemann problem is defined as a specific initial value problem composed of a conservation law together with piece wise constant initial data which has a single discontinuity. For the propose of solving compressible Euler equation, HLLC approximate Riemann Solvers was used.
 
-<h3 class="section-heading">The HLLC Riemann Solve</h2>
+<h3 class="section-heading">The HLLC Riemann Solve</h3>
 
 The approximate Riemann solver proposed by Harten Lax and Van leer (HLL) were later modified by Toro to form what is known as the HLLC (C stands for Contact) . HLLC adopts a three-waves model for the structure of the exact solution. Simulation resolution is improved via an incorporation of an intermediate wave. Figure \ref{fig:HLLC_solver_graph} shows the three waves representation of a Riemann problem where four regions of solutions were separated by three waves with velocity \(S_{L}\), \(S_\ash\) and \(S_R\). They correspond to velocity for the left, intermediate and right waves.
 
