@@ -13,7 +13,7 @@
           {{ content }}
 
           <p class="code-post-list">
-            {% for post in site.codes %}
+            {% for post in site.posts %}
 
               {% if post.draft != true %}
                 <span class="code-post-date">{{ post.date | date: "%-m/%-d/%y" }}</span>
