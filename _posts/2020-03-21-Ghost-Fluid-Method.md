@@ -20,10 +20,6 @@ tags:       [Scientific computing, Maths]
   </script>
 </head>
 <body>
-<p>
-  When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
-  \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
-</p>
 </body>
 </html>
 In this study, I investigated the techniques of Riemann ghost fluid method in solving the compressible multimaterial unsteady Euler equations. The study used MUSCL-Hancock with Super-bee slop limiter and HLLC as the approximate Riemann problem solver. Simulations are completed for single material shock tube test with a contact discontinuity, multimaterial shock tube test with a single and two interfaces. The later is also extended into two dimension with interface aligned with x and y axis, as well as having an angled with x axis. In addition, I have also investigated the effect of level set function reinitialisation using Mach 10 shock. The study confirmed the effectiveness of Riemann ghost fluid method in resolving the sharp interface and capturing the fine behaviour close to the interface. In addition, The use of second order numerical method that is also total variation diminishing ensuring high resolution and no presence of spurious oscillation. To be able to ensure an accurate representation of material interface, reinitialisation of the level set function is necessary. It also reduced dissipation cause by steepening, therefore reducing numerical error at the interface. 
@@ -35,9 +31,20 @@ The five governing conservation laws are:
 
 
 $$
-  \rho
+
   \rho_{t} + ( \rho u )_{x} + (\rho v)_{y} + (\rho w)_{z} = 0.
 $$
-
-
+$$
+  (\rho u)_{t} + ( \rho u^2 + P )_{x} + (\rho u v)_{y} + (\rho u w)_{z} = 0.
+$$
+$$
+  (\rho v)_{t} + ( \rho u v )_{x} + (\rho v^2 + p)_{y} + (\rho u w)_{z} = 0.
+$$
+$$
+  (\rho w)_{t} + ( \rho u w )_{x} + (\rho v w)_{y} + (\rho w^2 + P)_{z} = 0.
+$$
+$$
+  E_{t} + (u(E+p)_{x} + (v(E+p))_{y} + (w(E + p))_{z} = 0.
+$$
+ I used primitive variables to describes the flow under consideration, namely, $\rho(x, y, z,t) = $ density or mass density, $p(x,y,z,t) = $ pressure, $ u(x,y,z,t) = $ x-component of velocity, $ v(x,y,z,t) = $ y-component of velocity, $ w(x,y,z,t) = $ z-component of velocity and E is the total energy per unit volume.
 <h2 class="section-heading">References</h2>
