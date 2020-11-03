@@ -4,7 +4,7 @@ title:      "Multi-material simulation using the ghost fluid method"
 subtitle:   "Ghost fluid method is my personal favorite when it comes to multimaterial method. The shear beauty is it maintain a shapr material interface while simulating material interactions"
 date:       2020-03-21 06:52:00
 author:     "Albert"
-header-img: 
+header-img: "/assets/img/content/post-example/Structure_of_the_exact_Riemann_problem.png" 
 category:   techblog
 tags:       [Scientific computing, Maths]
 ---
