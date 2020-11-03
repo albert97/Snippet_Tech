@@ -3,6 +3,7 @@ layout: post
 title:  "The relationship between the Siberian Traps and the end- Permian mass extinction"
 date:   2019-10-26 10:00:40
 author: Albert
+category: Science
 og_image: /assets/img/content/post-example/SiberianTrap.png
 ---
 <img src="{{ "/assets/img/content/post-example/SiberianTrap.png" | absolute_url }}" alt="bay" class="post-pic"/>
