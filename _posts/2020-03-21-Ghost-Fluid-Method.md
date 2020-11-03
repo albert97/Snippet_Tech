@@ -138,11 +138,79 @@ Hyperbolic Partial Differential Equations (PDEs) are time-dependent problems wit
 <h3 class="section-heading">The HLLC Riemann Solve</h3>
 <html>
   <body>
-    The approximate Riemann solver proposed by Harten Lax and Van leer (HLL) were later modified by Toro to form what is known as the HLLC (C stands for Contact) . HLLC adopts a three-waves model for the structure of the exact solution. Simulation resolution is improved via an incorporation of an intermediate wave. Figure below shows the three waves representation of a Riemann problem where four regions of solutions were separated by three waves with velocity \(S_{L}\), \(S_\ash\) and \(S_R\). They correspond to velocity for the left, intermediate and right waves.
+    The approximate Riemann solver proposed by Harten Lax and Van leer (HLL) were later modified by Toro to form what is known as the HLLC (C stands for Contact) . HLLC adopts a three-waves model for the structure of the exact solution. Simulation resolution is improved via an incorporation of an intermediate wave. Figure below shows the three waves representation of a Riemann problem where four regions of solutions were separated by three waves with velocity \(S_{L}\), \(S_{*}\) and \(S_R\). They correspond to velocity for the left, intermediate and right wave
 
 <img src="{{ "/assets/img/content/post-example/HLLC_three_wave_representation.png" | absolute_url }}" alt="bay" class="post-pic"/>
 
     </body>
 </html>
+
+<img src="{{ "/assets/img/content/post-example/Structure_of_the_exact_Riemann_problem.png" | absolute_url }}" alt="bay" class="post-pic"/>
+<html>
+  <body>
+A general initial boundary value problem is concerned in this study, proposed as equation \ref{eq: initial boundary value problem}. \(\textbf{U}_{t}\) is the time derivative of the state vector and \(\textbf{F}\) \(\textbf{U}_{x})\) is the spatial derivative of the flux. Within the domain, I use the explicit conservative formula \ref{eq:explicit_updateformula} to update the numerical solution at each time step. 
+        </body>
+</html>
+
+$$
+   &PDEs:  \textbf{U}_{t} + \textbf{F}(\textbf{U})_{x} = 0,\\
+   &ICs:  \textbf{U}(x, 0) = \textbf{U}^{(0)}(x),\\
+   & BCs:  \textbf{U}(0, t) = \textbf{U}_I(t),   \textbf{U}(L,t) = \textbf{U}_{r(t)}\\
+$$
+
+
+$$
+    \textbf{U}_i^{i+1} = \textbf{U}_i^n - \frac{\Delta t}{\Delta x}[\textbf{F}_{i+\frac{1}{2}} - \textbf{F}_{i+\frac{1}{2}}]
+
+$$
+
+The unknown numerical flux $\textbf{F}_{i+\frac{1}{2}}$ is determined using Godunov Flux. $\textbf{U}_{1+\frac{1}{2}}(0)$ is the solution of the Riemann problem at each cell boundary 
+
+For HLLC approximate solver, we seek to find solutions for the two intermediate state vectors $U_{\ast} L$ and $U_{\ast R} $ thereby finding $F_{\ast L}$ and $F_{\ast R}$ using Godunov flux.Across the contact discontinuity pressure and tangential component of velocity are continuous whereas tangential components are discontinuous. However, tangential components are continuous the left and right waves ( which can be either rarefraction or shock waves). These conditions proposed in equation \ref{cond:pucontact} and \ref{cond:TVside} allow us to find an expression for velocity of the intermediate wave and intermediate fluxes 
+
+$$
+\begin{cases}
+   & p_{\ast L} =  p_{\ast R} = p _{\ast} \\
+   & u_{\ast L} =  u_{\ast R} = u _{\ast} 
+   \label{cond:pucontact}
+\end{cases}
+$$
+
+$$
+\begin{cases}
+   & v_{\ast L}  =  v_L  , v_{\ast R} = v_R \\
+   & w_{\astL} =  w_R  ,  w_{\ast R}= w_R 
+   \label{cond:TVside}
+\end{cases}
+$$
+
+Through some algebraic manipulation, we found the intermediate the intermediate wave velocity as:
+
+$$
+    S_{*} = \frac{p_R - p_L +\rho_L u_L(S_L - u_L) - \rho_R u_R (S_R - u_R)}{\rho_L(S_L - u_L) - \rho_R(S_R - u_R)}
+$$
+
+fluxes $\textbf{F}_{\ast L}$ and $\textbf{F}_{\ast R}$ are related to fluxes on either side as :
+
+$$
+    \textbf{F}_ {\ast K} = \textbf{F}_{K} + S_K(\textbf{U}_{\ast K} - \textbf{U}_K)
+$$
+
+for $K = L$ or $ K = R$, with the intermediate states given as 
+
+$$
+\textbf{U}_{\ast K}= \rho_K (\frac{S_K - u_K}{S_K - S_\ast})
+    \begin{bmatrix}
+    1\\
+    S_\ast \\
+    v_K\\
+    w_K\\
+    \frac{E_K}{\rho_K} + (S_\ast - u_K)[S_\ast + \frac{p_K}{\rho_K(S_K - u_K)}]
+    \end{bmatrix}
+    \label{intermediate state vector}
+$$
+
+where the left and right speed are obtained using pressure based wave-speed estimate \cite{Toro2009}.
+
 
 <h2 class="section-heading">References</h2>
