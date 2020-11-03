@@ -53,6 +53,7 @@ $$
 $$
   E_{t} + (u(E+p)_{x} + (v(E+p))_{y} + (w(E + p))_{z} = 0.
 $$
+
 <html>
 <head>
   <meta charset="utf-8">
@@ -65,10 +66,12 @@ $$
 </head>
 <body>
 <p>
-  When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
-  \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
   
    I used primitive variables to describes the flow under consideration, namely, \( \rho(x, y, z,t) = \) density or mass density, \( p(x,y,z,t) = \) pressure, \( u(x,y,z,t) = \) x-component of velocity, \( v(x,y,z,t) = \) y-component of velocity, \( w(x,y,z,t) = \) z-component of velocity and E is the total energy per unit volume.
+   
+     \[E = \rho (1 \over 2 \textbf(V)^2 + e).\]
+     
+   where \(\frac{1}{2}\textbf(V)^2 = \frac{1}{2}\textbf(V) \cdot \textbf(V) = \frac{1}{2}(u^2 + v^2 + w^2)\) is the specific kinetic energy and e is the specific internal energy. 
 </p>
 </body>
 </html>
