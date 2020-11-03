@@ -166,7 +166,35 @@ $$
     \( \textbf{U}_i^{i+1} = \textbf{U}_i^n - \frac{\Delta t}{\Delta x}[\textbf{F}_{i+\frac{1}{2}} - \textbf{F}_{i+\frac{1}{2}}]\)
     
     The unknown numerical flux \(\textbf{F}_{i+\frac{1}{2}}\) is determined using Godunov Flux. $\textbf{U}_{1+\frac{1}{2}}(0)$ is the solution of the Riemann problem at each cell boundary 
-    
+   </body>
+</html>    
+
+$$
+   \textbf{F}_{i+\frac{1}{2}} = \textbf{F}(\textbf{U}_{1+\frac{1}{2}}(0))
+$$
+
+$$
+\textbf{U$^{hllc}$ (x,t)}=
+\begin{cases}
+    &\textbf{U}$_L$  , if \frac{x}{t}$ $\leq$ S$_L$, \\
+    &\textbf{U}$_{\ast L}$  , if $S_L$ $\leq$ $\frac{x}{t}$\leq$ S$_\ast$, \\
+    &\textbf{U}$_{\ast R}$.  , if S$_\ast$  $\leq$ $\frac{x}{t}$ $\leq$ S$_L$, \\
+    &\textbf{U}$_R$  , if $\frac{x}{t}$ $\geq$ $S_R$ , 
+\end{cases}
+$$
+
+$$
+\textbf{F$^{hllc} _{I+\frac{1}{2}}$}=
+\begin{cases}
+    &\textbf{F}$_L$  , if \frac{x}{t}$ $\leq$ S$_L$, \\
+    &\textbf{F}$_{\ast L}$  , if $S_L$ $\leq$ $\frac{x}{t}$\leq$ S$_\ast$, \\
+    &\textbf{F}$_{\ast R}$.  , if S$_\ast$  $\leq$ $\frac{x}{t}$ $\leq$ S$_L$, \\
+    &\textbf{F}$_R$  , if $\frac{x}{t}$ $\geq$ $S_R$ , 
+\end{cases}
+$$
+
+<html>
+  <body>
     For HLLC approximate solver, we seek to find solutions for the two intermediate state vectors \(U_{*} L\) and \(U_{* R} \) thereby finding \(F_{* L}\) and \(F_{* R}\) using Godunov flux.Across the contact discontinuity pressure and tangential component of velocity are continuous whereas tangential components are discontinuous. However, tangential components are continuous the left and right waves ( which can be either rarefraction or shock waves). These conditions proposed in equations allow us to find an expression for velocity of the intermediate wave and intermediate fluxes 
 
    </body>
