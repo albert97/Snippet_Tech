@@ -15,6 +15,11 @@ In this study, I investigated the techniques of Riemann ghost fluid method in so
 
 In this study, I consider the time-dependent Euler Equations. These are systems of non-linear hyperbolic equations obeying conservation law, describing the dynamics of compressible material. In comparison with original Navies-Stoke equations, the effect of gravity, viscosity and body forces are neglected 
 The five governing conservation laws are: 
+
+$$
+    \min_{x \in \R^n} f(x) \, .
+$$
+
 $$
 \rho_t + ( \rho u )_x + (\rho v)_y + (\rho w)_z = 0.
 $$
