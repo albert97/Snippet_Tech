@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Second Order Total Variation Diminishing scheme: MUSCL-Hancock with Superbee slope limiter"
+title:      "Second Order Total Variation Diminishing scheme: MUSCL-Hancock with Superbee slope limiter -Ghost Fluid Method Serie 2"
 subtitle:   "This article depicts a high resolution methods that also ensure TVD nature of the scheme"
 date:       2020-03-28 12:00
 author:     "Albert"
