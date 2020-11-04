@@ -176,19 +176,19 @@ $$
 \textbf{U$^{hllc}$ (x,t)}=
 \begin{cases}
     &\textbf{U}_L  , if \frac{x}{t} \leq S_L, \\
-    &\textbf{U}$_{\ast L}$  , if $S_L$ $\leq$ $\frac{x}{t}$\leq$ S$_\ast$, \\
-    &\textbf{U}$_{\ast R}$.  , if S$_\ast$  $\leq$ $\frac{x}{t}$ $\leq$ S$_L$, \\
-    &\textbf{U}$_R$  , if $\frac{x}{t}$ $\geq$ $S_R$ , 
+    &\textbf{U}_{\ast L}  , if S_L \leq \frac{x}{t} \leq S_\ast, \\
+    &\textbf{U}_{\ast R}.  , if S_\ast \leq \frac{x}{t} \leq S_L, \\
+    &\textbf{U}_R  , if \frac{x}{t} \geq S_R , 
 \end{cases}
 $$
 
 $$
 \textbf{F$^{hllc} _{I+\frac{1}{2}}$}=
 \begin{cases}
-    &\textbf{F}$_L$  , if \frac{x}{t}$ $\leq$ S$_L$, \\
-    &\textbf{F}$_{\ast L}$  , if $S_L$ $\leq$ $\frac{x}{t}$\leq$ S$_\ast$, \\
-    &\textbf{F}$_{\ast R}$.  , if S$_\ast$  $\leq$ $\frac{x}{t}$ $\leq$ S$_L$, \\
-    &\textbf{F}$_R$  , if $\frac{x}{t}$ $\geq$ $S_R$ , 
+    &\textbf{F}_L  , if \frac{x}{t} \leq S_L, \\
+    &\textbf{F}_{\ast L}  , if S_L \leq \frac{x}{t} \leq S_\ast, \\
+    &\textbf{F}_{\ast R}.  , if S_\ast  \leq \frac{x}{t} \leq S_L, \\
+    &\textbf{F}_R  , if \frac{x}{t} \geq S_R , 
 \end{cases}
 $$
 
