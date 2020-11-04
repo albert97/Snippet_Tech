@@ -175,7 +175,7 @@ $$
 $$
 \textbf{U$^{hllc}$ (x,t)}=
 \begin{cases}
-    &\textbf{U}$_L$  , if \frac{x}{t}$ $\leq$ S$_L$, \\
+    &\textbf{U}_L  , if \frac{x}{t} \leq S_L, \\
     &\textbf{U}$_{\ast L}$  , if $S_L$ $\leq$ $\frac{x}{t}$\leq$ S$_\ast$, \\
     &\textbf{U}$_{\ast R}$.  , if S$_\ast$  $\leq$ $\frac{x}{t}$ $\leq$ S$_L$, \\
     &\textbf{U}$_R$  , if $\frac{x}{t}$ $\geq$ $S_R$ , 
@@ -210,7 +210,7 @@ $$
 $$
 \begin{cases}
    & v_{\ast L}  =  v_L  , v_{\ast R} = v_R \\
-   & w_{\astL} =  w_R  ,  w_{\ast R}= w_R 
+   & w_{\ast L} =  w_R  ,  w_{\ast R}= w_R 
    \label{cond:TVside}
 \end{cases}
 $$
