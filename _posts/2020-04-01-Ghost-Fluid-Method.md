@@ -29,6 +29,7 @@ This simulation of helium bublle collapse when subjected to a shoock wave was do
 
 <video width="320" height="240" autoplay>
   <source src="assets/img/content/post-example/BubbleColl2D.mp4" type="video/mp4">
+  <source src="assets/img/content/post-example/BubbleColl2D.ogg" type="video/ogg">
 </video>
 
 
