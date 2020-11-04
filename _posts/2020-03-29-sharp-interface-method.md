@@ -27,10 +27,10 @@ tags:       [math]
 
 For Eulerian single-code model used in this study, A level set function is used to models the interface location and has the following purpose: 
 
-\begin{enumerate}
-  \item It represents a sharp interface.
-  \item It identified the location of a material interface, and is used ti split the computational domain into multiple regions.
-\end{enumerate}
+<ol>
+<li> It represents a sharp interface. item</li>
+<li>It identified the location of a material interface, and is used ti split the computational domain into multiple regions.item</li>
+</ol>
 
 <html>
 <body>
