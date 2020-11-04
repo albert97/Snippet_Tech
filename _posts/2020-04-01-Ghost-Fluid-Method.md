@@ -23,6 +23,13 @@ tags:       [math]
 </body>
 </html>
 
+<h2 class="section-heading">Helium Bubble collapse using Ghost Fluid Method</h2>
+
+<video width="320" height="240" autoplay>
+  <source src="assets/img/content/post-example/BubbleColl2D.mp4" type="video/mp4">
+</video>
+
+
 <h2 class="section-heading">Riemann Problem based Ghost Fluid method</h2>
 
 <html>
