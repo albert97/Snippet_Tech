@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Multi-material simulation using the ghost fluid method serie 1 - HLLC Solver"
+title:      "HLLC Solver for Riemann problems for Fluid Dynamics -Ghost Fluid Method Serie 1"
 subtitle:   "HLLC Solver uses Godunov flux to resolve shock wave emerged from hyperbolic PDEs. This finiste volume method ensure the conservative nature. "
 date:       2020-03-21 06:52:00
 author:     "Albert"
@@ -253,7 +253,3 @@ where the left and right speed are obtained using pressure based wave-speed esti
 
 
 <h2 class="section-heading">References</h2>
-
-Harten, A., P. D. Lax, and B. van Leer (1983), On Upstream Differencing and Godunov- Type Schemes for Hyperbolic Conservation Laws, SIAM Review, 25(1), 35–61, doi: 10.1137/1025002.
-Toro, E. F. (2009), Riemann Solvers and Numerical Methods for Fluid Dynamics, thrid ed., Springer.
-Toro, E. F., M. Spruce, and W. Speares (1994), Restoration of the contact surface in the HLL-Riemann solver, Shock Waves, 4 (1), 25–34, doi:10.1007/BF01414629.
