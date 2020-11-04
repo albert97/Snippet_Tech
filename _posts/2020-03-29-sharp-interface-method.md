@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Sharp Interface method and levelset function -Ghost Fluid Method serie 3"
+title:      "Sharp Interface method and levelset function -Ghost Fluid Method Serie 3"
 subtitle:   "Sharp interface method as one methods used in multi material simulation has the advantage of maintaining a sharp interface and swiftness in tracking the movement of the interface"
 date:       2020-03-29 12:00
 author:     "Albert"
