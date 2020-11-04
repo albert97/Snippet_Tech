@@ -32,7 +32,7 @@ For Eulerian single-code model used in this study, A level set function is used 
   \item It identified the location of a material interface, and is used ti split the computational domain into multiple regions.
 \end{enumerate}
 
-</head>
+<html>
 <body>
   A level set method is a implicit representation of the interface, it can be considered as the zero-contour of a scalar field. A signed distance function is usually used to define the level set function as it gives the shortest distance to the interface ($|\nabla \phi (x)| = 1$). I define the level function to be zero at the interface (equation \ref{levelsetfunction }):
 </body>
@@ -43,7 +43,7 @@ $$
     \phi (x) = 0 
 $$
 
-</head>
+<html>
 <body>
 Numerical errors at the interface can accumulate, causing increased dissipation and simulation errors. When the level set function steepened enough it resembles a discontinuity and disrupts simulation.  To correct this I use reinitialisation techniques to revert a general level set function to a signed distance function, whilst maintaining the zero contour. During reinitialisation, the interface is treated as fixed by keeping the region with \(\phi < 0 \) fixed. The reinitialisation process is equivalent to solving the Eikonal equation below : 
 </body>
@@ -61,7 +61,7 @@ $$
 $$
 
 
-</head>
+<html>
 <body>
 The sign of the level set function depends on which side of the interface we are reinitialising. The variable \(\tau\) is known as 'fictitious time', in which the boundaries of the level set function are held fixed, thus this equation has a steady state solution.
 
@@ -83,7 +83,7 @@ $$
     \frac{\partial \phi}{\partial t} + \textbf{v} \cdotp \nabla \phi = 0
 $$
 
-</head>
+<html>
 <body>
 $\textbf{v}$ is the velocity of the materials, which has no dependence on the level set function.  Hence the discretisation can be derived:
 </body>
