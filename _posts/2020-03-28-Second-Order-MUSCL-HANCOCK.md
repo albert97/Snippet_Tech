@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Second Order Total Variation Diminishing scheme: MUSCL-Hancock with Superbee slope limiter -Ghost Fluid Method Serie 2"
-subtitle:   "This article depicts a high resolution methods that also ensure TVD nature of the scheme"
+subtitle:   "This article depicts a high resolution methods that also ensureS TVD nature of the scheme"
 date:       2020-03-28 12:00
 author:     "Albert"
 category:   techblog
@@ -92,7 +92,6 @@ $$
 $$
 
 $$
-\centering
     \xi_{sb}(r) =
 \begin{cases}
         0,  & \quad  \quad  \quad  \text{if } r \leq 0 \\
@@ -111,11 +110,11 @@ Other slope limiter like van Leer or Minbee-type are also available. Superbee is
 </html>
 
 <h2 class="section-heading">References</h2>
-Toro, E. F. (2009), Riemann Solvers and Numerical Methods for Fluid Dynamics, thrid ed., Springer.
-Van Leer, B. (1976), MUSCL, a new approach to numerical gas dynamics., Computing in plasma physics and astrophysics, (January 1976).
-Toro, E. F., M. Spruce, and W. Speares (1994), Restoration of the contact surface in the HLL-Riemann solver, Shock Waves, 4 (1), 25–34, doi:10.1007/BF01414629.
-vVan Leer, B. (1977a), Towards the ultimate conservative difference scheme. IV. A new ap- proach to numerical convection, Journal of Computational Physics, 23(3), 276–299, doi: 10.1016/0021-9991(77)90095-X.
-Van Leer, B. (1977b), Towards the Ultimate Conservative Difference Scheme III. Upstream- Centered Finite-Difference Schemes for Ideal Compressible Flow, Journal of Computational Physics, 275(23), 263–275.
-Van Leer, B. (1979), Towards the Ultimate Conservative Difference Scheme V. A Second- Order Sequel to Godnov, Journal of Computational Physics, 32(1), 101–136, doi:10.1016/0021- 9991(79)90145-1.
-Van Leer, B. (1984), On the Relation Between the Upwind-Differencing Schemes of Godunov, EngquistOsher and Roe Share on, SIAM Journal on Scientific and Statistical Computing, 5(1), doi:10.1137/0905001.
+1. Toro, E. F. (2009), Riemann Solvers and Numerical Methods for Fluid Dynamics, thrid ed., Springer.
+2. Van Leer, B. (1976), MUSCL, a new approach to numerical gas dynamics., Computing in plasma physics and astrophysics, (January 1976).
+3. Toro, E. F., M. Spruce, and W. Speares (1994), Restoration of the contact surface in the HLL-Riemann solver, Shock Waves, 4 (1), 25–34, doi:10.1007/BF01414629.
+4. Van Leer, B. (1977a), Towards the ultimate conservative difference scheme. IV. A new ap- proach to numerical convection, Journal of Computational Physics, 23(3), 276–299, doi: 10.1016/0021-9991(77)90095-X.
+5. Van Leer, B. (1977b), Towards the Ultimate Conservative Difference Scheme III. Upstream- Centered Finite-Difference Schemes for Ideal Compressible Flow, Journal of Computational Physics, 275(23), 263–275.
+6. Van Leer, B. (1979), Towards the Ultimate Conservative Difference Scheme V. A Second- Order Sequel to Godnov, Journal of Computational Physics, 32(1), 101–136, doi:10.1016/0021- 9991(79)90145-1.
+7. Van Leer, B. (1984), On the Relation Between the Upwind-Differencing Schemes of Godunov, EngquistOsher and Roe Share on, SIAM Journal on Scientific and Statistical Computing, 5(1), doi:10.1137/0905001.
 
