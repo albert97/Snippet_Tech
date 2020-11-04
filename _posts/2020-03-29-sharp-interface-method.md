@@ -95,3 +95,9 @@ $$
 
 Several numerical scheme are available for the spatial derivative, for this study first order upwind scheme is adopted. The upwind and downwind approximation depends on the direction of the velocity.
 
+<h2 class="section-heading">References</h2>
+
+1. Fedkiw, R. P., T. Aslam, B. Merriman, and S. Osher (1999), A Non-oscillatory Eulerian Ap- proach to Interfaces in Multimaterial Flows (the Ghost Fluid Method), Journal of Compu- tational Physics, 152(2), 457–492.
+2. Osher, S., R. Fedkiw, and K. Piechor (2004), Level Set Methods and Dynamic Implicit Surfaces, Applied Mechanics Reviews
+3.Zhao, H. (2004), A fast sweeping method for Eikonal equations, Mathematics of Computation,
+
