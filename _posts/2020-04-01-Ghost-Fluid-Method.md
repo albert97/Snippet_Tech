@@ -43,13 +43,13 @@ After obtaining ghost fluid values for interracial cells, I extrapolate these in
 </html>
 
 $$
-    \hat{\bold{n}} \cdot \nabla Q = 0
+    \hat{{n}} \cdot \nabla Q = 0
 $$
 
 which is very similar to the level set reinitialisation:
 
 $$
-    \hat{\bold{n}} \cdot \nabla \phi = 1
+    \hat{{n}} \cdot \nabla \phi = 1
 $$
 
 In fact the techniques used for both are nearly identical. In this study, I used fast sweep approach to populate the ghost cell values. For ghost fluid boundary condition extrapolation, we use the level set function to determine the direction of the extrapolation, but compute gradients of the ghost fluid quantity instead.
@@ -67,15 +67,13 @@ The choice of \(Q_x\) and \(Q_y\) depends on the value of level set function (Sa
 
 <h2 class="section-heading">Results and validation </h2>
 
-<html>
-<body>
-| Test |  \(\rho_L\) |  u_L |  p_L |  \rho_R |  u_R |  p_R | 
+
+| Test |  $$\rho_L$$ |  $$u_L$$ | $$ p_L$$ |  $$\rho_R$$ | $$ u_R $$|  $$p_R$$ | 
 | ------ | ----- | ----- | ----- | ----- | ----- |----- |
 |  1 |  1.0 |  0.0 |  1.0 |  0.125 |  0.0 |  0.1| 
 | 2 | 1.0 | -2.0 | 0.4 | 1.0 | 2.0 |  0.4 | 
 | 3 | 1.0 | 0.0 | 1000.0 | 1.0 |  0.0 | 0.01 |  
-</body>
-</html>
+
 
 
 
@@ -98,6 +96,7 @@ The numerical simulation is conducted using Riemann problem-based ghost fluid me
 This test is not a true multimaterial tests, nonetheless, by treating the contact discontinuity as a material interface, one can test if the ghost fluid method has been correctly implemented for the simplest scenario. Figures below show the solution profiles for density, pressure, velocity and specific internal energy for test 1, 2, 3 respectively. Location of the final contact discontinuity is interpolated from level set function as it takes a value of zero.  
 </body>
 </html>
+
 <img src="{{ "/assets/img/content/post-example/Test1.png" | absolute_url }}" alt="bay" class="post-pic"/>
 
 <img src="{{ "/assets/img/content/post-example/Test2.png" | absolute_url }}" alt="bay" class="post-pic"/>
@@ -106,3 +105,7 @@ This test is not a true multimaterial tests, nonetheless, by treating the contac
 
 
 <h2 class="section-heading">References</h2>
+
+1. Toro, E. F. (2009), Riemann Solvers and Numerical Methods for Fluid Dynamics, thrid ed., Springer.
+2. Sambasivan, S. K., and H. S. UdayKumar (2009), Ghost fluid method for strong shock interac- tions part 1: Fluid-fluid interfaces, AIAA Journal, 47 (12), 2907–2922
+3. Wang, C. W., T. G. Liu, and B. C. Khoo (2006), A real ghost fluid method for the simulation of multimedium compressible flow, SIAM Journal on Scientific Computing, 28(1), 278–302
