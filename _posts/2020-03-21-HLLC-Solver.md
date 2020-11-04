@@ -253,3 +253,6 @@ where the left and right speed are obtained using pressure based wave-speed esti
 
 
 <h2 class="section-heading">References</h2>
+1. Harten, A., P. D. Lax, and B. van Leer (1983), On Upstream Differencing and Godunov- Type Schemes for Hyperbolic Conservation Laws, SIAM Review, 25(1), 35–61, doi: 10.1137/1025002.
+2. Toro, E. F. (2009), Riemann Solvers and Numerical Methods for Fluid Dynamics, thrid ed., Springer.
+3. Toro, E. F., M. Spruce, and W. Speares (1994), Restoration of the contact surface in the HLL-Riemann solver, Shock Waves, 4 (1), 25–34, 
