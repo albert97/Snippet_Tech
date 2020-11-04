@@ -69,10 +69,10 @@ The choice of \(Q_x\) and \(Q_y\) depends on the value of level set function (Sa
 
 
 | Test |  $$\rho_L$$ |  $$u_L$$ | $$ p_L$$ |  $$\rho_R$$ | $$ u_R $$|  $$p_R$$ | 
-| ------ | ----- | ----- | ----- | ----- | ----- |----- |
-|  1 |  1.0 |  0.0 |  1.0 |  0.125 |  0.0 |  0.1| 
-| 2 | 1.0 | -2.0 | 0.4 | 1.0 | 2.0 |  0.4 | 
-| 3 | 1.0 | 0.0 | 1000.0 | 1.0 |  0.0 | 0.01 |  
+| ------ | ------ | ------ | ------ | ------ | ------ |------ |
+|  1 |  1.0 |  0.0 |  1.0 |  0.125 |  0.0 |  0.1 | 
+| 2 |  1.0  | -2.0 | 0.4 | 1.0 | 2.0 |  0.4 | 
+| 3 |  1.0  | 0.0 | 1000.0 | 1.0 |  0.0 | 0.01 |  
 
 
 
@@ -103,6 +103,26 @@ This test is not a true multimaterial tests, nonetheless, by treating the contac
 
 <img src="{{ "/assets/img/content/post-example/Test3.png" | absolute_url }}" alt="bay" class="post-pic"/>
 
+
+<h2 class="section-heading">Multimaterial shock tube for gases with two interfaces</h2>
+
+
+<img src="{{ "/assets/img/content/post-example/MultiMaterialTtest.png" | absolute_url }}" alt="bay" class="post-pic"/>
+
+Table above shows the test parameters for the multimaterial shock tube for gases with two interfaces. This test consider a small region of helium with adiabatic exponent equal to 1.67. The results are obtained using the a second-order Godunov method, namely MUSCL-Hancock with HLLC solver and super-bee slope limiter. For a simulation domain with 400 cells, the first interface locates in between cell 160 and 161 while the second interface locates in between 240 and 241. The initial contact discontinuity propagates from cell 20 toward the two interfaces. The test is ran till 0.0014 such that all features are visible \cite{Wang2004}. The Riemann problem based ghost fluid methods preserved the sharp material interfaces and enabling accurate simulation near the interface. Since the presence of two material interfaces, the level set equation takes the form:
+
+$$
+    \phi = max( (x - x_1), (x_2 - x))
+$$
+
+where $$x_1$$ and $$x_2$$ are the interface locations.
+
+
+Figure below shows the density, velocity, pressure and energy profiles across the domain. Level set function is plotted with the density profile. There is no spurious oscillations in all plots. Air's density profile shows three distinctive features to the left of the interface: a rarefraction followed by a shock wave and a small rarefraction near the interface. In helium, all wave structure disappear from density profiles, however, a small rarefraction is seen from other profiles. To the right of the second interface, there is another rarefaction and shock wave seen in air. 
+
+The level set function is ploted with the density profile. Level set function has zero values at interface, Reinitialisation is applied to revert the general level set equation to a sign distance function, therefore reducing simulation error and steepening resembles a discontinuity.   
+
+<img src="{{ "/assets/img/content/post-example/MultiMaterialTestResults.png" | absolute_url }}" alt="bay" class="post-pic"/>
 
 <h2 class="section-heading">References</h2>
 
