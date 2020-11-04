@@ -34,7 +34,7 @@ For Eulerian single-code model used in this study, A level set function is used 
 
 <html>
 <body>
-  A level set method is a implicit representation of the interface, it can be considered as the zero-contour of a scalar field. A signed distance function is usually used to define the level set function as it gives the shortest distance to the interface ($|\nabla \phi (x)| = 1$). I define the level function to be zero at the interface (equation \ref{levelsetfunction }):
+  A level set method is a implicit representation of the interface, it can be considered as the zero-contour of a scalar field. A signed distance function is usually used to define the level set function as it gives the shortest distance to the interface (\(|\nabla \phi (x)| = 1\)). I define the level function to be zero at the interface:
 </body>
 </html>
 
@@ -65,7 +65,7 @@ $$
 <body>
 The sign of the level set function depends on which side of the interface we are reinitialising. The variable \(\tau\) is known as 'fictitious time', in which the boundaries of the level set function are held fixed, thus this equation has a steady state solution.
 
-Due to inefficiency, and uncertainty in the number of iterations, I adopt the fast sweep reinitialisation approach purposed by. The principle of the fast sweeping method is the level set function, also a signed distance function always gives the shortest distance to an interface and therefore a numerical technique to compute a value \(\phi _i\) is dependent only on \(|\phi|<|\phi_i|\). The fast sweeping method carries out a series of sweep which compute values of level set function such that \(| \nabla \phi|=1 \) based on neighbouring values. Multiple sweep alternates in x, y, z, positive and negative directions . \par
+Due to inefficiency, and uncertainty in the number of iterations, I adopt the fast sweep reinitialisation approach purposed by. The principle of the fast sweeping method is the level set function, also a signed distance function always gives the shortest distance to an interface and therefore a numerical technique to compute a value \(\phi _i\) is dependent only on \(|\phi|<|\phi_i|\). The fast sweeping method carries out a series of sweep which compute values of level set function such that \(| \nabla \phi|=1 \) based on neighbouring values. Multiple sweep alternates in x, y, z, positive and negative directions . 
 
 The movement of interface is modelled using a Hamilton-Jacobi equation :
 
