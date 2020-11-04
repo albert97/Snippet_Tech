@@ -164,7 +164,7 @@ $$
   <body>
     \( \textbf{U}_i^{i+1} = \textbf{U}_i^n - \frac{\Delta t}{\Delta x}[\textbf{F}_{i+\frac{1}{2}} - \textbf{F}_{i+\frac{1}{2}}]\)
     
-    The unknown numerical flux \(\textbf{F}_{i+\frac{1}{2}}\) is determined using Godunov Flux. $\textbf{U}_{1+\frac{1}{2}}(0)$ is the solution of the Riemann problem at each cell boundary 
+    The unknown numerical flux \(\textbf{F}_{i+\frac{1}{2}}\) is determined using Godunov Flux. \textbf{U}_{1+\frac{1}{2}}(0) is the solution of the Riemann problem at each cell boundary 
    </body>
 </html>    
 
@@ -223,7 +223,7 @@ $$
 
 <html>
   <body>
-fluxes $\textbf{F}_{\ast L}$ and $\textbf{F}_{\ast R}$ are related to fluxes on either side as :
+fluxes \textbf{F}_{\ast L} and \textbf{F}_{\ast R} are related to fluxes on either side as :
    </body>
 </html>
 
