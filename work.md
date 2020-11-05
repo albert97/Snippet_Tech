@@ -3,35 +3,37 @@ layout: work
 title: Work
 slug: /work
 items:
-  - title: COMPUTATIONAL FLUID DYNAMICS
-    image:
-      src: /assets/img/work/Cancun.JPG
-      alt: sand
-    description:  I am interested in numerical methods for PDEs. I have developed numerical schemes to improve the accuracy and robustness of existing finite volume methods such as HLLC with MUSCL-Hancock and Flux Limited Centered (FLIC) TVD Schemes. I am also interested in material interface modelling using level-set methods. 
-    
+
   - title: SCIENTIFIC COMPUTING
     image:
       src: /assets/img/work/Germany.JPG
       alt: sand
     description:  the development of numerical algorithms and High-Performance Computing (HPC) methods, and their application in solving complex, multi-physics, multi-scale problems arising in science or technology. The implementations of the algorithms take advantage of massively parallel computational architectures. 
 
-  - title: ELECTROMAGNETIC DRILLING 
+  - title: COMPUTATIONAL FLUID DYNAMICS
+    image:
+      src: /assets/img/work/Cancun.JPG
+      alt: sand
+    description:  I am interested in numerical methods for PDEs. I have developed numerical schemes to improve the accuracy and robustness of existing finite volume methods such as HLLC with MUSCL-Hancock and Flux Limited Centered (FLIC) TVD Schemes. I am also interested in material interface modelling using level-set methods. 
+    
+
+  - title: COMPUTATIONAL THERMODYNAMICS AND ELECTRODYNAMICS
     image:
       src: /assets/img/work/Bolivia.png
       alt: sand
-    description: For Master thesis, I looked into Electromagnetic Wave Drilling, which has the potential to increase the number of geothermal sites drastically, and accelerate progress toward a net-zero energy sector.
+    description: I am interested in applying applied maths and computing to resolve phenomena at extreme temperature and pressure conditions.  My recent works invovles electromagnetic wave drilling, which has the potential to increase the number of geothermal sites drastically, and accelerate progress toward a net-zero energy sector.
     
-  - title: SEISMIC COUPLING IN NEW ZEALAND
+  - title: GEOPHYSICS AND RENEWABLE ENERGY
     image:
       src: /assets/img/work/Danxia.png
       alt: sand
-    description: New Zealand sits on the boundary between three plates. This unique configuration creates many breathtaking landscape and geophysics features. Seismic coupling is dependent on local lithology and is crucial for determining local earthquake risks.  
+    description: I worked on a range of geophysical problems from seismiology to oceanography. My most recent work explored seismic coupling in New Zealand where Australian and Pacific plates meet and formed subduction zone, rift valley and transform faults. The seismic properties are dependent on local lithology and is crucial for determining local earthquake risks.  
 
-  - title: END-PERMIAN MASS EXTINCTION
+  - title: GEOLOGY AND CLIMATE 
     image:
       src: /assets/img/work/Mexico.png
       alt: water
-    description: As the deadliest mass extinction in Earth history, it eliminated 90% creatures on Earth. The primary cause is the eruption of the Siberian Trap. Here we will take a look at the chain reaction from it.
+    description: As the deadliest mass extinction in Earth history, end-Permain eliminated 90% creatures on Earth. The primary cause is the eruption of the Siberian Trap, which triggered a serie of climate responses. I am interested in using geological record to understand the Earth and how to achieve sustainable future.
 ---
 
 Here is a list of projects I have worked on, covering applied mathematics and physics, scientific computing and geophysics. My current projects involve numerical simulation for geothermal energy exploration and statistical methods for stochastic PDEs and its implications to climate modelling and geoscience.
