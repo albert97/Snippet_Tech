@@ -11,5 +11,5 @@ alt: website picture
 </p>
 
 <p>
-Note: this site is not completed yet, I will continue building it. Please feel free to leave comments on anything (coding, ideas or tips for life... ). All photos on this site are my original work.
+This site is under contineous development. Please feel free to leave comments on anything (coding, ideas or tips for life... ). All photos on this site are my original work.
 </p>
