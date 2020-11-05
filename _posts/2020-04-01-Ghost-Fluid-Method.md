@@ -27,11 +27,17 @@ tags:       [math]
 
 This simulation of helium bublle collapse when subjected to a shoock wave was done with a Ghost Fluid Code desicbed in this serie. Yaou can find the source code in my GitHub page. Now, in this section, I will descibe what ghost Fluid method is and why it is a truly beautiful method.
 
-<video width="320" height="240" autoplay>
-    <source src="assets/img/content/post-example/BubbleColl2D.mp4" " type="video/mp4">
-    <source src="assets/img/content/post-example/BubbleColl2D.ogg" " type="video/ogg">
-     Your browser does not support the video tag.
-</video>
+ <iframe width="560" height="315"
+src="assets/img/content/post-example/BubbleColl2D.mp4"
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
+ <iframe width="560" height="315"
+src="assets/img/content/post-example/BubbleColl2D.ogg"
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
 
 <h2 class="section-heading">Riemann Problem based Ghost Fluid method</h2>
 
