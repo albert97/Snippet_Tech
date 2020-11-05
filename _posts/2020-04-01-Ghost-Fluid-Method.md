@@ -29,6 +29,7 @@ This simulation of helium bublle collapse when subjected to a shoock wave was do
 
 <video autoplay>
     <source src="assets/img/content/post-example/BubbleColl2D.mp4" " type="video/mpeg">
+     Your browser does not support the video tag.
 </video>
 
 <h2 class="section-heading">Riemann Problem based Ghost Fluid method</h2>
