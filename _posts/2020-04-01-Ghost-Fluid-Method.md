@@ -30,7 +30,7 @@ This simulation of helium bublle collapse when subjected to a shoock wave was do
 <html> 
 <body> 
 
-<video width="400" controls>
+<video width="400" autoplay loop>
   <source src="BubbleColl2D.mp4" type="video/mp4">
   <source src="BubbleColl2D.ogg" type="video/ogg">
   Your browser does not support HTML video.
