@@ -25,22 +25,22 @@ tags:       [Geology, Geophysics, Renewables, Economics, Sociology ]
 
 <img src="{{ "/assets/img/content/post-example/Figure1Kenya.png" | absolute_url }}" alt="bay" class="post-pic"/>
 <br />
-<br />]
+<br />
 
-There is about $$ 4.3x10^7$$ EJ thermal energy stored down to 3km within the continental crust, which is considerably greater than the world’s total primary energy consumption (560 EJ) (World Energy Council, 2016). Geothermal energy is the heat contained within the Earth that generates geological phenomena on a planetary scale. In the exploitation, energy recharge by advection happens on the same timescale as the heart production, making geothermal a renewable energy resource (Dickson & Fanelli, 2003). The utilization of geothermal resources depends on temperatures. High-temperature geothermal resources (>150C) is used to generate electricity while medium to low-temperature resources (<150C) can be used for greenhouse heating and soil warming (Fig. 1) (Gudmundsson, 1988).  Electricity generation mainly takes place in conventional steam turbines and binary plants, depending on the characteristics of the geothermal resource (Fig 1) (Dickson & Fanelli, 2003). Power stations using conventional steam turbines have a capacity up to 110MW. Binary plants usually consist of a series of small modular units of a few hundred kW to a few MW. It is a very cost-effective and reliable means of generating electricity from water-dominated geothermal fields (Entingh, et al., 1994).
+There is about $$ 4.3 \times 10^7$$ EJ thermal energy stored down to 3km within the continental crust, which is considerably greater than the world’s total primary energy consumption (560 EJ) (World Energy Council, 2016). Geothermal energy is the heat contained within the Earth that generates geological phenomena on a planetary scale. In the exploitation, energy recharge by advection happens on the same timescale as the heart production, making geothermal a renewable energy resource (Dickson & Fanelli, 2003). The utilization of geothermal resources depends on temperatures. High-temperature geothermal resources (>150C) is used to generate electricity while medium to low-temperature resources (<150C) can be used for greenhouse heating and soil warming (Fig. 1) (Gudmundsson, 1988).  Electricity generation mainly takes place in conventional steam turbines and binary plants, depending on the characteristics of the geothermal resource (Fig 1) (Dickson & Fanelli, 2003). Power stations using conventional steam turbines have a capacity up to 110MW. Binary plants usually consist of a series of small modular units of a few hundred kW to a few MW. It is a very cost-effective and reliable means of generating electricity from water-dominated geothermal fields (Entingh, et al., 1994).
 
 <br />
 
 
 #### Table of Contents
 1. [The rift valley and geothermal field in Kenya:](#The rift valley and geothermal field in Kenya:)
-    * [Development of geothermal energy in Kenya:)
+    * [Development of geothermal energy in Kenya:](#Development of geothermal energy in Kenya:)
 2. [Benefits and challenges of geothermal energy development:](#Benefits and challenges of geothermal energy development:)
     * [Socio-economic impacts:](#Socio-economic impacts:)
     * [Environmental impact:](#Environmental impact:)
 4. [Conclusion](#Conclusion)
 
-## he rift valley and geothermal field in Kenya
+## The rift valley and geothermal field in Kenya
 
 The East African Rift system runs through Kenya from north to south. It is caused by the separation of Nubian Plate and Somali plate, which may be driven by a mantle plume (Dawson, 2008). Wheildon, et al., (1994) presented evidence, demonstrating high heat flow on the rift floor, which correlates with quaternary volcanoes at the rift axis (Mwakio, 1996). The continental rifting started 23 Ma followed by basaltic, phonolitic and trachytic volcanism, extensive faulting and thinning of the lithosphere. The results have been a 50-70 km wide rift structure in central Kenya (Mwakio, 1996). Geothermal reservoirs in Kenya are either associated with shallow magma chamber underneath young volcanic centres (Fig. 2) or fissures that are related to rift floor fault systems. The former is the most dominant field within the Kenya rift valley (Riaroh & Okoth, 1994; Omenda, 2008).
 
