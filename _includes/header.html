@@ -15,9 +15,9 @@
             {% assign page_link = "/" | append: page.name | downcase %}
           {% endif %}
           {% assign page_link = page_link | absolute_url %}
-          <li>
-              <a class="page-link" href="{{ page_link }}"> {{ page.name }}</a>
-          </li>
+         
+              <a class="page-link" href="{{ page_link }}"> {{ page.header.pages.name }}</a>
+        
         {% endfor %}
       </div>
     </nav>
