@@ -33,11 +33,11 @@ There is about $$ 4.3 \times 10^7$$ EJ thermal energy stored down to 3km within 
 
 
 #### Table of Contents
-1. [The rift valley and geothermal field in Kenya:](#the-rift-valley-and-geothermal-field-in-kenya:)
-    * [Development of geothermal energy in Kenya:](#development-of-geothermal-energy-in-kenya:)
-2. [Benefits and challenges of geothermal energy development:](#benefits-and-challenges-of-geothermal-energy-development:)
-    * [Socio-economic impacts:](#socio-economic-impacts:)
-    * [Environmental impact:](#environmental-impact:)
+1. [The rift valley and geothermal field in Kenya](#the-rift-valley-and-geothermal-field-in-kenya)
+    * [Development of geothermal energy in Kenya](#development-of-geothermal-energy-in-kenya)
+2. [Benefits and challenges of geothermal energy development](#benefits-and-challenges-of-geothermal-energy-development)
+    * [Socio-economic impacts](#socio-economic-impacts)
+    * [Environmental impact](#environmental-impact)
 4. [Conclusion](#conclusion)
 
 ## The rift valley and geothermal field in Kenya
