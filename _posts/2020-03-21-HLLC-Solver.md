@@ -55,26 +55,27 @@ $$
 $$
 
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>MathJax example</title>
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-  </script>
-</head>
 <body>
 <p>
   
    I used primitive variables to describes the flow under consideration, namely, \( \rho(x, y, z,t) = \) density or mass density, \( p(x,y,z,t) = \) pressure, \( u(x,y,z,t) = \) x-component of velocity, \( v(x,y,z,t) = \) y-component of velocity, \( w(x,y,z,t) = \) z-component of velocity and E is the total energy per unit volume.
-   
-     \[E = \rho (\frac{1}{2 \textbf(V)^2 + e).\]
-     
-   where \(\frac{1}{2}\textbf(V)^2 = \frac{1}{2}\textbf(V) \cdot \textbf(V) = \frac{1}{2}(u^2 + v^2 + w^2)\) is the specific kinetic energy and e is the specific internal energy. 
-</p>
+  </p>
 </body>
 </html>
+
+$$   
+     \[E = \rho (\frac{1}{2 \textbf(V)^2 + e).\]
+$$
+
+<html>
+<body>
+<p>
+       
+   where \(\frac{1}{2}\textbf(V)^2 = \frac{1}{2}\textbf(V) \cdot \textbf(V) = \frac{1}{2}(u^2 + v^2 + w^2)\) is the specific kinetic energy and e is the specific internal energy. 
+  </p>
+</body>
+</html>
+
 <h3 class="section-heading">Thermodynamic consideration and equation of states </h3>
 
 
