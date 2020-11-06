@@ -15,11 +15,11 @@ The end-Permian mass extinction is the most severe extinction event on earth his
 
 
 #### Table of Contents
-1. [Background](#Background)
-2. [Introduction](#Introduction)
-    * [The Extinction Events](#The extinction events)
-    * [Siberian Traps](#Siberian Traps)
-3. [The Extinction Mechanism](#The Extinction Mechanism)
+1. [Background](#background)
+2. [Introduction](#introduction)
+    * [The Extinction Events](#The-extinction-events)
+    * [Siberian Traps](#siberian-traps)
+3. [The Extinction Mechanism](#the-extinction-mechanism)
 4. [Footnotes](#footnotes)
 
 ## Background
