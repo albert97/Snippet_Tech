@@ -64,7 +64,7 @@ $$
 </html>
 
 $$   
-     E = \rho (\frac{1}{2 \textbf(V)^2 + e)
+     E = \rho (\frac{1}{2 \textbf(V)^2 + e})
 $$
 
 <html>
