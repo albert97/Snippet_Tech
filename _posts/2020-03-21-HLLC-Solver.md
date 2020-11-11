@@ -87,9 +87,7 @@ $$
     T = \frac{pv}{R}
 $$
 
-where \(R\)
-
-is a constant depending on the particular gas under consideration. The first law of thermodynamics states that for a non-adiabatic system the change in internal energy in a process will be given by 
+where \(R\) is a constant depending on the particular gas under consideration. The first law of thermodynamics states that for a non-adiabatic system the change in internal energy in a process will be given by 
 
 $$
     \Delta e  = \Delta W + \Delta Q
