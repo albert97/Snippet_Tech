@@ -49,9 +49,10 @@ Early studies of plate tectonics focused on earthquake mechanism. By relating wh
 In 1976, the first three-dimensional earth modeling was introduced. This new framework produced more detailed and accurate information about the earth’s interior (Aki, et al., 1977) and promoted the study of heterogeneity in the 3D structure of the earth. For example, seismology is used to resolve the structure of fault zones at depth, the deep roots of continents, the structure of ocean spreading centers, the nature of convection within the mantle and, the complicated details of core-mantle boundary and the structure of the inner core (Shearer, 2009).
 
 ## References
-Agnew, D. C., 2002. International Handbook of Earthquake and Engineering Seismology. San Diego: Academic Press.
-Dewey, J. & Byerly, P., 1969. The early history of seismometry (to 1900). Bulletin of the Seismological Society of America , 59 (1), pp. 183-227..
-Goins, N. R., Dainty, A. M. & Toksöz, M. N., 1981. Lunar seismology: The internal structure of the Moon. Journal of geophysical research , 10 June , 86(B6), p. 5061–5074.
-Hutt , C. R. & Peterson, . J., 2014. World-Wide Standardized Seismograph Network: A Data Users Guide , Reston : USGS.
-Ritter, J. R. & Schweitzer , J., n.d. German national report, Part C. Biography of Angenheister and of Geiger, Weichert's Biliography, and Biographical Notes, s.l.: s.n.
-Shearer, P. M., 2009. Introduction to Seismology. Second ed. New York: Cambridge University Press
+
+1. Agnew, D. C., 2002. International Handbook of Earthquake and Engineering Seismology. San Diego: Academic Press.
+2. Dewey, J. & Byerly, P., 1969. The early history of seismometry (to 1900). Bulletin of the Seismological Society of America , 59 (1), pp. 183-227..
+3. Goins, N. R., Dainty, A. M. & Toksöz, M. N., 1981. Lunar seismology: The internal structure of the Moon. Journal of geophysical research , 10 June , 86(B6), p. 5061–5074.
+4. Hutt , C. R. & Peterson, . J., 2014. World-Wide Standardized Seismograph Network: A Data Users Guide , Reston : USGS.
+5. Ritter, J. R. & Schweitzer , J., n.d. German national report, Part C. Biography of Angenheister and of Geiger, Weichert's Biliography, and Biographical Notes
+6. Shearer, P. M., 2009. Introduction to Seismology. Second ed. New York: Cambridge University Press
