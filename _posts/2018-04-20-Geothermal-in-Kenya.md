@@ -80,7 +80,7 @@ The Kenya Vision 2030 incorporates further geothermal energy development project
 
 ## FOOTNOTES
 
-This is a short summary of my original report. If you are interested in the detaile mechanism, please get in touch
+This is a short summary of my original report. If you are interested in the detailed mechanism, please get in touch
 
 <h2 class="section-heading">References</h2>
 
