@@ -46,7 +46,7 @@ means that you divide the interval [0,T] into infinitely many tiny and non- over
 </html>
 
 $$
-Y_T^{(h)} = \sum_{0 \let_{k} \lt T} F_{t_{k}} h = \sum_{0 \le t_{k} \lt T} F_{t_{k}}(t_{k+1) - t_{k} 
+Y_T^{(h)} = \sum_{0 \let_{k} \lt T} F_{t_{k}} h = \sum_{0 \le t_{k} \lt T} F_{t_{k}}(t_{k+1) - t_{k}} 
 $$
 
 <html>
@@ -56,7 +56,7 @@ Here, h > 0 is a time step and tk = kh is the start of a time interval \[tk,tk+1
 </html>
 
 $$
-Y_T= lim_{h->0}Y_T^{(h)}  
+Y_{T}= lim_{h->0}Y_T^{(h)}  
 $$
 
 <html>
@@ -73,7 +73,7 @@ $$
 
 <html>
 <body>
-If $X_t$ is a random process, then the “decision” Ft must be made on the basis of information available at time t. This information does not include future values Xs, for $s > t$, but it might involve predictions of future values from present information. A trading strategy $F_t$ is adapted, or non-anticipating, or progressively measurable1 if Ft is a function of X[0,t].
+If $X_{t}$ is a random process, then the “decision” Ft must be made on the basis of information available at time t. This information does not include future values Xs, for $s > t$, but it might involve predictions of future values from present information. A trading strategy $F_t$ is adapted, or non-anticipating, or progressively measurable1 if Ft is a function of X[0,t].
 </body>
 </html>  
 
