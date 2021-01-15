@@ -28,27 +28,53 @@ tags:       [math]
 ...... Yap ............. 
 Currently busy with work, so..... STILL NEED TO COMPELTE THIS 
 <h2 class="section-heading">Ito Integral</h2>
-
+<html>
+<body>
 The integral is the sum of infinitely many infinitely small contributions.
 The expression:
-$\int0_^T  F_t dt$
+</body>
+</html>
+
+$$\int0_^T  F_t dt$$
+
+<html>
+<body>
 means that you divide the interval [0,T] into infinitely many tiny and non- overlapping pieces of length $dt$ and add $F_tdt$. The integral sign is a distorted S, for “sum”. It is possible to give a less vague definition by defining approximate integrals of the form:
-$Y_T^{(h)} = \sum_{0 \let_k \lt T} F_{t_k} h = \sum_{0 \let_k \lt T} F_{t_k}(t_{k+1) - t_k  $
+</body>
+</html>
 
+$$Y_T^{(h)} = \sum_{0 \let_k \lt T} F_{t_k} h = \sum_{0 \let_k \lt T} F_{t_k}(t_{k+1) - t_k  $$
+
+<html>
+<body>
 Here, h > 0 is a time step and tk = kh is the start of a time interval \[tk,tk+1 \]of lengthh. It is possible to prove that the following limit exists
-$Y_T= lim_{h->0}Y_T^{(h)}   $
-tHIS proof depends on the function Ft – is it continuous.
-You can integrate (add up) contributions of the form FtdX, which gives an integral of the form:
-$\Y_T= int0_^T  F_t dX_t$
+</body>
+</html>
 
+$$Y_T= lim_{h->0}Y_T^{(h)}  $$
+
+<html>
+<body>
+This proof depends on the function Ft – is it continuous.
+You can integrate (add up) contributions of the form FtdX, which gives an integral of the form:
+</body>
+</html>  
+  
+  
+$$\Y_T= int0_^T  F_t dX_t$$
+
+<html>
+<body>
+If $X_t$ is a random process, then the “decision” Ft must be made on the basis of information available at time t. This information does not include future values Xs, for $s > t$, but it might involve predictions of future values from present information. A trading strategy $F_t$ is adapted, or non-anticipating, or progressively measurable1 if Ft is a function of X[0,t].
+</body>
+</html>  
+  
 <h2 class="section-heading">Application to SDE</h2>
 
 <html>
 <body>
   
 
-</body>
-</html>
 
 $$
     \hat{{n}} \cdot \nabla Q = 0
