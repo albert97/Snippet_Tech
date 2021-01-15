@@ -35,7 +35,9 @@ The expression:
 </body>
 </html>
 
-$$\int0_^T  F_t dt$$
+$$
+\int0_^T  F_t dt
+$$
 
 <html>
 <body>
@@ -43,7 +45,9 @@ means that you divide the interval [0,T] into infinitely many tiny and non- over
 </body>
 </html>
 
-$$Y_T^{(h)} = \sum_{0 \let_k \lt T} F_{t_k} h = \sum_{0 \let_k \lt T} F_{t_k}(t_{k+1) - t_k  $$
+$$
+Y_T^{(h)} = \sum_{0 \let_k \lt T} F_{t_k} h = \sum_{0 \let_k \lt T} F_{t_k}(t_{k+1) - t_k 
+$$
 
 <html>
 <body>
@@ -51,7 +55,9 @@ Here, h > 0 is a time step and tk = kh is the start of a time interval \[tk,tk+1
 </body>
 </html>
 
-$$Y_T= lim_{h->0}Y_T^{(h)}  $$
+$$
+Y_T= lim_{h->0}Y_T^{(h)}  
+$$
 
 <html>
 <body>
@@ -61,13 +67,19 @@ You can integrate (add up) contributions of the form FtdX, which gives an integr
 </html>  
   
   
-$$\Y_T= int0_^T  F_t dX_t$$
+$$
+  \Y_T= int0_^T  F_t dX_t            (1)
+$$
 
 <html>
 <body>
 If $X_t$ is a random process, then the “decision” Ft must be made on the basis of information available at time t. This information does not include future values Xs, for $s > t$, but it might involve predictions of future values from present information. A trading strategy $F_t$ is adapted, or non-anticipating, or progressively measurable1 if Ft is a function of X[0,t].
 </body>
 </html>  
+
+
+
+
   
 <h2 class="section-heading">Application to SDE</h2>
 
