@@ -41,17 +41,17 @@ $$
 
 <html>
 <body>
-means that you divide the interval [0,T] into infinitely many tiny and non- overlapping pieces of length $dt$ and add $F_tdt$. The integral sign is a distorted S, for “sum”. It is possible to give a less vague definition by defining approximate integrals of the form:
+means that you divide the interval [0,T] into infinitely many tiny and non- overlapping pieces of length $dt$ and add $F_{t}dt$. The integral sign is a distorted S, for “sum”. It is possible to give a less vague definition by defining approximate integrals of the form:
 </body>
 </html>
 
 $$
-Y_T^{(h)} = \sum_{0 \let_{k} \lt T} F_{t_{k}} h = \sum_{0 \le t_{k} \lt T} F_{t_{k}}(t_{k+1) - t_{k}} 
+Y_T^{(h)} = \sum_{0 <= t_{k} < T} F_{t_{k}} h = \sum_{0 <= t_{k} \lt T} F_{t_{k}}(t_{k+1) - t_{k}} 
 $$
 
 <html>
 <body>
-Here, h > 0 is a time step and tk = kh is the start of a time interval \[tk,tk+1 \]of lengthh. It is possible to prove that the following limit exists
+Here, h > 0 is a time step and tk = kh is the start of a time interval [tk,tk+1]of lengthh. It is possible to prove that the following limit exists
 </body>
 </html>
 
@@ -68,16 +68,22 @@ You can integrate (add up) contributions of the form FtdX, which gives an integr
   
   
 $$
-  \Y_T= int0_^T  F_t dX_t            (1)
-$$
+  \Y_{T}= int_{}^{T}  F_{t} dX_{t}            (1)
+$$0
 
 <html>
 <body>
-If $X_{t}$ is a random process, then the “decision” Ft must be made on the basis of information available at time t. This information does not include future values Xs, for $s > t$, but it might involve predictions of future values from present information. A trading strategy $F_t$ is adapted, or non-anticipating, or progressively measurable1 if Ft is a function of X[0,t].
+If $X_{t}$ is a random process, then the “decision” Ft must be made on the basis of information available at time t. This information does not include future values Xs, for $s > t$, but it might involve predictions of future values from present information. A trading strategy $F_{t}$ is adapted, or non-anticipating, or progressively measurable1 if Ft is a function of X[0,t].
+  
+If Xt is a diffusion process and Ft is adapted, then the integral (1) is the Ito integral. The random processes Xt and Ft define a new random process YT . This Lesson explains (not in complete mathematical rigor) the proof that the following limit exits
+
+  
 </body>
 </html>  
 
-
+$$
+Y_{T}= lim_{h->0}Y_T^{(h)}  
+$$
 
 
   
