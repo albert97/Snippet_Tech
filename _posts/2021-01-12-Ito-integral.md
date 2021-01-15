@@ -68,7 +68,7 @@ You can integrate (add up) contributions of the form FtdX, which gives an integr
   
   
 $$
-  \Y_{T}= int_{}^{T}  F_{t} dX_{t}            (1)
+  Y_{T}= int_{}^{T}  F_{t} dX_{t}            (1)
 $$0
 
 <html>
@@ -82,7 +82,7 @@ If Xt is a diffusion process and Ft is adapted, then the integral (1) is the Ito
 </html>  
 
 $$
-Y_{T}= lim_{h->0}Y_T^{(h)}  
+Y_{T}= lim_{h->0}Y_T^{(h) = lim_{h->0} \sum_{0 <= t_{k} \lt T} F_{t_{k}}(t_{k+1) - t_{k}} }  
 $$
 
 
