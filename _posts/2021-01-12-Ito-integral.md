@@ -36,7 +36,7 @@ The expression:
 </html>
 
 $$
-\int0_^T  F_t dt
+\int_{0}^{T}  F_{t} dt
 $$
 
 <html>
@@ -46,7 +46,7 @@ means that you divide the interval [0,T] into infinitely many tiny and non- over
 </html>
 
 $$
-Y_T^{(h)} = \sum_{0 \let_k \lt T} F_{t_k} h = \sum_{0 \let_k \lt T} F_{t_k}(t_{k+1) - t_k 
+Y_T^{(h)} = \sum_{0 \let_{k} \lt T} F_{t_{k}} h = \sum_{0 \le t_{k} \lt T} F_{t_{k}}(t_{k+1) - t_{k} 
 $$
 
 <html>
