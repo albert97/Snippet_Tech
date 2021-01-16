@@ -68,8 +68,8 @@ You can integrate (add up) contributions of the form FtdX, which gives an integr
   
   
 $$
-  Y_{T}= int_{0}^{T}  F_{t} dX_{t}            (1)
-$$0
+  Y_{T}= \int_{0}^{T}  F_{t} dX_{t}            (1)
+$$
 
 <html>
 <body>
