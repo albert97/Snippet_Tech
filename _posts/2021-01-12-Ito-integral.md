@@ -407,7 +407,7 @@ $$
 <html>
   <body>
     
-Cauchy Schwarz implies that we can take (The two numbers $C_{T}$ are not the same, but they both are “constants” that depend on T and on the problem but
+Cauchy Schwarz implies that we can take (The two numbers $ C_{T} $ are not the same, but they both are “constants” that depend on T and on the problem but
 not on n.)
 
   </body>
