@@ -250,18 +250,92 @@ where Ft = b(Xt). We will make a definition of the Ito integral (1) under the hy
 
 <h2 class="section-heading">Borel Cantelli lemma </h2>
 
-
+<html>
+<body>
+To prove the sequence $Y_{T}^{(hn)}$ converges as $n -> \inf $ and $h_{n} = 2^{−n}$. We T need a way to show that limits exist without calculating the limit explicitly. We need a way that applies to random sequences.
+</body>
+</html>
+  
+<html>
+<body>
+  Suppose yn is a sequence of numbers and we want to show the limit exists: 
+</body>
+</html>
 
 $$
-     \phi = x - x_0
+ y = \lim_{n-> \inf} y_{n}
 $$
 
 <html>
 <body>
- where \( x_0\) is the location of the contact discontinuity \cite{Toro2009}.
-
+ One way is to study the differences $z_{n} = y_{n+1} − y_{n}$ and show that the infinite
+sum converges
 </body>
 </html>
+$$
+\sum_{1}^{\inf} |z_{n}| < \inf
+$$
+<html>
+<body>
+This shows that the partial sums converge to the infinite sum, which defines the limit:
+</body>
+</html>
+$$
+y_n = y_{0} + \sum_{k=1}^{n} z_{k} 
+$$
+<html>
+<body>
+with n goes to infinity:
+</body>
+</html>
+$$
+y_n = y_{0} + \sum_{k=1}^{\inf} z_{k} 
+$$
+<html>
+<body>
+In practice, the expression for zn may be complicated and the sum hard to calculate. We try instead to find simple bounds of the form $|z_{n}| ≤ a_{n}$, where the numbers $a_{n}$ are simple enough that
+</body>
+</html>
+$$
+\sum_{k=1}^{\inf} a_{n} <\inf
+$$
+<html>
+<body>
+is a direct explicit calculation. If this works, then the zn sum is finite because
+</body>
+</html>
+
+$$
+\sum_{k=1}^{\inf}|z_{n}| <= \sum_{k=1}^{\inf}a_{n}< \inf 
+$$
+
+<html>
+<body>
+Arguments like this are not quite enough for random sequences like $Y_{n} = Y_{T}^{(hn)}. The $Y_{n}$ are random and the differences $Z_{n} = Y_{n+1} − Y_{n} $ are random too. If $Z_{n}$ is Gaussian,there is no bound of the form
+</body>
+</html>
+
+$$
+|Z_{n}| <= a_{n}
+$$
+
+<html>
+<body>
+At least, no bound that it true almost surely (i.e., with probability one). No matter how large an is, there is some tiny chance $|Z_{n}|$ is larger.
+</body>
+</html>
+
+<html>
+<body>
+The Borel Cantelli lemma is the fact that convergence follows from
+</body>
+</html>
+
+$$
+E[|Z_{n}|] <= a_{n}, \sum_{k=1}^{\inf} a_{n} <\inf
+$$
+
+
 
 <h2 class="section-heading">Convergence for the Ito Integral</h2>
 
