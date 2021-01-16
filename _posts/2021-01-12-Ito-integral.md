@@ -46,7 +46,7 @@ means that you divide the interval [0,T] into infinitely many tiny and non- over
 </html>
 
 $$
-Y_T^{(h)} = \sum_{0 <= t_{k} < T} F_{t_{k}} h = \sum_{0 <= t_{k} \lt T} F_{t_{k}}(t_{k+1) - t_{k}} 
+Y_T^{(h)} = \sum_{0 <= t_{k} < T} F_{t_{k}} h = \sum_{0 \le{ t_{k}} \lt{T}} F_{t_{k}}(t_{k+1) - t_{k}} 
 $$
 
 <html>
@@ -219,7 +219,7 @@ The second integral is an Ito integral with respect to Brownian motion. The theo
 </html> 
 
 $$
-    |b(y)−b(x)| ≤ C|y−x| 
+    |b(y)−b(x)| \le{ C|y−x|} 
 $$
 
 <html>
@@ -306,7 +306,7 @@ is a direct explicit calculation. If this works, then the zn sum is finite becau
 </html>
 
 $$
-\sum_{k=1}^{\inf}|z_{n}| <= \sum_{k=1}^{\inf}a_{n}< \infty
+\sum_{k=1}^{\inf}|z_{n}| \le{ \sum_{k=1}^{\inf}a_{n}}< \infty
 $$
 
 <html>
@@ -316,7 +316,7 @@ Arguments like this are not quite enough for random sequences like $Y_{n} = Y_{T
 </html>
 
 $$
-|Z_{n}| <= a_{n}
+|Z_{n}| \le{a_{n}}
 $$
 
 <html>
@@ -391,7 +391,7 @@ In the present application, will calculate an inequality
 </html>
 
 $$
- E[|Y^{h_{n} + 1} - Y^{h_{n}}|] <= a_{n}
+ E[|Y^{h_{n} + 1} - Y^{h_{n}}|] \le {a_{n}}
 $$
 
 <html>
@@ -407,7 +407,7 @@ $$
 <html>
   <body>
     
-Cauchy Schwarz implies that we can take (The two numbers $C_{T}£ are not the same, but they both are “constants” that depend on T and on the problem but
+Cauchy Schwarz implies that we can take (The two numbers $C_{T}$ are not the same, but they both are “constants” that depend on T and on the problem but
 not on n.)
 
   </body>
