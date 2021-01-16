@@ -401,14 +401,16 @@ We will use the Cauchy Schwarz inequality, and first calculate
 </html>
 
 $$
- E[|Y^{h_{n} + 1} - Y^{h_{n}}|] <= C_{T}h_{n}
+ E[|Y^{h_{n} + 1} - Y^{h_{n}}|] \le{ C_{T}h_{n}}
 $$
 
 <html>
-<body>
-Cauchy Schwarz implies that we can take (The two numbers CT are not the same, but they both are “constants” that depend on T and on the problem but
+  <body>
+    
+Cauchy Schwarz implies that we can take (The two numbers $C_{T}£ are not the same, but they both are “constants” that depend on T and on the problem but
 not on n.)
-</body>
+
+  </body>
 </html>
 
 $$
