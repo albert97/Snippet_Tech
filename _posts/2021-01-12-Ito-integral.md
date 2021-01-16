@@ -82,7 +82,7 @@ If Xt is a diffusion process and Ft is adapted, then the integral (1) is the Ito
 </html>  
 
 $$
-Y_{T}= lim_{h->0}Y_T^{(h) = lim_{h->0} \sum_{0 <= t_{k} \lt T} F_{t_{k}}(t_{k+1) - t_{k}} }  
+Y_{T}= lim_{h->0}Y_T^{(h)}  = lim_{h->0} \sum_{0 <= t_{k} \lt T} F_{t_{k}}(t_{k+1) - t_{k}}
 $$
 
 
