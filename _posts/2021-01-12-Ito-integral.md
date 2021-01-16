@@ -273,7 +273,7 @@ sum converges
 </body>
 </html>
 $$
-\sum_{1}^{\inf} |z_{n}| < \inf
+\sum_{1}^{\inf} |z_{n}| < \infty
 $$
 <html>
 <body>
@@ -297,7 +297,7 @@ In practice, the expression for zn may be complicated and the sum hard to calcul
 </body>
 </html>
 $$
-\sum_{k=1}^{\inf} a_{n} <\inf
+\sum_{k=1}^{\inf} a_{n} <\infty
 $$
 <html>
 <body>
@@ -306,7 +306,7 @@ is a direct explicit calculation. If this works, then the zn sum is finite becau
 </html>
 
 $$
-\sum_{k=1}^{\inf}|z_{n}| <= \sum_{k=1}^{\inf}a_{n}< \inf 
+\sum_{k=1}^{\inf}|z_{n}| <= \sum_{k=1}^{\inf}a_{n}< \infty
 $$
 
 <html>
@@ -332,15 +332,94 @@ The Borel Cantelli lemma is the fact that convergence follows from
 </html>
 
 $$
-E[|Z_{n}|] <= a_{n}, \sum_{k=1}^{\inf} a_{n} <\inf
+E[|Z_{n}|] <= a_{n}, \sum_{k=1}^{\inf} a_{n} <\infty.  (10)
 $$
 
+<html>
+<body>
+To see this define the random sum  (an infinite sum in the sense that there are infinitely many terms but a finite sum in the sense that the sum should be finite).
+</body>
+</html>
+$$
+ \sum_{1}^{\inf} |Z_{n}|
+$$
 
-
-<h2 class="section-heading">Convergence for the Ito Integral</h2>
-
+<html>
+<body>
+In this sum, we set $S = \infty$ if the sum is infinite. The following fact is called the monotone convergence theorem (you may know it in a more general form):
+</body>
+</html>
 
 $$
-    \phi = max( (x - x_1), (x_2 - x))
+ E|S| = \sum_{1}^{\inf} E[|Z_{n}|]
 $$
+
+<html>
+<body>
+If the inequality (10) is satisfied, then $E[ S] < \infty$.
+</body>
+</html>
+
+<html>
+<body>
+  The Borel Cantelli argument is to argue that if $E[S] < \infty $ then $S < \infty$ almost surely. This means that $Pr(S=\infty)=0$. If $Pr(S=\infty)= \epsilon >0$,then
+</body>
+</html>
+
+$$
+ E|S| = \sum_{1}^{\inf} E[|Z_{n}|] E[S|S= \infty]\cdot Pr(S=\infty) + E[S|S<\infty] \cdot Pr(S<\infty)
+$$
+
+$$
+ E|S| >= \infty \cdot \epsilon
+$$
+
+$$
+ E|S| = \infty 
+$$
+
+<html>
+<body>
+ If $S < \infty$ then $\sum|Z_{n}| < \infty$, which implies that the the limit of Yn exists.
+</body>
+</html>
+
+<html>
+<body>
+In the present application, will calculate an inequality
+</body>
+</html>
+
+$$
+ E[|Y^{h_{n} + 1} - Y^{h_{n}}|] <= a_{n}
+$$
+
+<html>
+<body>
+We will use the Cauchy Schwarz inequality, and first calculate
+</body>
+</html>
+
+$$
+ E[|Y^{h_{n} + 1} - Y^{h_{n}}|] <= C_{T}h_{n}
+$$
+
+<html>
+<body>
+Cauchy Schwarz implies that we can take (The two numbers CT are not the same, but they both are “constants” that depend on T and on the problem but
+not on n.)
+</body>
+</html>
+
+$$
+a_{n} = \sqrt{C_{t}h_{n} = C_{T}(\sqrt{2})^{-n}
+$$
+
+<html>
+<body>
+This verifies the hypothesis  and proves that the limit exists.
+
+</body>
+</html>
+
 
