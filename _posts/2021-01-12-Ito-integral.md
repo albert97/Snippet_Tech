@@ -229,7 +229,7 @@ A common theory of SDE like (6) applies under the hypothesis that the coeffi- ci
 </html>
 
 $$
-   E[(/Delta X)^2 |F_{t}] = O(\Delta t)
+   E[(/delta X)^2 |F_{t}] = O(\Delta t)
 $$
 
 <html>
@@ -239,7 +239,7 @@ $$
 </html>
  
 $$
-   E[(/Delta F)^2 |F_{t}] = O(\Delta t)         (8)
+   E[(/delta F)^2 |F_{t}] = O(\Delta t)         (8)
 $$
 
 <html>
