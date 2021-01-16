@@ -41,7 +41,7 @@ $$
 
 <html>
 <body>
-means that you divide the interval [0,T] into infinitely many tiny and non- overlapping pieces of length $dt$ and add $F_{t}dt$. The integral sign is a distorted S, for “sum”. It is possible to give a less vague definition by defining approximate integrals of the form:
+means that you divide the interval [0,T] into infinitely many tiny and non- overlapping pieces of length $dt$ and add $ F_{t}dt $. The integral sign is a distorted S, for “sum”. It is possible to give a less vague definition by defining approximate integrals of the form:
 </body>
 </html>
 
@@ -362,7 +362,7 @@ If the inequality (10) is satisfied, then $E[ S] < \infty$.
 
 <html>
 <body>
-  The Borel Cantelli argument is to argue that if $E[S] < \infty $ then $S < \infty$ almost surely. This means that $Pr(S=\infty)=0$. If $Pr(S=\infty)= \epsilon >0$,then
+  The Borel Cantelli argument is to argue that if $ E[S] < \infty $ then $ S < \infty $ almost surely. This means that $ Pr(S=\infty)=0 $. If $ Pr(S=\infty)= \epsilon >0 $,then
 </body>
 </html>
 
@@ -380,7 +380,7 @@ $$
 
 <html>
 <body>
- If $S < \infty$ then $\sum|Z_{n}| < \infty$, which implies that the the limit of Yn exists.
+ If $ S < \infty $ then $ \sum|Z_{n}| < \infty $, which implies that the the limit of Yn exists.
 </body>
 </html>
 
