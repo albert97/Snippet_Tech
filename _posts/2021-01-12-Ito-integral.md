@@ -140,8 +140,9 @@ $$
 <html>
 <body>
 Now suppose that Fn is “all the information” in the random numbers F1, . . . , Fn and U1,...,Un−1, and suppose that the Un are martingale differences in the sense that
-<html>
-<body>
+</body>
+</html>  
+
 
 $$
   E[U_{n}|F_{n}]=0.
@@ -150,8 +151,9 @@ $$
 <html>
 <body>
 Define a sum that looks more like (1)
-<html>
-<body>
+</body>
+</html>  
+
 
 $$
   S_{n} = \sum_{1}^{n} F_{k}U_{k}
@@ -160,12 +162,21 @@ $$
 <html>
 <body>
 This has 
-<html>
-<body>
+</body>
+</html>  
+
 
 $$
   E[S_{n}^{2}] = \sum_{1}^{n} E[F_{k}^{2}] E[U_{k}^{2} | F_{k}]
 $$
+
+
+<html>
+<body>
+This is like the Ito isometry formula, if E􏰂Ft2􏰃 is replaced with E􏰂Fn2􏰃 and E􏰂 dX2 | Ft􏰃 = v(Xt)dt is replaced with E􏰂 Uk2 | Fk􏰃. This lesson explains cal- culations like this.
+</body>
+</html>  
+
 
 <h2 class="section-heading">Application to SDE</h2>
 
