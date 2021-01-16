@@ -56,7 +56,7 @@ Here, h > 0 is a time step and tk = kh is the start of a time interval [tk,tk+1]
 </html>
 
 $$
-Y_{T}= lim_{h->0}Y_T^{(h)}  
+Y_{T}= \lim_{h->0}Y_T^{(h)}  
 $$
 
 <html>
