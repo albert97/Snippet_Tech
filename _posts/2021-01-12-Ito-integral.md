@@ -173,7 +173,7 @@ $$
 
 <html>
 <body>
-This is like the Ito isometry formula, if E􏰂Ft2􏰃 is replaced with E􏰂Fn2􏰃 and E􏰂 dX2 | Ft􏰃 = v(Xt)dt is replaced with E􏰂 Uk2 | Fk􏰃. This lesson explains cal- culations like this.
+This is like the Ito isometry formula, if E[Ft2] is replaced with E[Fn2] and E[dX2 | Ft] = v(Xt)dt is replaced with E[ Uk2 | Fk]. This lesson explains calculations like this.
 </body>
 </html>  
 
