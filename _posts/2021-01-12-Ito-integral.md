@@ -25,15 +25,10 @@ tags:       [math]
 </html>
 
 
-...... Yap ............. 
-Currently busy with work, so..... STILL NEED TO COMPELTE THIS 
 <h2 class="section-heading">Ito Integral</h2>
-<html>
-<body>
+
 The integral is the sum of infinitely many infinitely small contributions.
 The expression:
-</body>
-</html>
 
 $$
 \int_{0}^{T}  F_{t} dt
