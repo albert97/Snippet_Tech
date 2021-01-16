@@ -182,26 +182,69 @@ This is like the Ito isometry formula, if E[Ft2] is replaced with E[Fn2] and E[d
 
 <html>
 <body>
-  
-
-
-$$
-    \hat{{n}} \cdot \nabla Q = 0
-$$
+A stochastic differential equation (or SDE) is an expression of the form 
+</body>
+</html>
 
 $$
-    \hat{{n}} \cdot \nabla \phi = 1
-$$
-
-
-$$
-    P(Q_{i,j,k}) = ( \frac{ Q_{i,j,k} - Q_x}{\Delta x})^2 +  ( \frac{ Q_{i,j,k} - Q_y}{\Delta y})^2 = 0
+    dX_{t} = a(X_{t}, t)dt + b(X_{t}, t)dW_{t}
 $$
 
 <html>
 <body>
-  
-The choice of \(Q_x\) and \(Q_y\) depends on the value of level set function (Sambasivan2009). 
+we will instead interpret the SDE in the more literal strong form. In the strong interpretation, Wt is the Brownian motion that “drives” Xt. The position at time t, which is Xt, depends on the Brownian driver (or forcing) up until that time. That is Xt is a function of W[0,t]. The SDE is to be interpreted in the integral sense
+</body>
+</html>
+
+$$
+    X_{T} - X_{0} = \int_{0}^{T} a(X_{t},t)dt + \int_{0}^{T} b(X_{t},t)dW_{t} (7)
+$$
+
+<html>
+<body>
+The first integral on the right is an ordinary Riemann integral defined as in ordinary calculus. This makes sense because a(Xt,t) is a continuous function of t (assuming a(x, t) is a continuous function of x and t) and dt integrals are defined for continuous integrands. Keep in mind that Xt is random, so the value of the integral is also random.
+</body>
+</html>  
+
+<html>
+<body>
+The second integral is an Ito integral with respect to Brownian motion. The theory of Ito integration has to cover this important case – the integrand Ft = b(Xt,t) is a continuous but not differentiable function of t. The mathematical term regularity refers to the degree of smoothness (number of derivatives) or the amount by which Ft can change in a small interval of time. Regularity is qualitative, which means that it does not matter what the constant in the inequality is, only that there is a constant. Whatever is supposed to converge should converge no matter what (finite) value the constant has.  
+</body>
+</html>    
+
+<html>
+<body>
+  A continuous function b(x) is Lipschitz continuous if there is a C so that :
+</body>
+</html> 
+
+$$
+    |b(y)−b(x)| ≤ C|y−x| 
+$$
+
+<html>
+<body>
+A common theory of SDE like (6) applies under the hypothesis that the coeffi- cients a(x, t) and b(x, t) are Lipschitz continuous functions of x. We we assume b is Lipschitz and we ignore the less important dependence of b on t (assume, for example, that b depends on x but not t). In this case, some regularity of Ft = b(Xt) comes from the regularity of Xt. For a diffusion, 
+</body>
+</html>
+
+$$
+   E[(/Delta X)^2 |F_{t}] = O(\Delta t)
+$$
+
+<html>
+<body>
+  When b is Lipschitz continuous, and from the properties of big Oh, it follows that
+</body>
+</html>
+ 
+$$
+   E[(/Delta F)^2 |F_{t}] = O(\Delta t)         (8)
+$$
+
+<html>
+<body>
+where Ft = b(Xt). We will make a definition of the Ito integral (1) under the hypotheses that Xt is a diffusion and a martingale and that Ft has the regularity property (8).
 </body>
 </html>
 
