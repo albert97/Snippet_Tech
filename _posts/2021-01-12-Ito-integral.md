@@ -23,6 +23,10 @@ tags:       [math]
 </body>
 </html>
 
+<h2 class="section-heading">Disclaimer </h2>
+
+The following content was extracted from Stochastic Calclus lecture note by Jonathan Goodman at Courant Insititute 
+
 <h2 class="section-heading">Introduction</h2>
 
 The integral is the sum of infinitely many infinitely small contributions.
