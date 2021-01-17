@@ -34,11 +34,8 @@ $$
 \int_{0}^{T}  F_{t} dt
 $$
 
-<html>
-<body>
 means that you divide the interval [0,T] into infinitely many tiny and non- overlapping pieces of length $dt$ and add $ F_{t}dt $. The integral sign is a distorted S, for “sum”. It is possible to give a less vague definition by defining approximate integrals of the form:
-</body>
-</html>
+
 
 $$
 Y_T^{(h)} = \sum_{0 <= t_{k} < T} F_{t_{k}} h = \sum_{0 \le{ t_{k}} \lt{T}} F_{t_{k}}(t_{k+1) - t_{k}} 
