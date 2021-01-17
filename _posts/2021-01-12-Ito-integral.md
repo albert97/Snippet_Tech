@@ -245,13 +245,13 @@ where Ft = b(Xt). We will make a definition of the Ito integral (1) under the hy
 
 <html>
 <body>
-To prove the sequence $Y_{T}^{(hn)}$ converges as $n -> \inf $ and $h_{n} = 2^{−n}$. We T need a way to show that limits exist without calculating the limit explicitly. We need a way that applies to random sequences.
+To prove the sequence \( Y_{T}^{(hn)} \) converges as \( n -> \inf \) and \( h_{n} = 2^{−n} \). We T need a way to show that limits exist without calculating the limit explicitly. We need a way that applies to random sequences.
 </body>
 </html>
   
 <html>
 <body>
-  Suppose yn is a sequence of numbers and we want to show the limit exists: 
+  Suppose \( y_{n} \) is a sequence of numbers and we want to show the limit exists: 
 </body>
 </html>
 
@@ -261,7 +261,7 @@ $$
 
 <html>
 <body>
- One way is to study the differences $z_{n} = y_{n+1} − y_{n}$ and show that the infinite
+ One way is to study the differences \( z_{n} = y_{n+1} − y_{n} \) and show that the infinite
 sum converges
 </body>
 </html>
@@ -286,7 +286,7 @@ y_n = y_{0} + \sum_{k=1}^{\inf} z_{k}
 $$
 <html>
 <body>
-In practice, the expression for zn may be complicated and the sum hard to calculate. We try instead to find simple bounds of the form $|z_{n}| ≤ a_{n}$, where the numbers $a_{n}$ are simple enough that
+In practice, the expression for zn may be complicated and the sum hard to calculate. We try instead to find simple bounds of the form \( |z_{n}| ≤ a_{n} \), where the numbers \( a_{n} \) are simple enough that
 </body>
 </html>
 $$
@@ -304,7 +304,7 @@ $$
 
 <html>
 <body>
-Arguments like this are not quite enough for random sequences like $Y_{n} = Y_{T}^{(hn)}. The $Y_{n}$ are random and the differences $Z_{n} = Y_{n+1} − Y_{n} $ are random too. If $Z_{n}$ is Gaussian,there is no bound of the form
+Arguments like this are not quite enough for random sequences like $Y_{n} = Y_{T}^{(hn)}. The \(Y_{n} \) are random and the differences \(Z_{n} = Y_{n+1} − Y_{n} \) are random too. If $Z_{n}$ is Gaussian,there is no bound of the form
 </body>
 </html>
 
@@ -314,7 +314,7 @@ $$
 
 <html>
 <body>
-At least, no bound that it true almost surely (i.e., with probability one). No matter how large an is, there is some tiny chance $|Z_{n}|$ is larger.
+At least, no bound that it true almost surely (i.e., with probability one). No matter how large an is, there is some tiny chance \( |Z_{n}|\) is larger.
 </body>
 </html>
 
@@ -339,7 +339,7 @@ $$
 
 <html>
 <body>
-In this sum, we set $S = \infty$ if the sum is infinite. The following fact is called the monotone convergence theorem (you may know it in a more general form):
+In this sum, we set \( S = \infty \) if the sum is infinite. The following fact is called the monotone convergence theorem (you may know it in a more general form):
 </body>
 </html>
 
@@ -349,13 +349,13 @@ $$
 
 <html>
 <body>
-If the inequality (10) is satisfied, then $E[ S] < \infty$.
+If the inequality (10) is satisfied, then \( E[ S] < \infty \).
 </body>
 </html>
 
 <html>
 <body>
-  The Borel Cantelli argument is to argue that if $ E[S] < \infty $ then $ S < \infty $ almost surely. This means that $ Pr(S=\infty)=0 $. If $ Pr(S=\infty)= \epsilon >0 $,then
+  The Borel Cantelli argument is to argue that if \( E[S] < \infty \) then \( S < \infty \) almost surely. This means that \( Pr(S=\infty)=0 \). If \( Pr(S=\infty)= \epsilon >0 \),then
 </body>
 </html>
 
@@ -373,7 +373,7 @@ $$
 
 <html>
 <body>
- If $ S < \infty $ then $ \sum|Z_{n}| < \infty $, which implies that the the limit of Yn exists.
+ If \( S < \infty \) then \( \sum|Z_{n}| < \infty \), which implies that the the limit of \(Y_{n} \) exists.
 </body>
 </html>
 
@@ -400,7 +400,7 @@ $$
 <html>
   <body>
     
-Cauchy Schwarz implies that we can take (The two numbers $ C_{T} $ are not the same, but they both are “constants” that depend on T and on the problem but
+Cauchy Schwarz implies that we can take (The two numbers \(C_{T} \) $ are not the same, but they both are “constants” that depend on T and on the problem but
 not on n.)
 
   </body>
