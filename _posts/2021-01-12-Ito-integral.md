@@ -8,7 +8,6 @@ category:   techblog
 tags:       [math]
 ---
 
-
 <html>
 <head>
   <meta charset="utf-8">
@@ -24,6 +23,7 @@ tags:       [math]
 </body>
 </html>
 
+<h2 class="section-heading">Introduction</h2>
 
 The integral is the sum of infinitely many infinitely small contributions.
 The expression:
@@ -35,7 +35,7 @@ $$
 <html>
 <body>
 
-means that you divide the interval [0,T] into infinitely many tiny and non- overlapping pieces of length $dt$ and add $ F_{t}dt $. The integral sign is a distorted S, for “sum”. It is possible to give a less vague definition by defining approximate integrals of the form:
+means that you divide the interval [0,T] into infinitely many tiny and non- overlapping pieces of length dt and add \( F_{t}dt) . The integral sign is a distorted S, for “sum”. It is possible to give a less vague definition by defining approximate integrals of the form:
 
 </body>
 </html>
