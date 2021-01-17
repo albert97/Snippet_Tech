@@ -91,3 +91,118 @@ Brownian motion is important for many reasons, among them
 <li> It illustrates the properties of general diffusion processes. </li>
 <li> It can be used to construct other diffusion processes through the Ito cal- culus. </li>
 </ol>
+
+<h2 class="section-heading"> Transition probabilities and value functions </h2>
+
+<html>
+  <body>
+The Brownian motion path is too complicated to be described by a single prob- ability density. But there are useful probability densities for simpler quantities related to the Brownian motion path. These densities do not describe the whole path. They are densities of some simple functions of a Brownian motion path. For example, Xt is the position at a specific time t. We denote the PDF of Xt by u(x,t). There is a simple Gaussian formula for u(x,t), which comes from the fact that Xt − X0 is the increment of Brownian motion for the time interval ending at t2 = t and starting at t1 = 0. The increment is equal to Xt because X0 = 0. It (by property 2) is Gaussian with mean zero and variance t. This is
+    </body>
+</html>
+
+$$
+  u(x,t) = \frac{a}{\sqrt{2 \pi t}} e^{- \frac{x^{2}}{2t}}
+$$
+
+<html>
+  <body>
+    
+This probability density describes the probability density at time t but it says littleaboutthepathXs for0<s<t.
+Properties 2 and 3 lead to formulas for the joint density of several ob- servations of the Brownian motion path at several times. To start, suppose 0 < t1 < t2. Write X1 for Xt1, etc. We want the joint density function u2(x1, x2, t1, t2), which is defined by
+    </body>
+</html>
+
+$$
+  u2(x1, x2,t1, t2) dx1dx2 =Pr(x1 ≤X1 ≤x1 +dx1 \quad and \quad x2 ≤X2 ≤x2 +dx2) .
+$$
+
+<html>
+  <body>
+The expression for u2 comes from the density of X1 and the conditional density of X2 given X1. The PDF for X1 is (2) with x = x1. The conditional probability of X2 given X1 is given by (not writing t1 and t2 to shorten the formulas)
+    </body>
+</html>
+
+$$
+ u(x2|x1)dx2 =Pr(x2 ≤X2 ≤x2 +dx2 |X1 =x1) .
+$$
+
+<html>
+  <body>
+Property 2 implies that this is Gaussian with mean x1 and variance t2 − t1. Thus
+    </body>
+</html>
+
+$$
+u(x_{2} | x_{1}) = \frac{1}{\sqrt{2 \pi (t_{2} - t_{1}) }} e^{-\frac{1}{2(t_{2} - t_{1})} (x_{2} - x_{1})^{2}}
+$$
+
+<html>
+  <body>
+This is called the transition density of Brownian motion because it describes the
+  probability density of transitions from x1 at time t1 to x2 at time t2. Bayes’ rule for this context is
+</body>
+</html>
+
+$$
+u2(x1, x2) = u(x1)u(x2|x1) .
+$$
+
+<html>
+  <body>
+Specifically, we get (with some algebra)
+</body>
+</html>
+
+$$
+u(x_{2} | x_{1}) = \frac{1}{\sqrt{(2 \pi )^{2} (t_{2} - t_{1}) t_{1}}} e^{ - \frac{1}{2} [\frac{(x_{2} - x_{1})^{2}}{t_{2} -t_{1}} + \frac{x_{1}^{2}}{t_{2}}]}
+$$
+
+<html>
+  <body>
+The formula for the joint density of three or more observations is analogous, but its derivation requires the Markov property 3.
+Suppose we want to know the expected value of some function of the Brow- nian motion position at time T:
+</body>
+</html>
+
+$$
+f0 =E[V(XT)] 
+$$
+
+<html>
+  <body>
+The value function is the conditional expectation of V (XT ), conditional on the
+location at an earlier time
+  </body>
+</html>
+
+$$
+f(x,t)=E[V(XT)|Xt =x] .
+$$
+
+
+<html>
+  <body>
+This is often written
+  </body>
+</html>
+
+$$
+f(x,t)=Ex,t[V(XT)] .
+$$
+
+<html>
+  <body>
+The subscript on the expectation indicates which “probability measure” is used for the expectation. Future lessons will say more about probability measure, but without giving all the mathematical details. Either the conditional probability formula (3), or the property 2 that it comes from, gives (writing x for x2, y for x1,T fort2 andtfort1)
+  </body>
+</html>
+
+$$
+f(x,t) = \frac{1}{\sqrt{2 \pi (T-t)}} \int_{-\infty}^{\infty} V(x) e^{ - \frac{1}{2} \frac{(x-y)^{2}}{T-t}} dy
+$$
+
+<html>
+  <body>
+In more complicated problems, the expectation (5) is calculated by solving the partial differential equation that the value function satisfies. The value function gives \(f_{0} \) because \(f_{0} =f(0,T) \).
+    </body>
+</html>
+  
