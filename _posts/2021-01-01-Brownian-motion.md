@@ -197,7 +197,7 @@ The subscript on the expectation indicates which “probability measure” is us
 </html>
 
 $$
-f(x,t) = \frac{1}{\sqrt{2 \pi (T-t)}} \int_{-\infty}^{\infty} V(x) e^{ - \frac{1}{2} \frac{(x-y)^{2}}{T-t}} dy
+f(x,t) = \frac{1}{\sqrt{2 \pi (T-t)}} \int_{-\infty}^{\infty} V(x) e^{ - \frac{1}{2} \frac{(x-y)^{2}}{T-t}} dy 
 $$
 
 <html>
@@ -205,4 +205,27 @@ $$
 In more complicated problems, the expectation (5) is calculated by solving the partial differential equation that the value function satisfies. The value function gives \(f_{0} \) because \(f_{0} =f(0,T) \).
     </body>
 </html>
-  
+
+
+<h2 class="section-heading">Forward and Backward equations </h2>
+
+$$
+\partial_{t} u = \frac{1}{2} \partial_{x}^{2}u
+$$
+
+
+<html>
+  <body>
+The u equation (8) is called forward because it describes how u changes (evolves) as time moves forward. The initial data u0(x) are specified in a somewhat arbitrary way.
+  </body>
+</html>
+
+$$
+\partial_{t} f(x,y) + \frac{1}{2} \partial_{x}^{2} f(x,t) = 0 
+$$
+
+<html>
+  <body>
+  This is commonly called the backward equation (or Kolmogorov backward equa- tion) to indicate that the unknown f is a value function and that the sign is different. It is called the "backward" becasue, the value function f satisfies final conditions f (x, T ) = V (x). This is “obvious” from the abstract definition . If we know \(X_{T} = x\), then the expected value is irrelevant, you just get V (x). The solution to the final value problem is also unique, so the formula  \( f(x,t) = \frac{1}{\sqrt{2 \pi (T-t)}} \int_{-\infty}^{\infty} V(x) e^{ - \frac{1}{2} \frac{(x-y)^{2}}{T-t}} dy  \)represents this unique solution. It is necessary that t < T . The value function evolves backwards in time from its given final condition. In the integral, G(x, y, T − t) makes sense only if t < T .
+  </body>
+</html>
