@@ -71,7 +71,7 @@ $$
 
 <html>
 <body>
-If Xt is a random process, then the “decision” Ft must be made on the basis of information available at time t. This information does not include future values Xs, for $s > t$, but it might involve predictions of future values from present information. A trading strategy Ft is adapted, or non-anticipating, or progressively measurable1 if Ft is a function of X[0,t].
+If Xt is a random process, then the “decision” Ft must be made on the basis of information available at time t. This information does not include future values Xs, for \(s > t\), but it might involve predictions of future values from present information. A trading strategy Ft is adapted, or non-anticipating, or progressively measurable1 if Ft is a function of X[0,t].
  </body>
 </html>  
 
@@ -88,7 +88,7 @@ $$
 
 <html>
 <body>
-Starting here, the concept of a martingale will be used constantly. A stochas- tic process is a martingale if its increments have expected value zero at the start of each increment interval. That is, if s > 0, then
+Starting here, the concept of a martingale will be used constantly. A stochas- tic process is a martingale if its increments have expected value zero at the start of each increment interval. That is, if \(s > 0\), then
 </body>
 </html>  
   
@@ -241,7 +241,7 @@ $$
 
 <html>
 <body>
-where Ft = b(Xt). We will make a definition of the Ito integral (1) under the hypotheses that Xt is a diffusion and a martingale and that Ft has the regularity property (8).
+where \(F_{t} = b(X_{t})\). We will make a definition of the Ito integral (1) under the hypotheses that \(X_{t}\) is a diffusion and a martingale and that \(F_{t}\) has the regularity property (8).
 </body>
 </html>
 
@@ -249,7 +249,7 @@ where Ft = b(Xt). We will make a definition of the Ito integral (1) under the hy
 
 <html>
 <body>
-To prove the sequence \( Y_{T}^{(hn)} \) converges as \( n -> \inf \) and \( h_{n} = 2^{−n} \). We T need a way to show that limits exist without calculating the limit explicitly. We need a way that applies to random sequences.
+To prove the sequence \( Y_{T}^{(h_{n})} \) converges as \( n -> \inf \) and \( h_{n} = 2^{−n} \). We T need a way to show that limits exist without calculating the limit explicitly. We need a way that applies to random sequences.
 </body>
 </html>
   
@@ -260,7 +260,7 @@ To prove the sequence \( Y_{T}^{(hn)} \) converges as \( n -> \inf \) and \( h_{
 </html>
 
 $$
- y = \lim_{n-> \inf} y_{n}
+ y = \lim_{n-> \infty} y_{n}
 $$
 
 <html>
@@ -270,7 +270,7 @@ sum converges
 </body>
 </html>
 $$
-\sum_{1}^{\inf} |z_{n}| < \infty
+\sum_{1}^{\infty} |z_{n}| < \infty
 $$
 <html>
 <body>
@@ -294,7 +294,7 @@ In practice, the expression for zn may be complicated and the sum hard to calcul
 </body>
 </html>
 $$
-\sum_{k=1}^{\inf} a_{n} <\infty
+\sum_{k=1}^{\infty} a_{n} <\infty
 $$
 <html>
 <body>
@@ -308,7 +308,7 @@ $$
 
 <html>
 <body>
-Arguments like this are not quite enough for random sequences like $Y_{n} = Y_{T}^{(hn)}. The \(Y_{n} \) are random and the differences \(Z_{n} = Y_{n+1} − Y_{n} \) are random too. If $Z_{n}$ is Gaussian,there is no bound of the form
+Arguments like this are not quite enough for random sequences like \(Y_{n} = Y_{T}^{(h_{n})}\). The \(Y_{n} \) are random and the differences \(Z_{n} = Y_{n+1} − Y_{n} \) are random too. If \(Z_{n}\) is Gaussian,there is no bound of the form
 </body>
 </html>
 
@@ -329,7 +329,7 @@ The Borel Cantelli lemma is the fact that convergence follows from
 </html>
 
 $$
-E[|Z_{n}|] <= a_{n}, \sum_{k=1}^{\inf} a_{n} <\infty.  (10)
+E[|Z_{n}|] <= a_{n}, \sum_{k=1}^{\infty} a_{n} <\infty.  (10)
 $$
 
 <html>
@@ -338,7 +338,7 @@ To see this define the random sum  (an infinite sum in the sense that there are 
 </body>
 </html>
 $$
- \sum_{1}^{\inf} |Z_{n}|
+ \sum_{1}^{\infty} |Z_{n}|
 $$
 
 <html>
@@ -348,7 +348,7 @@ In this sum, we set \( S = \infty \) if the sum is infinite. The following fact 
 </html>
 
 $$
- E|S| = \sum_{1}^{\inf} E[|Z_{n}|]
+ E|S| = \sum_{1}^{\infty} E[|Z_{n}|]
 $$
 
 <html>
@@ -364,7 +364,7 @@ If the inequality (10) is satisfied, then \( E[ S] < \infty \).
 </html>
 
 $$
- E|S| = \sum_{1}^{\inf} E[|Z_{n}|] E[S|S= \infty]\cdot Pr(S=\infty) + E[S|S<\infty] \cdot Pr(S<\infty)
+ E|S| = \sum_{1}^{ \infty } E[|Z_{n}|] E[S|S= \infty]\cdot Pr(S=\infty) + E[S|S<\infty] \cdot Pr(S<\infty)
 $$
 
 $$
@@ -404,14 +404,14 @@ $$
 <html>
   <body>
     
-Cauchy Schwarz implies that we can take (The two numbers \(C_{T} \) $ are not the same, but they both are “constants” that depend on T and on the problem but
+Cauchy Schwarz implies that we can take (The two numbers \(C_{T}\) are not the same, but they both are “constants” that depend on T and on the problem but
 not on n.)
 
   </body>
 </html>
 
 $$
-a_{n} = \sqrt{C_{t}h_{n} = C_{T}(\sqrt{2})^{-n}
+a_{n} = \sqrt{C_{t}h_{n}} = C_{T}(\sqrt{2})^{-n}
 $$
 
 <html>
