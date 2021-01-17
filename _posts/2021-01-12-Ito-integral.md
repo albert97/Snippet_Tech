@@ -33,11 +33,9 @@ $$
 $$
 
 <html>
-<body>
-
-means that you divide the interval [0,T] into infinitely many tiny and non- overlapping pieces of length dt and add \( F_{t}dt) . The integral sign is a distorted S, for “sum”. It is possible to give a less vague definition by defining approximate integrals of the form:
-
-</body>
+  <body>
+means that you divide the interval [0,T] into infinitely many tiny and non- overlapping pieces of length dt and add \( F_{t}dt\) . The integral sign is a distorted S, for “sum”. It is possible to give a less vague definition by defining approximate integrals of the form:
+  </body>
 </html>
 
 $$
