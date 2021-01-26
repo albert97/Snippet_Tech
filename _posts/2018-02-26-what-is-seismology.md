@@ -7,7 +7,15 @@ category:   techblog
 tags:     [Geophysics, Seismology]
 og_image: /assets/img/content/post-example/Alberts_Awesome_Seismology-2.jpg
 ---
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QY6RDJK8PM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-QY6RDJK8PM');
+</script>
 <img src="{{ "/assets/img/content/post-example/Alberts_Awesome_Seismology-2.jpg" | absolute_url }}" alt="bay" class="post-pic"/>
 
 Figure 1: The radial structure of the earth and ray paths of P and S-waves though the earth.
