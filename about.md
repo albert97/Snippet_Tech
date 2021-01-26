@@ -5,6 +5,16 @@ profile_picture:
     src: /assets/img/Bolivia.png
 slug: /about
 ---
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QY6RDJK8PM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QY6RDJK8PM');
+</script>
      
 <p>
 Welcome! My name is Albert. I am currently a physics graduate student at the University of Cambridge. My projects focus on developing cheap and reliable renewable energy, notably geothermal and wind. I have a strong interest in carbon capture and storage, I believe a combination of chemical and physical methods will allow us to achieve climate engineering and tackle climate change from its route. 
