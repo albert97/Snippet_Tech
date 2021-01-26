@@ -34,7 +34,15 @@ items:
       alt: water
     description: As the deadliest mass extinction in Earth history, end-Permain eliminated 90% creatures on Earth. The primary cause is the eruption of the Siberian Trap, which triggered a series of climate responses. I am interested in using the geological record to understand the Earth and how to achieve a sustainable future.
 ---
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QY6RDJK8PM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-QY6RDJK8PM');
+</script>
 Here is a list of projects I have worked on, covering applied mathematics, physics, scientific computing and geophysics. My current projects involve numerical simulation for geothermal energy exploration and statistical methods for stochastic PDEs and their implications to climate modelling and geosciences.
 <br />
 <br />
