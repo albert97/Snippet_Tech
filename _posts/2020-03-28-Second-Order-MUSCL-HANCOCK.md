@@ -10,6 +10,15 @@ tags:       [math]
 
 <html>
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QY6RDJK8PM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QY6RDJK8PM');
+</script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>MathJax example</title>
