@@ -17,7 +17,7 @@ slug: /about
 </script>
      
 <p>
-Welcome! My name is Albert. I am currently a physics graduate student at the University of Cambridge. My projects focus on developing cheap and reliable renewable energy, notably geothermal and wind. I have a strong interest in carbon capture and storage, I believe a combination of chemical and physical methods will allow us to achieve climate engineering and tackle climate change from its route. A link to my university page is the follwoing: <https://www.lsc.phy.cam.ac.uk/staff/mr-ziqi-albert-zhang>
+Welcome! My name is Albert. I am currently a physics graduate student at the University of Cambridge. My projects focus on developing cheap and reliable renewable energy, notably geothermal and wind. I have a strong interest in carbon capture and storage, I believe a combination of chemical and physical methods will allow us to achieve climate engineering and tackle climate change from its route. Here is a link to my university[https://stackoverflow.com][page]
 </p>
 
 <p>
