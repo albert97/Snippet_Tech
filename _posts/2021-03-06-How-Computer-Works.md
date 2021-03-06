@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "How Computer works"
+title:      "How computer works"
 date:       2021-03-06 12:00
 author:     "Albert"
 category:   techblog
