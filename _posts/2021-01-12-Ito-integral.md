@@ -52,7 +52,7 @@ means that you divide the interval [0,T] into infinitely many tiny and non- over
 </html>
 
 $$
-Y_T^{(h)} = \sum_{0 <= t_{k} < T} F_{t_{k}} h = \sum_{0 \le{ t_{k}} \lt{T}} F_{t_{k}}(t_{k+1) - t_{k}} 
+Y_T^{(h)} = \sum_{0 \le t_{k} < T} F_{t_{k}} h = \sum_{0 \le{ t_{k}} \lt{T}} F_{t_{k}}(t_{k+1) - t_{k}} 
 $$
 
 <html>
@@ -230,7 +230,7 @@ $$
 
 <html>
 <body>
-A common theory of SDE like (6) applies under the hypothesis that the coeffi- cients a(x, t) and b(x, t) are Lipschitz continuous functions of x. We we assume b is Lipschitz and we ignore the less important dependence of b on t (assume, for example, that b depends on x but not t). In this case, some regularity of Ft = b(Xt) comes from the regularity of Xt. For a diffusion, 
+A common theory of SDE like (6) applies under the hypothesis that the coefficients a(x, t) and b(x, t) are Lipschitz continuous functions of x. We we assume b is Lipschitz and we ignore the less important dependence of b on t (assume, for example, that b depends on x but not t). In this case, some regularity of Ft = b(Xt) comes from the regularity of Xt. For a diffusion, 
 </body>
 </html>
 
@@ -299,7 +299,7 @@ y_n = y_{0} + \sum_{k=1}^{\inf} z_{k}
 $$
 <html>
 <body>
-In practice, the expression for zn may be complicated and the sum hard to calculate. We try instead to find simple bounds of the form \( |z_{n}| ≤ a_{n} \), where the numbers \( a_{n} \) are simple enough that
+In practice, the expression for zn may be complicated and the sum hard to calculate. We try instead to find simple bounds of the form \( |z_{n}| \le a_{n} \), where the numbers \( a_{n} \) are simple enough that
 </body>
 </html>
 $$
@@ -338,7 +338,7 @@ The Borel Cantelli lemma is the fact that convergence follows from
 </html>
 
 $$
-E[|Z_{n}|] <= a_{n}, \sum_{k=1}^{\infty} a_{n} <\infty.  (10)
+E[|Z_{n}|] \le a_{n}, \sum_{k=1}^{\infty} a_{n} <\infty.  (10)
 $$
 
 <html>
@@ -377,7 +377,7 @@ $$
 $$
 
 $$
- E|S| >= \infty \cdot \epsilon
+ E|S| \ge \infty \cdot \epsilon
 $$
 
 $$
