@@ -34,8 +34,8 @@ tags:       [Computer]
  
  <h2 class="section-heading">Disclaimer:  </h2>
   
-  I was recently introduced to this GREAT Youtube channel called "coding adventures" that does a lot of coding adventures, I especially found this one interesting [Exploring How Computers Work by Sebastian Lague](https://www.youtube.com/watch?v=QZwneRb-zqA).
-  It discusses the basic aspects of computer logic, In this section I intend to summarise hise mean points for clarification purposes. For anyone who is interested in Sebastian Lague's channel, do check it out!
+  I was recently introduced to this GREAT Youtube channel called "[coding adventures](https://www.youtube.com/c/SebastianLague/videos)". I found this one particularly interesting [Exploring How Computers Work by Sebastian Lague](https://www.youtube.com/watch?v=QZwneRb-zqA).
+  It discusses basic aspects of computer logic, in this section I intend to summarise the main points to help me understand and memorise. For anyone who is interested in Sebastian Lague's channel, do check it out!
 
 
  <h2 class="section-heading"> Content </h2>
