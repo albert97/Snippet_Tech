@@ -29,9 +29,8 @@ tags:       [Computer]
 <body>
  <h2 class="section-heading">Disclaimer:  </h2>
   
-  I recently found this GREAT Youtube channel called "coding adventures" thats explains a lot of coding adventure, I especially found this one interesting
-  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=QZwneRb-zqA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  It discusses the basic aspects of how computer works, In this section I intend to summarise hise mean points for clarification purposes. For anyone who is interested in Sebastian Lague's channel, do check it out!
+  I recently found this GREAT Youtube channel called "coding adventures" thats explains a lot of coding adventure, I especially found this one interesting [Exploring How Computers Work by Sebastian Lague](https://www.youtube.com/watch?v=QZwneRb-zqA).
+  It discusses the basic aspects of computer logic, In this section I intend to summarise hise mean points for clarification purposes. For anyone who is interested in Sebastian Lague's channel, do check it out!
 </body>
 </html>
 
