@@ -258,7 +258,7 @@ where \(F_{t} = b(X_{t})\). We will make a definition of the Ito integral (1) un
 
 <html>
 <body>
-To prove the sequence \( Y_{T}^{(h_{n})} \) converges as \( n -> \inf \) and \( h_{n} = 2^{−n} \). We T need a way to show that limits exist without calculating the limit explicitly. We need a way that applies to random sequences.
+To prove the sequence \( Y_{T}^{(h_{n})} \) converges as \( n -> \infty \) and \( h_{n} = 2^{−n} \). We T need a way to show that limits exist without calculating the limit explicitly. We need a way that applies to random sequences.
 </body>
 </html>
   
@@ -274,7 +274,8 @@ $$
 
 <html>
 <body>
- One way is to study the differences \( z_{n} = y_{n+1} − y_{n} \) and show that the infinite
+ One way is to study the differences \( z_{n} = y_{n+1} − y_{n} \) and show that the
+  inite
 sum converges
 </body>
 </html>
@@ -295,7 +296,7 @@ with n goes to infinity:
 </body>
 </html>
 $$
-y_n = y_{0} + \sum_{k=1}^{\inf} z_{k} 
+y_n = y_{0} + \sum_{k=1}^{\infty} z_{k} 
 $$
 <html>
 <body>
@@ -312,7 +313,7 @@ is a direct explicit calculation. If this works, then the zn sum is finite becau
 </html>
 
 $$
-\sum_{k=1}^{\inf}|z_{n}| \le{ \sum_{k=1}^{\inf}a_{n}}< \infty
+\sum_{k=1}^{\infty}|z_{n}| \le{ \sum_{k=1}^{\infty}a_{n}}< \infty
 $$
 
 <html>
