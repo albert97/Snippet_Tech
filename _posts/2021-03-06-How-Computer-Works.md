@@ -46,7 +46,7 @@ tags:       [Computer]
  Truth table to explain the concepts of AND & OR gate, Imagine A, and B are two switches in serie in a 
  electric circit, output is a light bulb. The light bulb is only switched on if both switches are activated. Hence the following table.
  
-  | A  | B | Output    |
+  | A  ||  B || Output    |
 | :----: |   :----:   |  :---: |
 |  0    |  0    | 0  |
 | 0     | 1     | 0  |
@@ -143,8 +143,8 @@ Now we are ready to do binary Sum, if we summarise the sum of two binary numbers
 
 |  Carry | 0     | 0     |  1   |   1  |   1  |  0  |
 | ------ | ----- |----- |----- |----- |----- |----- |
-| Number 1 |1     | 0     |   0  |  0   |   1  |   1  |
-| Number 2 | 0     | 0     |   0  |  1   |   1  |  1   | 
+| First Number |1     | 0     |   0  |  0   |   1  |   1  |
+| Second Number | 0     | 0     |   0  |  1   |   1  |  1   | 
 | Sum | 1    | 0     |   1  |  0   |   1  |  0   | 
 
 Therefore we are always adding three numbers together, what we need now is to construct an adder that takes care of binary summation process.
