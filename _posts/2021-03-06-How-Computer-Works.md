@@ -158,7 +158,39 @@ I think so far you should have a good idea of how computer logic works, it is pr
 
  <h3 class="section-heading"> Arithmetic Substraction  </h3>
  
- Let's stop here for NOW, A bit tried, and have other work to dm, will come back to it and complete it soon 
- 07/03/2021
+One way to think about this is to think what add to the number give you zero. For example what add to 7 (0111) gives you -7 ? It turnes out to be 1001 as it gives you 10000. But becasue we are doing 4bits addition, the first 1 is discarded and leave you with 0000. Smart Hurh? 
+
+You can think of this as -8 x 1 + 4 x 0 + 2 x 0 + 1 x1  = -7.
+
+Therefore, with the first bits being a sign indicator, using 4 bits you can repersent -8 to 7 ( 16 combinations !!!).
+
+Now, we summarise the above steps, to find the negative number of a given positive number, all you need to do is:
+
+Step one: Invert the number:
+
+For example 6, which is 0110 in binary system, inverting it gives 1001
+
+Step two: add one to it:
+
+For example 6 : adding 1001 by 0001 gives 1010 which is -6 (as 1000 being -8, -8 + 2x 1 = -6. 
+
+Now what does the substract plus summation unit look like:
+
+| Substract  |  Input bit | Output Bit | 
+| :----: |   :----:   |  :---: | 
+|  0    |  0    | 0  |
+|  0     | 1    |  1 |
+|  1     | 0    | 1  |
+|  1     | 1    |  0 |
  
+ Bascially, what the turth table tells us is if the substraction is on, we invert the input, otherweise, we do nothing
+ Finally, does this look like the XOR operation? 
  
+For the full circuit, please refer to the video. This is the ARTHMETRIC AND LOGIC UNIT that can be packed into a chip. 
+
+
+
+ <h2 class="section-heading"> Final remarks </h2>
+ 
+ In this section ,we went throught the basic logic operator that allows a computer to do basic substraction and addition. We also looked at basic binary system which is really the foundation of computer. Please let me know what you think and if I made any mistales along the way. Apologise for all the typos 
+
