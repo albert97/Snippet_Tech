@@ -41,7 +41,7 @@ tags:       [Computer]
  <h2 class="section-heading"> Arthmetric and Logic Unit  </h2>
  In the video, Sebastian breaks it down into small modules and I will follow this footstep into explaining the components of computer arthmetric and logic unit.
  
- <h3 class="section-heading"> AND Gate </h3>
+ <h3 class="section-heading"> AND Gate , NOT, NAND, OR Gate</h3>
  
  Truth table to explain the concepts of AND & OR gate, Imagine A, and B are two switches in serie in a 
  electric circit, output is a light bulb. The light bulb is only switched on if both switches are activated. Hence the following table.
@@ -71,5 +71,76 @@ A cavet: Moore's law states that the number of transistor in a dense integrated 
 about every two years. Although it is an observation, we have largely followed it till recently....
 Time for quantum computing to SHINE !!!!!
 
+So what happens next is we pack these into individual modules, and give them fancy names "AND" and "NOT" gate.
+We then link them up in a circuit that has the following truth table:
 
 
+  | A  | B | Output    |
+| :----: |   :----:   |  :---: |
+|  0    |  0    | 1  |
+| 0     | 1     | 1  |
+| 1     | 0     | 1  |
+| 1     | 1     | 0  |
+
+Because of the existence of NOT gate, the turth table tells the opposite story of the first table. This is named as 
+NAND gate. 
+
+Alright, if we pack NAND gate into a separate unit and connect it with two NOT gates, we have the next truth table. 
+
+  | A  | B | Output    |
+| :----: |   :----:   |  :---: |
+|  0    |  0    | 0  |
+| 0     | 1     | 1  |
+| 1     | 0     | 1  |
+| 1     | 1     | 1  |
+
+This can be a little confusing, but taking the first row as an eample, what it deos is the NOT gate trun an inupt A = 0 into 
+A = 1 and B=0 into B = 1, they are then passed to the NAND  gate. According to the table above, for A = 1, B =1, the ouput is 0. Hence 
+we have zero as the output. 
+
+The above truth table denotes an OR gate.
+
+Here is a summary of AND, NOT, NAND , OR logic operation. 
+
+ <h3 class="section-heading"> Binary system  </h3>
+ 
+ In decimal system, with a single digit we can express up to 9, with twop digits, we can do up to 19 and so...
+ 
+ In binary system, a similar thing happens, but with a single digits can only express "0" and "1". That means, using the combination theory in mathemtics 
+ we have the following table (basically 2 to the power of n, n is the nth digit):
+ 
+ |  Number of Combination :    |  8         | 4       | 2    | 1    |
+ |          :----:             |   :----:   |  :---: | :---: | :---: |
+ |                             |    1       |   1    |   0   |    1   |
+ 
+ so the above number means 1 x 8 + 4 x 1 + 2 x 0 + 1x 1 = 13
+ 
+ The question is how do with repersent arthmetic for example 100011  + 000111? 
+ To asnwer the question, we have to introduce the concept of Carry and Sum. 
+ Carry is the number carried on when doing summation. for example adding two single bits, 1 + 1 has a carry of 1 and a sum of 0 (becasue of bunary system).
+ 
+ Again, we can summarise the above using our friend Truth table: 
+ 
+   | A  | B | Carry | Sum |
+| :----: |   :----:   |  :---: | :---: |
+|  0    |  0    | 0  | 0  |
+| 0     | 1     |  0 | 1  |
+| 1     | 0     | 0 | 1  |
+| 1     | 1     | 1  | 0 |
+
+If we take Carry column out, does it looks familiar? If not please have a look at the AND gate ? Yes it looks exactly the same as the AND gate. ohhhwoooo 
+Keep that in mind and now look at the sum column. Unfortunately, it does not look like anything we did perviously, however, it is similar to a OR gate. 
+
+So we need to turn the last output into 0, hopeful, it comes natural to you, all you need is to connet an NAND gate to check if both inputs are 1 and turn it
+into 0. 
+
+The conplete circuit has an OR gate (that does the Sum) and a NAND gate (that does the correction for the last row), with an AND gate to complete. This is known as
+the exclusive or or XOR. This is for the SUM column. 
+
+Now we are ready to do binary Sum, if we summarise the sum of two binary numbers in the table below: 
+
+|  Carry  | 0     | 0     |  1   |   1  |   1  |  0.  |
+| Number 1 |1     | 0     |   0  |  0   |   1  |   1  |
+| Number 2 | 0     | 0     |   0  |  1   |   1  |  1   | 
+| ------ | ----- |----- |----- |----- |----- |
+| Sum | 1    | 0     |   1  |  0   |   1  |  0   | 
