@@ -41,7 +41,7 @@ tags:       [Computer]
  <h2 class="section-heading"> Arthmetric and Logic Unit  </h2>
  In the video, Sebastian breaks it down into small modules and I will follow this footstep into explaining the components of computer arthmetric and logic unit.
  
- <h3 class="section-heading"> AND Gate , NOT, NAND, OR Gate</h3>
+ <h3 class="section-heading"> AND, NOT, NAND, OR Gate</h3>
  
  Truth table to explain the concepts of AND & OR gate, Imagine A, and B are two switches in serie in a 
  electric circit, output is a light bulb. The light bulb is only switched on if both switches are activated. Hence the following table.
