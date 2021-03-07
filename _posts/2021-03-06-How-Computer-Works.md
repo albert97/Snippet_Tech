@@ -154,9 +154,9 @@ This adder is a bit tricky to describe in words therefore I am not goung to do s
 
 The next steo is to use adder to construct a 4bit adder  that add two four bits binary numbers, I am not going to illustrate it here and please check out the video if you are interested.
 
-I think so far you should have a good idea of how computer logic works, it is pretty smart to think about. Now the next big question is how substraction works. 
+I think so far you should have a good idea of how computer logic works, it is pretty smart to think about. Now the next big question is how subtraction works. 
 
- <h3 class="section-heading"> Arithmetic Substraction  </h3>
+ <h3 class="section-heading"> Arithmetic Subtraction  </h3>
  
 One way to think about this is to think what add to the number give you zero. For example what add to 7 (0111) gives you -7 ? It turnes out to be 1001 as it gives you 10000. But becasue we are doing 4bits addition, the first 1 is discarded and leave you with 0000. Smart Hurh? 
 
