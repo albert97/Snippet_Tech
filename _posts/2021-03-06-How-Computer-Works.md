@@ -142,5 +142,5 @@ Now we are ready to do binary Sum, if we summarise the sum of two binary numbers
 |  Carry  | 0     | 0     |  1   |   1  |   1  |  0.  |
 | Number 1 |1     | 0     |   0  |  0   |   1  |   1  |
 | Number 2 | 0     | 0     |   0  |  1   |   1  |  1   | 
-| ------ | ----- |----- |----- |----- |----- |
+| ------ | ----- |----- |----- |----- |----- |----- |
 | Sum | 1    | 0     |   1  |  0   |   1  |  0   | 
