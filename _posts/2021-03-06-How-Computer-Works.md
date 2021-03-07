@@ -115,7 +115,9 @@ Here is a summary of AND, NOT, NAND , OR logic operation.
  
  so the above number means 1 x 8 + 4 x 1 + 2 x 0 + 1x 1 = 13
  
- The question is how do with repersent arthmetic for example 100011  + 000111? 
+ <h3 class="section-heading"> Arithmetic sum, XOR, Adder and 4bits Adder </h3>
+ 
+ The question is how do with repersent arithmetic sum for example 100011  + 000111? 
  To asnwer the question, we have to introduce the concept of Carry and Sum. 
  Carry is the number carried on when doing summation. for example adding two single bits, 1 + 1 has a carry of 1 and a sum of 0 (becasue of bunary system).
  
@@ -144,3 +146,18 @@ Now we are ready to do binary Sum, if we summarise the sum of two binary numbers
 | Number 1 |1     | 0     |   0  |  0   |   1  |   1  |
 | Number 2 | 0     | 0     |   0  |  1   |   1  |  1   | 
 | Sum | 1    | 0     |   1  |  0   |   1  |  0   | 
+
+Therefore we are always adding three numbers together, what we need now is to construct an adder that takes care of binary summation process.
+This adder is a bit tricky to describe in words therefore I am not goung to do so, if you are interested p0lease check out Sebastian's Youtube video 
+[Exploring How Computers Work](https://www.youtube.com/watch?v=QZwneRb-zqA), at 10.30 mins. A hint is you need two XOR gates, two AND gates and an OR gate. 
+
+The next steo is to use adder to construct a 4bit adder  that add two four bits binary numbers, I am not going to illustrate it here and please check out the video if you are interested.
+
+I think so far you should have a good idea of how computer logic works, it is pretty smart to think about. Now the next big question is how substraction works. 
+
+ <h3 class="section-heading"> Arithmetic Substraction  </h3>
+ 
+ Let's stop here for NOW, A bit tried, and have other work to dm, will come back to it and complete it soon 
+ 07/03/2021
+ 
+ 
