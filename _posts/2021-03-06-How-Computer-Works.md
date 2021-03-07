@@ -38,7 +38,38 @@ tags:       [Computer]
   It discusses basic aspects of computer logic, in this section I intend to summarise the main points to help me understand and memorise. For anyone who is interested in Sebastian Lague's channel, do check it out!
 
 
- <h2 class="section-heading"> Content </h2>
+ <h2 class="section-heading"> Arthmetric and Logic Unit  </h2>
+ In the video, Sebastian breaks it down into small modules and I will follow this footstep into explaining the components of computer arthmetric and logic unit.
  
- HMMMM......Under construction.... Give me a few weeks... THANKSSSSSS
-  
+ <h3 class="section-heading"> AND Gate </h3>
+ 
+ Truth table to explain the concepts of AND & OR gate, Imagine A, and B are two switches in serie in a 
+ electric circit, output is a light bulb. The light bulb is only switched on if both switches are activated. Hence the following table.
+ 
+  | A  | B | Output    |
+| :----: |   :----:   |  :---: |
+|  0    |  0    | 0  |
+| 0     | 1     | 0  |
+| 1     | 0     | 0  |
+| 1     | 1     | 1  |
+
+The above denotes an AND gate.
+
+Imagine another circuit that has a switch in parallel with a light bulb, if the switch 
+is on, the light bulb is short circuit, hence it goes off. Whiles is the swith is open 
+the light is on. This is known as the NOT logic operation
+
+| A | Output    |
+| :----: | :---: |
+|  0    |  1  |
+|  1    |  0  | 
+
+In the old days, engineers used magneitc to control the switches, which was slow. Nowadays
+we have the fameous TRANSITORs to replace the switch that is must faster. 
+
+A cavet: Moore's law states that the number of transistor in a dense integrated circuit doubles
+about every two years. Although it is an observation, we have largely followed it till recently....
+Time for quantum computing to SHINE !!!!!
+
+
+
