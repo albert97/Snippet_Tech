@@ -139,7 +139,7 @@ the exclusive or or XOR. This is for the SUM column.
 
 Now we are ready to do binary Sum, if we summarise the sum of two binary numbers in the table below: 
 
-|  Carry  | 0     | 0     |  1   |   1  |   1  |  0.  |
+|  Carry  | 0     | 0     |  1   |   1  |   1  |  0  |
 | Number 1 |1     | 0     |   0  |  0   |   1  |   1  |
 | Number 2 | 0     | 0     |   0  |  1   |   1  |  1   | 
 | ------ | ----- |----- |----- |----- |----- |----- |
