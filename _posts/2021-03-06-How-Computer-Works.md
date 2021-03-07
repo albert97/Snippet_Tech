@@ -109,11 +109,12 @@ Here is a summary of AND, NOT, NAND , OR logic operation.
  In binary system, a similar thing happens, but with a single digits can only express "0" and "1". That means, using the combination theory in mathemtics 
  we have the following table (basically 2 to the power of n, n is the nth digit):
  
- |  Number of Combination :    |  8         | 4       | 2    | 1    |
+ |  Number of Combination :    |  16        | 8      | 4    | 2   |
  |          :----:             |   :----:   |  :---: | :---: | :---: |
+ |  Weight (?) :               |  8         | 4       | 2    | 1    |
  |                             |    1       |   1    |   0   |    1   |
  
- so the above number means 1 x 8 + 4 x 1 + 2 x 0 + 1x 1 = 13
+ so the above number means 1 x 8 + 4 x 1 + 2 x 0 + 1x 1 = 13, The maxmium number a 4 bits can repersent is 15 becasue, it starts from 0. (0 to 15 is 16 numbers of combination)
  
  <h3 class="section-heading"> Arithmetic sum, XOR, Adder and 4bits Adder </h3>
  
