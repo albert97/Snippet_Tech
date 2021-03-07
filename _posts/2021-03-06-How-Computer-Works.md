@@ -46,7 +46,7 @@ tags:       [Computer]
  Truth table to explain the concepts of AND & OR gate, Imagine A, and B are two switches in serie in a 
  electric circit, output is a light bulb. The light bulb is only switched on if both switches are activated. Hence the following table.
  
-  | A  ||  B || Output    |
+  | A  | B | Output    |
 | :----: |   :----:   |  :---: |
 |  0    |  0    | 0  |
 | 0     | 1     | 0  |
