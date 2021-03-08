@@ -26,7 +26,9 @@ Coming from a mathematics and physics background, I have been dealing with multi
 
 <p>
 ## A few resources I like
-[Snippet finance ](https://snippet.finance/category/macroeconomics/)      
 </p>
+
+[Snippet finance ](https://snippet.finance/category/macroeconomics/)      
+
 
 <br />
