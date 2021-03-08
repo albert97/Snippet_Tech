@@ -23,4 +23,10 @@ Welcome! My name is Albert. I am currently a physics graduate student at the Uni
 <p>
 Coming from a mathematics and physics background, I have been dealing with multiphysics, multiphase system under extreme thermodynmic anf fluid dynamics conditions. To tackle the inherited uncertainties in hyperbolic solvers and advance our understanding, I have been working on sharp interface methods which the material/phase interfaces are defined implicitly. Also, to better distribute computational expense, my work often involves structured mesh refinement. Though a group code is available, I often adapt AMReX frame developed by Lawrence National Lab.
 </p>
+
+<p>
+## A few resources I like
+[Snippet finance ](https://snippet.finance/category/macroeconomics/)      
+</p>
+
 <br />
