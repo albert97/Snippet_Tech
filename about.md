@@ -27,8 +27,8 @@ Coming from a mathematics and physics background, I have been dealing with multi
 <p>
 ## A few resources I like
 </p>
-
-[Snippet finance ](https://snippet.finance/category/macroeconomics/)      
-
-
 <br />
+[Snippet finance ](https://snippet.finance/category/macroeconomics/)      
+[My friend/housemate Oliver Thomspon](https://www.olithompson.com/projects)
+
+
