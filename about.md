@@ -37,4 +37,4 @@ Coming from a mathematics and physics background, I have been dealing with multi
 
 [The Marshall Society's Youtube Channel](https://www.youtube.com/channel/UCcTfWNvr8NBkMWa2lDgIAnA)
 
-[Homepage on Centre for Scientific Compuing](https://www.lsc.phy.cam.ac.uk/staff/mr-ziqi-albert-zhang)
+[My homepage on the Centre for Scientific Compuing](https://www.lsc.phy.cam.ac.uk/staff/mr-ziqi-albert-zhang)
