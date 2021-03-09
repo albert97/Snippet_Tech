@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "A Review of the "
+title:      "A Review of the Blockchain/Bitcoin white paper "
 date:       2021-03-06 12:00
 author:     "Albert"
 category:   techblog
@@ -34,4 +34,4 @@ tags:       [Computing, Blockchain]
 
  <h2 class="section-heading">Disclaimer:  </h2>
  In this post, I will review the Blockchain white paper - [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf). The paper is regarded 
- as the first system utilising Blockchain technology. 
+ as the first system utilising Blockchain technology. My goal is to understand Blockchain as a technology forward, and it has nothing to do with investing in Bitcoins. For the later, reddit may be a great place
