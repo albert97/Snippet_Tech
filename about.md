@@ -29,5 +29,7 @@ Coming from a mathematics and physics background, I have been dealing with multi
 
 [Snippet finance ](https://snippet.finance/category/macroeconomics/)      
 [My friend/housemate Oliver Thomspon](https://www.olithompson.com/projects)
-
-
+[Sebastian Lague's Channel](https://www.youtube.com/watch?v=QZwneRb-zqA)
+[Cambridge Union's Youtube Channel](https://www.youtube.com/channel/UClOuePXlJnw8-br7SXiuHqg)
+[The Marshall Society's Youtube Channel](https://www.youtube.com/channel/UCcTfWNvr8NBkMWa2lDgIAnA)
+[Homepage on Centre for Scientific Compuing](https://www.lsc.phy.cam.ac.uk/staff/mr-ziqi-albert-zhang)
