@@ -3,7 +3,7 @@ layout:     post
 title:      Psychology of Crowds
 date:       2020-05-03 15:40
 author:     "Albert"
-category:   Psychologym,sociology
+category:   Psychology,sociology
 ---
 
 <html>
