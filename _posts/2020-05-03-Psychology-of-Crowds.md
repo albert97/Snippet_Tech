@@ -47,6 +47,20 @@ may be fired with enthusiasm for glory and honour... Such heroism is without dou
 4. [The psychological and emotional benefits one derives from joining a crowd](#The-psychological-and-emotional-benefits-one-derives-from-joining-a-crowd)
 
 
-What is a Crowd?
+##What is a Crowd?
+
+A group of individualsa united by a common idea, belief, or ideology. A crowd forms when an influential idea unties a number of individuals and propels them to act towards a common goal.
+
+Crowds accept ideas superficially and utilize them as fuel for revoluntionary action.
+So where does the idea come from? Normally, they comes from people from outside the crowss however, this original idea needs to be sinplfied for the "crowd" to understand. Here are the exact words from LeBon:
+
+"Idea being only accessible to crowds ater having assumed a very simple shape must often undergo the most thoroughgoing transformations to become popular. It is especially when we are dealing with somewhat lofty philosophical or scentific idea that we see how far-reaching are the modification they require in order to lower them to the level of the intelligence of crowds... However great or true an idea may have been to begin with, it is deprived of almost all that which constituted its elevation and its greatness by the mere fact that it has come within the intellectual range of crowds and exerts an influnce upon them "
+
+According to LeBon, when an individual joins a crowd, he ceases to become an individual--
+"He is no longer himself, but has become an automaton who has ceased to be guided by his will".  
+
+As a part of a crowd, an individual becomes a pawn who sacrifices his personal goals for those of the crowd. "In a crowd every sentiment and act is contagious, and contagious to such a degreee that an individual readily sacrifices his personal interest to the collective interest"
+
+
 
 
