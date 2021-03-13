@@ -47,8 +47,7 @@ may be fired with enthusiasm for glory and honour... Such heroism is without dou
 3. [The religious sentiment of crowds](#the-religious-sentiment-of-crowds)
 4. [The psychological and emotional benefits one derives from joining a crowd](#The-psychological-and-emotional-benefits-one-derives-from-joining-a-crowd)
 
-
-##The Nature of Crowds 
+## The Nature of Crowds 
 
 A group of individualsa united by a common idea, belief, or ideology. A crowd forms when an influential idea unties a number of individuals and propels them to act towards a common goal.
 
@@ -58,7 +57,7 @@ According to LeBon, when an individual joins a crowd, he ceases to become an ind
 As a part of a crowd, an individual becomes a pawn who sacrifices his personal goals for those of the crowd. "In a crowd every sentiment and act is contagious, and contagious to such a degreee that an individual readily sacrifices his personal interest to the collective interest"
 
 <br />
-##The role ideas play in influencing crowds 
+## The role ideas play in influencing crowds 
 
 Crowds accept ideas superficially and utilize them as fuel for revoluntionary action.
 So where does the idea come from? Normally, they comes from people from outside the crowss however, this original idea needs to be sinplfied for the "crowd" to understand. Here are the exact words from LeBon:
@@ -70,7 +69,7 @@ Thats when the role of leader comes in as they served to simplfied the master mi
 As LeBon put it "How numerous are the crowds that have heroically faced death for beliefs. ideas, and phrases that they scarcely understood!". The leader controls the crowds by using this natural froces-- "By many they are considered as natural forces, as supernatural powers. they evoke grandiose and vague iomages in men's minds, but this very vagueness that wraps them in obscurity augments their mysterious power. They are the mysterious divinties hidden behind the tabernacle, which the devout only approach in fear and trembling "
 <br />
 
-##The Religious Sentiment of Crowds 
+## The Religious Sentiment of Crowds 
 
 "A person is not religious solely when he worships a divinity, but when he puts all the resources of his mind, the complete submission of his will, and the whole-souled ardour of fanaticism at the servie of a cause or an inidividual who becomes the goal and guide of his thoughts and actions"
 
@@ -78,7 +77,7 @@ As LeBon put it "How numerous are the crowds that have heroically faced death fo
 
 The morality of crowds can trigger both good and evil acts. Why are crowds immoral?? LeBon puts the following as a reply ".. our savage, destructive instincts are the inheritanve left dormant in all of us from the primitive ages. In the life if the isolated individual it would be dangerous for him to gratify these instincts, while his absorption in an irresponsible crowds, in which in consequence he is assured of impunity, gives him entire liberty to follow them."  
 
-##The psychological and emotional benefits one derives from joining a crowd
+## The psychological and emotional benefits one derives from joining a crowd
 
 When an individual lives as an 'individual', he is apt to feel a crushing burden and sense of impotence. 
 In joining the crowd, an individual is relieved from impotence. -- "In crowds the foolish, ignorant, and envious persons are freed from the sense of their insignificance and powerlessness, and are possessed instead by the notion of brutal and temporary but immense strength"
