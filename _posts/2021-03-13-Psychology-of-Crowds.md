@@ -57,7 +57,7 @@ According to LeBon, when an individual joins a crowd, he ceases to become an ind
 
 As a part of a crowd, an individual becomes a pawn who sacrifices his personal goals for those of the crowd. "In a crowd every sentiment and act is contagious, and contagious to such a degreee that an individual readily sacrifices his personal interest to the collective interest"
 
-
+<br />
 ##The role ideas play in influencing crowds 
 
 Crowds accept ideas superficially and utilize them as fuel for revoluntionary action.
@@ -68,6 +68,7 @@ So where does the idea come from? Normally, they comes from people from outside 
 Thats when the role of leader comes in as they served to simplfied the master mind and broadcast it to the crowds "The majority of men, especially among the masses, do not possess clear and reasoned ideas on any subject whatever outside their own specialty, The leader serves them as guide "
 
 As LeBon put it "How numerous are the crowds that have heroically faced death for beliefs. ideas, and phrases that they scarcely understood!". The leader controls the crowds by using this natural froces-- "By many they are considered as natural forces, as supernatural powers. they evoke grandiose and vague iomages in men's minds, but this very vagueness that wraps them in obscurity augments their mysterious power. They are the mysterious divinties hidden behind the tabernacle, which the devout only approach in fear and trembling "
+<br />
 
 ##The Religious Sentiment of Crowds 
 
@@ -87,3 +88,4 @@ LeBon thought it is not possible to relieve oneself from a crowd.
 2. Our actions are motivated by unconscious ideas.
 3. Partial freedom can be attained by bringing to the light of reason these unconscious ideas 
 LeBon wrote "The tyranny exercised unconsciously on men's mindfs is the only real tyranny, beacuse it cannont be fought against"
+<br />
