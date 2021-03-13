@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Psychology of Crowds
-date:       2021-03-13 15:40
+date:       2021-03-10 15:40
 author:     "Albert"
 category:   science
 tags:       [Psychology,sociology]
