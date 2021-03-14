@@ -43,3 +43,5 @@ tags:       [Computing, Blockchain]
  A hash function is any function that can be used to map data of arbitrary size to fixed-size values. The values returned by a hash function are called hash values, hash codes, digests, or simply hashes. The values are usually used to index a fixed-size table called a hash table. Use of a hash function to index a hash table is called hashing or scatter storage addressing.
  
 The paper proposed the usage of SHA-256 as a way to allow extensive computational work (therefore acting as a proof of work). SHA-256 falls into the family of SHA-2. SHA-2 (Secure Hash Algorithm 2) is a set of cryptographic hash functions designed by the United States National Security Agency (NSA) and first published in 2001. They are built using the Merkle–Damgård construction, from a one-way compression function itself built using the Davies–Meyer structure from a specialized block cipher.
+
+SHA-256 is a novel hash functions computed with 32-bit words. Here I need to explain what a one-0way compression system is and how Merkle–Damgård construction and Davies-Meyer structure play the part. 
