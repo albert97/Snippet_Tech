@@ -35,3 +35,11 @@ tags:       [Computing, Blockchain]
  <h2 class="section-heading">Disclaimer:  </h2>
  In this post, I will review the Blockchain white paper - [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf). The paper is regarded 
  as the first system utilising Blockchain technology. My goal is to understand Blockchain as a technology forward, and it has nothing to do with investing in Bitcoins. For the later, reddit may be a great place
+
+ <h2 class="section-heading"> Some words before I start:  </h2>
+ After reading the paper, unsurprisingly, the extent of the topic may be beyond my comprehension. I therefore, will try to address the concepts of Hash, Distributed Computing, maybe B-money before moving into Blockchain. From the paper, it seems to be Bitcoin was purely an incentive scheme, and Blockchain was the main concept of the paper. Hence, I am a little puzzled why the title were "Bitcoin (Rather than Blockchain): A Peer-to-Peer Electronic Cash System". anyway,let's dive in.
+ 
+ <h2 class="section-heading"> Hash Function:  </h2>
+ A hash function is any function that can be used to map data of arbitrary size to fixed-size values. The values returned by a hash function are called hash values, hash codes, digests, or simply hashes. The values are usually used to index a fixed-size table called a hash table. Use of a hash function to index a hash table is called hashing or scatter storage addressing.
+ 
+The paper proposed the usage of SHA-256 as a way to allow extensive computational work (therefore acting as a proof of work). SHA-256 falls into the family of SHA-2. SHA-2 (Secure Hash Algorithm 2) is a set of cryptographic hash functions designed by the United States National Security Agency (NSA) and first published in 2001. They are built using the Merkle–Damgård construction, from a one-way compression function itself built using the Davies–Meyer structure from a specialized block cipher.
