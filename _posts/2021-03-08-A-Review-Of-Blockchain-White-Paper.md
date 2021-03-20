@@ -97,10 +97,8 @@ Here are the main take-away points (direct qoutes):
 With those in mind, we shall dive in the technical aspects of the technology. The so called blockchain contains a network of "Hash block" (AKA, Block, Node..etc..). Each hash contains a block of items to be timestamped and widely published. When the block becomes timestamped, it contains the previoud Hash, Nonce and all the transactions it collects.
 <html>
   <body>
-
-<img src="{{ "/assets/img/content/post-example/ProofofWork.png" | absolute_url }}" alt="bay" class="post-pic"/>
 <img src="{{ "/assets/img/content/post-example/Timestamp.png" | absolute_url }}" alt="bay" class="post-pic"/>
-
+<img src="{{ "/assets/img/content/post-example/ProofofWork.png" | absolute_url }}" alt="bay" class="post-pic"/>
     </body>
 </html>
 To answer the question of what timestamp or Nonence is, we have to go back to the moviation of Blockchain, which is really a decentralised payment system. Therefore, Tinestamp (or timestamp Server as purposed in the paper ) is a solution to prevent double-spent. A direct quote from the paper:
@@ -124,14 +122,17 @@ Let's now look at how to run the whole network: Here are the steps summaried in 
 chain, using the hash of the accepted block as the previous hash.
 
 Here it comes another important concept--"Nodes always consider the longest chain to be the correct one and will keep working on extending it". Two additional scenarios to be considered:
-1. If two nodes broadcast different versions of the next block simultaneously, some nodes may receive one or the other first. In that case, they work on the first one they received, but save the other branch in case it becomes longer. The tie will be broken when the next proof- of-work is found and one branch becomes longer; the nodes that were working on the other branch will then switch to the longer one.
+1. If two nodes broadcast different versions of the next block simultaneously, they can work on the first one they received and save the other in case it becomes longer. The tie will be broken when the next proof-of-work is found and one branch becomes longer; the nodes that were working on the other branch will then switch to the longer one.
 2. If a node does not receive a block, it will request it when it receives the next block and realizes it missed one.
 
-<h2 class="section-heading"> Secruity:  </h2>
+<h2 class="section-heading"> Secruity and Privacy :  </h2>
 
-<h2 class="section-heading"> Privacy:  </h2>
+To summarise, there are three ways to ensure the the security of the chain:
+1. The majority decision is represented by the longest chain, which has the greatest proof-of-work effort invested in it. If a majority of CPU power is controlled by honest nodes, the honest chain will grow the fastest and outpace any competing chains.
+2. The incentive (AKA Bitcoin) for packing all transaction into a block gives attacker reason to use his CPU power to build extend the chain, instead of defraud people by stealing back his payments.
+3. If the network is overpowered by an attacker, we can accet alerts from network nodes when they detect an invalid block, prompting the user's software to download the full block and alerted transactions to confirm the inconsistency. 
 
-
+The paper also purpose a different way to protect payee privacy. 
 <h2 class="section-heading"> Bitcoin and its role:  </h2>
 
 
