@@ -86,8 +86,15 @@ Davies-Meyer structure is a compression function (the yello block in the image a
 The above figure is from [Wikipedia](https://en.wikipedia.org/wiki/One-way_compression_function#cite_note-1)) by [Davidgothberg](https://commons.wikimedia.org/wiki/User:Davidgothberg). 
 
 <h2 class="section-heading"> Summary of Blockchain System:  </h2>
-Finally, Let's talk about blockchain. A purely peer-to-peer version of electonic cash would allow online payments to be sent directly from one party to another without going through a financial institution. Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending. Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf) purposes a solution to the double-spending problem using a peer-to-peer network. The 
+Finally, Let's talk about blockchain. 
 
+Here are the main take-away points (direct qoutes):
+1. The key motivation for Blockchain is to "What is needed is an electronic payment system based on cryptographic proof instead of trust, allowing any two willing parties to transact directly with each other without the need for a trusted third party."
+2.Transactions that are computationally impractical to reverse would protect sellers from fraud, and routine escrow mechanisms could easily be implemented to protect buyers
+3.The paper purposes a solution to the double-spending problem using a peer-to-peer network.
+4.The system is secure as long as honest nodes colelctively control more CPU power than any cooperating group of attacker nodes
+
+With those in mind, we shall dive in the technical aspects of the technology.
  <h2 class="section-heading"> Referenece:  </h2>
 [SECRECY, AUTHENTICATION, AND PUBLIC KEY SYSTEMS, Ralph Charles Merkle, 1979](http://www.merkle.com/papers/Thesis1979.pdf)
 [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf)
