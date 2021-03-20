@@ -58,7 +58,7 @@ A one-way function is a function that is easy to compute but hard to invert. A o
 
 I think Merkle–Damgård construction and Davies-Meyer structure deserved separates posts, and to simplify things (with helpds from [Wikipedia](https://en.wikipedia.org/wiki/One-way_compression_function#cite_note-1) ), a few brief words on these two topics:
 
-Merkle–Damgård construction consists of four parts: starting from initial values, also called initalisation vector (IV), it is a fixed value (algorithm or implementation specific). The next block is the compression (or compacting) function f that takes the result so far, combines it with the message block, and produces an intermediate result. There can be a chain of these f function. The last part is a finalisation block tha padds the results from a chain of f with zeros.  his is crucial to the security of this construction
+Merkle–Damgård construction consists of three parts: starting from initial values, also called initalisation vector (IV), it is a fixed value (algorithm or implementation specific). The next block is the compression (or compacting) function f that takes the result so far, combines it with the message block, and produces an intermediate result. There can be a chain of these f function. The last part is a finalisation block tha padds the results from a chain of f with zeros.  his is crucial to the security of this construction
 <html>
   <body>
 
@@ -66,5 +66,10 @@ Merkle–Damgård construction consists of four parts: starting from initial val
 
     </body>
 </html>
+The above figure is from [Wikipedia](https://en.wikipedia.org/wiki/One-way_compression_function#cite_note-1)) by [Davidgothberg](https://commons.wikimedia.org/wiki/User:Davidgothberg). A hash function must be able to process an arbitrary-length message into a fixed-length output. This can be achieved by breaking the input up into a series of equal-sized blocks, and operating on them in sequence using a one-way compression function.
+
+
+Davies-Meyer structure is a compression function (the yello block in the image above, i.e. the function f) feeds each block of the message as a key to block cipher. It takes the previous Hash value (\H_{i-1}) as the plaintext to be encrypted. The output ciphertext is then also XORed (⊕) (For XO Gate, see my previous post ) with the previous hash value (\H_{i−1} to produce the next hash value ( \H_{i} ). In the first round when there is no previous hash value it uses a constant pre-specified initial value (\H_{0} i.e. IV).
+
  <h2 class="section-heading"> Referenece:  </h2>
  [SECRECY, AUTHENTICATION, AND PUBLIC KEY SYSTEMS, Ralph Charles Merkle, 1979](http://www.merkle.com/papers/Thesis1979.pdf)
