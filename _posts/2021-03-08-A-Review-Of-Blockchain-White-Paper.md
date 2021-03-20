@@ -132,8 +132,18 @@ To summarise, there are three ways to ensure the the security of the chain:
 2. The incentive (AKA Bitcoin) for packing all transaction into a block gives attacker reason to use his CPU power to build extend the chain, instead of defraud people by stealing back his payments.
 3. If the network is overpowered by an attacker, we can accet alerts from network nodes when they detect an invalid block, prompting the user's software to download the full block and alerted transactions to confirm the inconsistency. 
 
-The paper also purpose a different way to protect payee privacy. 
+The paper also purpose a different way to protect payee's identify. As oppose to traditional bank, Blockchain requires all transactions to be public. The privacy is achieved with anonymous public keys. The public can see that someone is sending an amount to someone else, but have no information about the sender nor receiver. An additional firewall should be issued by using a new key pair for each transaction. It reduces the risk of a corrupted key exposing all transaction of the same owner.
+
+<html>
+  <body>
+<img src="{{ "/assets/img/content/post-example/Privacy.png" | absolute_url }}" alt="bay" class="post-pic"/>
+    </body>
+</html>
+
 <h2 class="section-heading"> Bitcoin and its role:  </h2>
+
+
+<h2 class="section-heading"> Final Remarks:  </h2>
 
 
  <h2 class="section-heading"> Referenece:  </h2>
