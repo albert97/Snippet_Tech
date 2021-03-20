@@ -105,7 +105,7 @@ To answer the question of what timestamp or Nonence is, we have to go back to th
 
 " The only way to confirm the absence of a transaction is to be aware of all transactions. In the mint based model, the mint was aware of all transactions and decided which arrived first. To accomplish this without a trusted party, transactions must be publicly announced, and we need a system for participants to agree on a single history of the order in which they were received."
 
-In the above sentence, there is the "mint model". A mint model is also mentioned in the paper, which is the trusted central authority that checks every transaction for double spending.
+In the above sentence, there is the "mint model", which is the trusted central authority that checks every transaction for double spending. For example a bank, however, we would like a decentralised payment system, therefore to remove the bank/trusted party, we use blockchain that has information of all previous transactions
 
 Therefore if a block is timestamped, it means the data must have existed at the time. Each timestamp includes the previous timestamp in its hash, forming a chain, with each additional timestamp reinforcing the ones before it.
 
@@ -140,8 +140,25 @@ The paper also purpose a different way to protect payee's identify. As oppose to
     </body>
 </html>
 
-<h2 class="section-heading"> Bitcoin and its role:  </h2>
+<h2 class="section-heading"> Bitcoin:  </h2>
+<html>
+  <body>
+<img src="{{ "/assets/img/content/post-example/Transaction.png" | absolute_url }}" alt="bay" class="post-pic"/>
+    </body>
+</html>
 
+To understand the role of Bitcoin, we have to go back to the motivaiton of Blockchain--A decentralised Payment system !! Hereby the paper defined an electronic coin (AKA bitcoin) as a chain of digital signature. It works in the follwoing way : 
+1. Each owner transfers the coin to the next by digitally signing a hash of the previous transaction and the public key of the next owner and adding these to the end of the coin. 
+2. A payee can verify the signatures to verify the chain of ownership. 
+3. The problem of the payee can't verify that one of the owners did not double-spend the coin is solved by being aware of all transactions.
+
+Other than being a ledger, bitcoin has an essential incentive role that keeps people working to extend the longest chain. "By convention, the first transaction in a block is a special transaction that starts a new coin owned by the creator of the block. ". This incentive has two impacts:
+1.  Encouage nodes to support the network
+2.  Act as a central authority to initially issue and distribute coins into circulation.
+
+"The steady addition of a constant of amount of new coins is analogous to gold miners expending resources to add gold to circulation. In our case, it is CPU time and electricity that is expended."
+
+Since only a predetermined number of coins is allowed to circulate the system, the system can be comnplete inflation free while incentive comes from chraging a transaction fee.
 
 <h2 class="section-heading"> Final Remarks:  </h2>
 
