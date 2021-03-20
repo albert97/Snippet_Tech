@@ -181,9 +181,9 @@ To answer these questions, I need to review a few crytography books as well as s
 trust requirements," In 20th Symposium on Information Theory in the Benelux, May 1999.
 5. S. Haber, W.S. Stornetta, "How to time-stamp a digital document," In Journal of Cryptology, vol 3, no2, pages 99-111, 1991.
 6. D. Bayer, S. Haber, W.S. Stornetta, "Improving the efficiency and reliability of digital time-stamping," In Sequences II: Methods in Communication, Security and Computer Science, pages 329-334, 1993.
-6. S. Haber, W.S. Stornetta, "Secure names for bit-strings," In Proceedings of the 4th ACM Conference
+7. S. Haber, W.S. Stornetta, "Secure names for bit-strings," In Proceedings of the 4th ACM Conference
 on Computer and Communications Security, pages 28-35, April 1997.
-7. [A. Back, "Hashcash - a denial of service counter-measure," 2002](http://www.hashcash.org/papers/hashcash.pdf)
-8. R.C. Merkle, "Protocols for public key cryptosystems," In Proc. 1980 Symposium on Security and Privacy, IEEE Computer Society, pages 122-133, April 1980.
-9. W. Feller, "An introduction to probability theory and its applications," 1957.
+8. [A. Back, "Hashcash - a denial of service counter-measure," 2002](http://www.hashcash.org/papers/hashcash.pdf)
+9. R.C. Merkle, "Protocols for public key cryptosystems," In Proc. 1980 Symposium on Security and Privacy, IEEE Computer Society, pages 122-133, April 1980.
+10. W. Feller, "An introduction to probability theory and its applications," 1957.
  
