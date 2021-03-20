@@ -95,7 +95,14 @@ Here are the main take-away points (direct qoutes):
 4. The system is secure as long as honest nodes colelctively control more CPU power than any cooperating group of attacker nodes
 
 With those in mind, we shall dive in the technical aspects of the technology. The so called blockchain contains a network of "Hash block" (AKA, Block, Node..etc..). Each hash contains a block of items to be timestamped and widely published. When the block becomes timestamped, it contains the previoud Hash, Nonce and all the transactions it collects.
+<html>
+  <body>
 
+<img src="{{ "/assets/img/content/post-example/ProofofWork.png" | absolute_url }}" alt="bay" class="post-pic"/>
+<img src="{{ "/assets/img/content/post-example/Timestamp.png" | absolute_url }}" alt="bay" class="post-pic"/>
+
+    </body>
+</html>
 To answer the question of what timestamp or Nonence is, we have to go back to the moviation of Blockchain, which is really a decentralised payment system. Therefore, Tinestamp (or timestamp Server as purposed in the paper ) is a solution to prevent double-spent. A direct quote from the paper:
 
 " The only way to confirm the absence of a transaction is to be aware of all transactions. In the mint based model, the mint was aware of all transactions and decided which arrived first. To accomplish this without a trusted party, transactions must be publicly announced, and we need a system for participants to agree on a single history of the order in which they were received."
@@ -129,15 +136,16 @@ Here it comes another important concept--"Nodes always consider the longest chai
 
 
  <h2 class="section-heading"> Referenece:  </h2>
-[SECRECY, AUTHENTICATION, AND PUBLIC KEY SYSTEMS, Ralph Charles Merkle, 1979](http://www.merkle.com/papers/Thesis1979.pdf)
-[Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf)
-W. Dai, "b-money," http://www.weidai.com/bmoney.txt, 1998.
-H. Massias, X.S. Avila, and J.-J. Quisquater, "Design of a secure timestamping service with minimal
+1. [SECRECY, AUTHENTICATION, AND PUBLIC KEY SYSTEMS, Ralph Charles Merkle, 1979](http://www.merkle.com/papers/Thesis1979.pdf)
+2. [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf)
+3. W. Dai, "b-money," http://www.weidai.com/bmoney.txt, 1998.
+4. H. Massias, X.S. Avila, and J.-J. Quisquater, "Design of a secure timestamping service with minimal
 trust requirements," In 20th Symposium on Information Theory in the Benelux, May 1999.
-S. Haber, W.S. Stornetta, "How to time-stamp a digital document," In Journal of Cryptology, vol 3, no2, pages 99-111, 1991.
-D. Bayer, S. Haber, W.S. Stornetta, "Improving the efficiency and reliability of digital time-stamping," In Sequences II: Methods in Communication, Security and Computer Science, pages 329-334, 1993.
- S. Haber, W.S. Stornetta, "Secure names for bit-strings," In Proceedings of the 4th ACM Conference
+5. S. Haber, W.S. Stornetta, "How to time-stamp a digital document," In Journal of Cryptology, vol 3, no2, pages 99-111, 1991.
+6. D. Bayer, S. Haber, W.S. Stornetta, "Improving the efficiency and reliability of digital time-stamping," In Sequences II: Methods in Communication, Security and Computer Science, pages 329-334, 1993.
+6. S. Haber, W.S. Stornetta, "Secure names for bit-strings," In Proceedings of the 4th ACM Conference
 on Computer and Communications Security, pages 28-35, April 1997.
-[A. Back, "Hashcash - a denial of service counter-measure," 2002](http://www.hashcash.org/papers/hashcash.pdf)
-R.C. Merkle, "Protocols for public key cryptosystems," In Proc. 1980 Symposium on Security and Privacy, IEEE Computer Society, pages 122-133, April 1980.
-W. Feller, "An introduction to probability theory and its applications," 1957.
+7. [A. Back, "Hashcash - a denial of service counter-measure," 2002](http://www.hashcash.org/papers/hashcash.pdf)
+8. R.C. Merkle, "Protocols for public key cryptosystems," In Proc. 1980 Symposium on Security and Privacy, IEEE Computer Society, pages 122-133, April 1980.
+9.W. Feller, "An introduction to probability theory and its applications," 1957.
+ 
