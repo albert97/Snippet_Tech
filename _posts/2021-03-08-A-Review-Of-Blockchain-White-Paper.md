@@ -70,6 +70,13 @@ The above figure is from [Wikipedia](https://en.wikipedia.org/wiki/One-way_compr
 
 
 Davies-Meyer structure is a compression function (the yello block in the image above, i.e. the function f) feeds each block of the message as a key to block cipher. It takes the previous Hash value  \( H_{i-1} \) as the plaintext to be encrypted. The output ciphertext is then also XORed (⊕) (For XO Gate, see my previous post ) with the previous hash value \(H_{i−1} \)to produce the next hash value  \( H_{i} \). In the first round when there is no previous hash value it uses a constant pre-specified initial value (\(H_{0}\) i.e. IV).
+<html>
+  <body>
+
+<img src="{{ "/assets/img/content/post-example/Davies–Meyer.png" | absolute_url }}" alt="bay" class="post-pic"/>
+
+    </body>
+</html>
 
  <h2 class="section-heading"> Referenece:  </h2>
  [SECRECY, AUTHENTICATION, AND PUBLIC KEY SYSTEMS, Ralph Charles Merkle, 1979](http://www.merkle.com/papers/Thesis1979.pdf)
