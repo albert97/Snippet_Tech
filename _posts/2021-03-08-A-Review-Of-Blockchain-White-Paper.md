@@ -68,8 +68,13 @@ Merkle–Damgård construction consists of three parts: starting from initial va
 </html>
 The above figure is from [Wikipedia](https://en.wikipedia.org/wiki/One-way_compression_function#cite_note-1)) by [Davidgothberg](https://commons.wikimedia.org/wiki/User:Davidgothberg). A hash function must be able to process an arbitrary-length message into a fixed-length output. This can be achieved by breaking the input up into a series of equal-sized blocks, and operating on them in sequence using a one-way compression function.
 
-
+<html>
+  <body>
 Davies-Meyer structure is a compression function (the yello block in the image above, i.e. the function f) feeds each block of the message as a key to block cipher. It takes the previous Hash value  \( H_{i-1} \) as the plaintext to be encrypted. The output ciphertext is then also XORed (⊕) (For XO Gate, see my previous post ) with the previous hash value \(H_{i−1} \)to produce the next hash value  \( H_{i} \). In the first round when there is no previous hash value it uses a constant pre-specified initial value (\(H_{0}\) i.e. IV).
+
+   </body>
+</html>
+
 <html>
   <body>
 
