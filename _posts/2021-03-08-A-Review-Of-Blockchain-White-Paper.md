@@ -162,11 +162,21 @@ Since only a predetermined number of coins is allowed to circulate the system, t
 
 <h2 class="section-heading"> Final Remarks:  </h2>
 
+There are afew things in the paper I decided not to include here, but if you are interested, please check them out : 1. Reclaiming Disk Space, 2. Simplified Payment Verification 3. Combining and Splitting Value. 4. Calculations. 
+
+The paper omited a few technical aspects of Blcokchain, for example
+1. why there is a predetermined number if bitcoin in the system 
+2. why the value of bitcoin deminsih with time,
+3. how public and private keys work and how they are distributed 
+4. What mathematical methods are required to do the proof-of-work
+5. etc...
+
+To answer these questions, I need to review a few crytography books as well as some work by the true Pioneer of Blockchain --W.Dai, A. Back, R.C. Merkle, D.Bayer and many more. Some useful resources are in the references if you are interested.
 
  <h2 class="section-heading"> Referenece:  </h2>
 1. [SECRECY, AUTHENTICATION, AND PUBLIC KEY SYSTEMS, Ralph Charles Merkle, 1979](http://www.merkle.com/papers/Thesis1979.pdf)
 2. [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf)
-3. W. Dai, "b-money," http://www.weidai.com/bmoney.txt, 1998.
+3. [W. Dai, "b-money," 1998.](http://www.weidai.com/bmoney.txt)
 4. H. Massias, X.S. Avila, and J.-J. Quisquater, "Design of a secure timestamping service with minimal
 trust requirements," In 20th Symposium on Information Theory in the Benelux, May 1999.
 5. S. Haber, W.S. Stornetta, "How to time-stamp a digital document," In Journal of Cryptology, vol 3, no2, pages 99-111, 1991.
@@ -175,5 +185,5 @@ trust requirements," In 20th Symposium on Information Theory in the Benelux, May
 on Computer and Communications Security, pages 28-35, April 1997.
 7. [A. Back, "Hashcash - a denial of service counter-measure," 2002](http://www.hashcash.org/papers/hashcash.pdf)
 8. R.C. Merkle, "Protocols for public key cryptosystems," In Proc. 1980 Symposium on Security and Privacy, IEEE Computer Society, pages 122-133, April 1980.
-9.W. Feller, "An introduction to probability theory and its applications," 1957.
+9. W. Feller, "An introduction to probability theory and its applications," 1957.
  
