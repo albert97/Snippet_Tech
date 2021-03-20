@@ -86,7 +86,7 @@ Davies-Meyer structure is a compression function (the yello block in the image a
 The above figure is from [Wikipedia](https://en.wikipedia.org/wiki/One-way_compression_function#cite_note-1)) by [Davidgothberg](https://commons.wikimedia.org/wiki/User:Davidgothberg). 
 
 <h2 class="section-heading"> Summary of Blockchain System:  </h2>
-
+Finally, Let's talk about blockchain. 
 
  <h2 class="section-heading"> Referenece:  </h2>
 [SECRECY, AUTHENTICATION, AND PUBLIC KEY SYSTEMS, Ralph Charles Merkle, 1979](http://www.merkle.com/papers/Thesis1979.pdf)
