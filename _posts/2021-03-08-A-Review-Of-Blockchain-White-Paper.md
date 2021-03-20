@@ -51,10 +51,10 @@ SHA-256 is a novel hash functions computed with 32-bit words. Here I need to exp
 In cryptography, a one-way compression function is a function that transforms two fixed-length inputs into a fixed-length output. The transformation is "one-way", meaning that it is difficult given a particular output to compute inputs which compress to that output. One-way compression functions are not related to conventional data compression algorithms, which instead can be inverted exactly (lossless compression) or approximately (lossy compression) to the original data. 
 
 A one-way function is a function that is easy to compute but hard to invert. A one-way compression function (also called hash function) should have the following properties:
-1.Easy to compute: If you have some input(s), it is easy to calculate the output.
-2.Preimage-resistance: If an attacker only knows the output it should be infeasible to calculate an input. In other words, given an output h, it should be unfeasible to calculate an input m such that hash(m)=h;
-3.Second preimage-resistance: Given an input m1 whose output is h, it should be infeasible to find another input m2 that has the same output h i.e. hash(m1) does not equal to hash(m2).
-4.Collision-resistance: It should be hard to find any two different inputs that compress to the same output i.e. an attacker should not be able to find a pair of messages m1 does not equal to m2. such that hash(m1) does not equal to hash(m2).  Due to the birthday paradox (see also birthday attack) there is a 50% chance a collision can be found in time of about 2^(n/2)  where n is the number of bits in the hash function's output. An attack on the hash function thus should not be able to find a collision with less than about 2^(n/2) work. 
+1. Easy to compute: If you have some input(s), it is easy to calculate the output.
+2. Preimage-resistance: If an attacker only knows the output it should be infeasible to calculate an input. In other words, given an output h, it should be unfeasible to calculate an input m such that hash(m)=h;
+3. Second preimage-resistance: Given an input m1 whose output is h, it should be infeasible to find another input m2 that has the same output h i.e. hash(m1) does not equal to hash(m2).
+4. Collision-resistance: It should be hard to find any two different inputs that compress to the same output i.e. an attacker should not be able to find a pair of messages m1 does not equal to m2. such that hash(m1) does not equal to hash(m2).  Due to the birthday paradox (see also birthday attack) there is a 50% chance a collision can be found in time of about 2^(n/2)  where n is the number of bits in the hash function's output. An attack on the hash function thus should not be able to find a collision with less than about 2^(n/2) work. 
 
 I think Merkle–Damgård construction and Davies-Meyer structure deserved separates posts, and to simplify things (with helpds from [Wikipedia](https://en.wikipedia.org/wiki/One-way_compression_function#cite_note-1) ), a few brief words on these two topics:
 
@@ -90,11 +90,54 @@ Finally, Let's talk about blockchain.
 
 Here are the main take-away points (direct qoutes):
 1. The key motivation for Blockchain is to "What is needed is an electronic payment system based on cryptographic proof instead of trust, allowing any two willing parties to transact directly with each other without the need for a trusted third party."
-2.Transactions that are computationally impractical to reverse would protect sellers from fraud, and routine escrow mechanisms could easily be implemented to protect buyers
-3.The paper purposes a solution to the double-spending problem using a peer-to-peer network.
-4.The system is secure as long as honest nodes colelctively control more CPU power than any cooperating group of attacker nodes
+2. Transactions that are computationally impractical to reverse would protect sellers from fraud, and routine escrow mechanisms could easily be implemented to protect buyers
+3. The paper purposes a solution to the double-spending problem using a peer-to-peer network.
+4. The system is secure as long as honest nodes colelctively control more CPU power than any cooperating group of attacker nodes
 
-With those in mind, we shall dive in the technical aspects of the technology.
+With those in mind, we shall dive in the technical aspects of the technology. The so called blockchain contains a network of "Hash block" (AKA, Block, Node..etc..). Each hash contains a block of items to be timestamped and widely published. When the block becomes timestamped, it contains the previoud Hash, Nonce and all the transactions it collects.
+
+To answer the question of what timestamp or Nonence is, we have to go back to the moviation of Blockchain, which is really a decentralised payment system. Therefore, Tinestamp (or timestamp Server as purposed in the paper ) is a solution to prevent double-spent. A direct quote from the paper:
+
+" The only way to confirm the absence of a transaction is to be aware of all transactions. In the mint based model, the mint was aware of all transactions and decided which arrived first. To accomplish this without a trusted party, transactions must be publicly announced, and we need a system for participants to agree on a single history of the order in which they were received."
+
+In the above sentence, there is the "mint model". A mint model is also mentioned in the paper, which is the trusted central authority that checks every transaction for double spending.
+
+Therefore if a block is timestamped, it means the data must have existed at the time. Each timestamp includes the previous timestamp in its hash, forming a chain, with each additional timestamp reinforcing the ones before it.
+
+Here it comes the most important conceot--Proof-of-Work: This step is essential to implement a distributed timestamp server on a peer-to-peer basis and form the first defence from attacker. The proof-of-work involves solving a maths question which can be SHA-256. As a cryptographic method, it is pretty hard to decrypt uit, if not impossible at all. The details, we scan for a value thaat when hashed (for example, using SHA-256), the hash begins with a number of zero bits. We also implement a nonce in the block until a value is found that gives the block's harsh the required zero bits (for more details see Adam Back's Hashcash, link in the reference). This is a pretty energy intense process and requires a lot of CPU effort. This proof-of-work is commonly known as "Mining". Once the CPU has been expanded to make it satisfy the prrof-of-work, the block cannot be changed without redoing this work. As later blocks are chained after it, the work to change the block would include redoing all the blocks after it. A side note is the average work required is exponential in the number of zero bits required and can be verified by executing a single hash.
+
+Let's now look at how to run the whole network: Here are the steps summaried in the paper:
+
+1. New transactions are broadcast to all nodes.
+2. Each node collects new transactions into a block.
+3. Each node works on finding a difficult proof-of-work for its block.
+4. When a node finds a proof-of-work, it broadcasts the block to all nodes.
+5. Nodes accept the block only if all transactions in it are valid and not already spent.
+6. Nodes express their acceptance of the block by working on creating the next block in the
+chain, using the hash of the accepted block as the previous hash.
+
+Here it comes another important concept--"Nodes always consider the longest chain to be the correct one and will keep working on extending it". Two additional scenarios to be considered:
+1. If two nodes broadcast different versions of the next block simultaneously, some nodes may receive one or the other first. In that case, they work on the first one they received, but save the other branch in case it becomes longer. The tie will be broken when the next proof- of-work is found and one branch becomes longer; the nodes that were working on the other branch will then switch to the longer one.
+2. If a node does not receive a block, it will request it when it receives the next block and realizes it missed one.
+
+<h2 class="section-heading"> Secruity:  </h2>
+
+<h2 class="section-heading"> Privacy:  </h2>
+
+
+<h2 class="section-heading"> Bitcoin and its role:  </h2>
+
+
  <h2 class="section-heading"> Referenece:  </h2>
 [SECRECY, AUTHENTICATION, AND PUBLIC KEY SYSTEMS, Ralph Charles Merkle, 1979](http://www.merkle.com/papers/Thesis1979.pdf)
 [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf)
+W. Dai, "b-money," http://www.weidai.com/bmoney.txt, 1998.
+H. Massias, X.S. Avila, and J.-J. Quisquater, "Design of a secure timestamping service with minimal
+trust requirements," In 20th Symposium on Information Theory in the Benelux, May 1999.
+S. Haber, W.S. Stornetta, "How to time-stamp a digital document," In Journal of Cryptology, vol 3, no2, pages 99-111, 1991.
+D. Bayer, S. Haber, W.S. Stornetta, "Improving the efficiency and reliability of digital time-stamping," In Sequences II: Methods in Communication, Security and Computer Science, pages 329-334, 1993.
+ S. Haber, W.S. Stornetta, "Secure names for bit-strings," In Proceedings of the 4th ACM Conference
+on Computer and Communications Security, pages 28-35, April 1997.
+[A. Back, "Hashcash - a denial of service counter-measure," 2002](http://www.hashcash.org/papers/hashcash.pdf)
+R.C. Merkle, "Protocols for public key cryptosystems," In Proc. 1980 Symposium on Security and Privacy, IEEE Computer Society, pages 122-133, April 1980.
+W. Feller, "An introduction to probability theory and its applications," 1957.
