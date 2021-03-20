@@ -86,7 +86,7 @@ Davies-Meyer structure is a compression function (the yello block in the image a
 The above figure is from [Wikipedia](https://en.wikipedia.org/wiki/One-way_compression_function#cite_note-1)) by [Davidgothberg](https://commons.wikimedia.org/wiki/User:Davidgothberg). 
 
 <h2 class="section-heading"> Summary of Blockchain System:  </h2>
-Finally, Let's talk about blockchain. 
+Finally, Let's talk about blockchain. A purely peer-to-peer version of electonic cash would allow online payments to be sent directly from one party to another without going through a financial institution. Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending. Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf) purposes a solution to the double-spending problem using a peer-to-peer network. The 
 
  <h2 class="section-heading"> Referenece:  </h2>
 [SECRECY, AUTHENTICATION, AND PUBLIC KEY SYSTEMS, Ralph Charles Merkle, 1979](http://www.merkle.com/papers/Thesis1979.pdf)
