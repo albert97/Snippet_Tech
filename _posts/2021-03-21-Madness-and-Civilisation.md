@@ -32,13 +32,12 @@ tags:       [Psychology,sociology,philosophy]
 </html>
 
 ## Disclaimer 
-[Sparknote](https://www.sparknotes.com/philosophy/madnessandciv/summary/) provid an excellent summary. It allows me to reflect the book and
-understand the context of Michel Foucault's master piece. This post is based on Sparknote. 
+[Sparknote](https://www.sparknotes.com/philosophy/madnessandciv/summary/) provided an excellent summary. It allows me to reflect on the book and
+understand the context of Michel Foucault's masterpiece. This post is based on Sparknote. 
 
 
-Before I start, can I just say this is a very diffcult book to read, maybe only second to Tocqueville's The Old Regime and the Revolution. 
-I cannot say I grasp all Dr. Foucault's intended arguments and ideas, I can merely say I finsih the book.
-
+Before I start, can I just say this is a very difficult book to read, maybe only second to Tocqueville's The Old Regime and the Revolution. 
+I cannot say I grasp all Dr. Foucault's intended arguments and ideas, I can merely say I finished the book.
 ## Some thoughts 
 
 
