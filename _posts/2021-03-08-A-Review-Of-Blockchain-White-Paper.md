@@ -165,13 +165,13 @@ Since only a predetermined number of coins is allowed to circulate the system, t
 There are afew things in the paper I decided not to include here, but if you are interested, please check them out : 1. Reclaiming Disk Space, 2. Simplified Payment Verification 3. Combining and Splitting Value. 4. Calculations. 
 
 The paper omited a few technical aspects of Blcokchain, for example
-1. why there is a predetermined number if bitcoin in the system 
+1. why there is a predetermined number of bitcoin in the system 
 2. why the value of bitcoin deminsih with time,
 3. how public and private keys work and how they are distributed 
-4. What mathematical methods are required to do the proof-of-work
+4. What mathematical methods are required to do the proof-of-work and why it requires so much CPU power
 5. etc...
 
-To answer these questions, I need to review a few crytography books as well as some work by the true Pioneer of Blockchain --W.Dai, A. Back, R.C. Merkle, D.Bayer and many more. Some useful resources are in the references if you are interested.
+To answer these questions, you need to review a few crytography books as well as some work by the true Pioneers of Blockchain --W.Dai, A. Back, R.C. Merkle, D.Bayer and many more. Some useful resources are in the references if you are interested.
 
  <h2 class="section-heading"> Referenece:  </h2>
 1. [SECRECY, AUTHENTICATION, AND PUBLIC KEY SYSTEMS, Ralph Charles Merkle, 1979](http://www.merkle.com/papers/Thesis1979.pdf)
