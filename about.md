@@ -26,6 +26,8 @@ Coming from a mathematics and physics background, I have been dealing with multi
 <br />
 
  <h2 class="section-heading">A few resources I like:  </h2>
+ 
+[The Sogdians](https://sogdians.si.edu/introduction/)
 
 [Snippet finance ](https://snippet.finance/category/macroeconomics/)  
 
