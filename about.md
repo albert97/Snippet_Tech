@@ -26,6 +26,10 @@ Coming from a mathematics and physics background, I have been dealing with multi
 <br />
 
  <h2 class="section-heading">A few resources I like:  </h2>
+
+[A good website dedicated to Technology and Fintech](https://a16z.com/#2)
+ 
+[A very cool group of people Anders](https://www.anders.com/en/)
  
 [The Sogdians](https://sogdians.si.edu/introduction/)
 
