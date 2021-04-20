@@ -17,7 +17,7 @@ slug: /about
 </script>
      
 <p>
-Welcome! My name is Albert. I am currently a physics graduate student at the University of Cambridge. My projects focus on developing cheap and reliable renewable energy, notably geothermal and wind. I have a strong interest in carbon capture and storage, I believe a combination of chemical and physical methods will allow us to achieve climate engineering and tackle climate change from its route. 
+Welcome! My name is Albert. I currently work at J.P. Morgan Chase & Co, here in the United Kingdom. I hold a Master degree (Distinction) in physics from the University of Cambridge and a bachelor degree (First class honor with Dean's list) from Imperial College London. In my free time, I like to dive into nature whether through hikes or diving trips. I am also a trained artist, specialised in fine art. I am a keen technologist, currently exploring AI/ML and Blockchain. My previous projects focus on developing cheap and reliable renewable energy, notably geothermal and wind. I have a strong interest in carbon capture and storage, I believe a combination of chemical and physical methods will allow us to achieve climate engineering and tackle climate change from its route. 
 </p>
 
 <p>
