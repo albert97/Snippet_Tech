@@ -1,3 +1,3 @@
 [submodule "My-Awesome-web"] 
   path = My-Awesome-web
-  url = git://https://github.com/eliottvincent/bay
+  url = https://github.com/eliottvincent/bay
