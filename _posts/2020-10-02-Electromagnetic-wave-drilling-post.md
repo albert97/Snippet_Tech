@@ -15,8 +15,6 @@ og_image: assets/img/content/post-example/AlbertZhang_MPhil_Poster.png
 
   gtag('config', 'G-QY6RDJK8PM');
 </script>
-<img src="{{ "/assets/img/content/post-example/" | absolute_url }}" alt="bay" class="post-pic"/>
-
 
 
 <img src="{{ "/assets/img/content/post-example/MPhil_Poster.pdf" | absolute_url }}" alt="bay" class="post-pic"/>
